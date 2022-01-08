@@ -438,13 +438,16 @@ def floatingTop10():
 
 rq='2021-01-01'
 
-if len(sys.argv)!=2:
+if len(sys.argv)!=4:
     print ('err args cnt')
 
 rq=sys.argv[1]
+userName=sys.argv[2]
+password=sys.argv[3]
 
 # logout()
-auth('15640293905', '1q2w3e4R?')
+auth(userName, password)
+
 # 查询是否连接成功
 is_auth = is_auth()
 print(is_auth)

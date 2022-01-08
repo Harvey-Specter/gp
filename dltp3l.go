@@ -79,9 +79,6 @@ func dltp3l(db *sql.DB, rqParam string) {
 
 			rows.Scan(&id, &rq, &dm, &sp, &zg, &zd, &m5, &cjl, &m20)
 
-			//fmt.Println(rq, rqParam, cjl)
-			//fmt.Println(id, rq, dm, sp, zg, zd, m5, cjl)
-
 			if rq > rqParam {
 				sps = append(sps, sp)
 				continue
@@ -187,10 +184,9 @@ func dltp3l(db *sql.DB, rqParam string) {
 			//fmt.Println(dm, reveSliceF(sps), max2, min2, rq2, max1, min1, rq1, min0, rq0, cjlx, lastsp)
 			cnt++
 		}
-		//fmt.Println(ok, cjlx, min0)
-		//fmt.Println(dm, reveSliceF(sps), max2, min2, rq2, max1, min1, rq1, min0, rq0, cjlx)
+		// fmt.Println("dltp 2"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx)
 
-		if ok && cjlx > 0 && sp3 >= sp1 && sp3 <= sp1*1.14 && sp2 > sp0 {
+		if ok && cjlx > 0 && sp3*(1+0.04) >= sp1 && sp3 <= sp1*1.14 && sp2 > sp0 {
 			//fmt.Println(sps)
 			//fmt.Println(rqParam, dm["zjw_name"].(string), dm["code"].(string)[0:6], dm["name"], dm["turnover_ratio"].(float64), dm["pe_ratio"].(float64), reveSliceF(sps), max2, min2, rq2, max1, min1, rq1, min0, rq0, cjlx)
 
