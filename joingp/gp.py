@@ -441,6 +441,7 @@ rq='2021-01-01'
 if len(sys.argv)!=4:
     print ('err args cnt')
 
+print(sys.argv)
 rq=sys.argv[1]
 userName=sys.argv[2]
 password=sys.argv[3]
