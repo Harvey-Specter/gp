@@ -298,7 +298,7 @@ def genMA(code,rq,n):
 def getSQL(tName):
     sql = ''
     if tName=='dayline':
-        sql = "INSERT INTO dayline(date,code,open,close,low,high,volume,money,factor, high_limit,low_limit,avg,pre_close,paused, m5,m10,m20,m60,m250) \
+        sql = "INSERT INTO dayline(date,code,open,close,low,high,volume,money,factor, high_limit,low_limit,avg,pre_close,paused, m5,m10,m20,m60,m30) \
             VALUES (%s,%s,%s,%s,%s, %s,%s,%s,%s,%s, %s,%s,%s,%s,%s,  %s,%s,%s,%s )"
     elif tName=='valuation':
         sql = "INSERT INTO valuation(code,day,capitalization,circulating_cap,market_cap,circulating_market_cap,turnover_ratio,pe_ratio,pe_ratio_lyr, pb_ratio,ps_ratio,pcf_ratio) \
@@ -347,15 +347,28 @@ def saveBatch(vals,tName):
     conn.commit()
     closeConn(conn,cs)
 
-def updateBatchM5(vals):
-    print('======updateBatchM5=======')
+# def updateBatchM5(vals):
+#     print('======updateBatchM5=======')
+#     conn,cs=getConn()
+#     try:
+#         sql = 'UPDATE dayline SET m5 = (%s),m20=(%s) WHERE id = (%s) '
+#         cs.executemany(sql, vals)
+#         #print('sql==',sql)
+#     except Exception as e:
+#         print("updateBatchM5 出现如下异常%s"%e)
+#         return
+#     conn.commit()
+#     closeConn(conn,cs)
+
+def updateBatchM5203060(vals):
+    print('======updateBatchM5203060=======')
     conn,cs=getConn()
     try:
-        sql = 'UPDATE dayline SET m5 = (%s),m20=(%s) WHERE id = (%s) '
+        sql = 'UPDATE dayline SET m5 = (%s),m20=(%s),m30 = (%s),m60=(%s) WHERE id = (%s) '
         cs.executemany(sql, vals)
         #print('sql==',sql)
     except Exception as e:
-        print("updateBatchM5 出现如下异常%s"%e)
+        print("updateBatchM5203060 出现如下异常%s"%e)
         return
     conn.commit()
     closeConn(conn,cs)
@@ -421,9 +434,11 @@ def updateMA(rq):
 
         id,ma5=genMA(code[0],rq,5)
         id,ma20=genMA(code[0],rq,20)
-        updateList.append([ma5,ma20,id])
+        id,ma30=genMA(code[0],rq,30)
+        id,ma60=genMA(code[0],rq,60)
+        updateList.append([ma5,ma20,ma30,ma60,id])
 
-    updateBatchM5(updateList)
+    updateBatchM5203060(updateList)
 
 def floatingTop10():
     codes = getCodes(rq)
@@ -463,7 +478,7 @@ updateMA(rq) #每天执行
 # valuationDay(rq,'valuation') #每天执行 暂时只用来统计基金持仓  平时就不用跑了 
 # replaceFloatingTop10(rq)
 
-# tdays = get_trade_days(start_date="2021-01-01",end_date="2021-12-17")
+# tdays = get_trade_days(start_date="2021-07-23",end_date="2022-03-17")
 
 # print(len(tdays))
 
@@ -478,8 +493,8 @@ updateMA(rq) #每天执行
 
 # replaceIndustry(rq) #上次执行日期 20210624
 
-# tdays = get_trade_days(start_date="2021-03-20",end_date="2021-04-16")
-# for  d in tdays:
+#tdays = get_trade_days(start_date="2021-01-01",end_date="2021-12-31")
+#for  d in tdays:
 #     print (d)
 #     start1=time.time()
 #     updateYeardayCap(d)
@@ -491,7 +506,7 @@ updateMA(rq) #每天执行
 end=time.time()
 
 print('Running time: %s Seconds'%(end-start))
-#exit(0)
+# exit(0)
 
 ss=get_query_count()
 print(ss,rq)

@@ -4,7 +4,6 @@ import (
 	"database/sql"
 	"fmt"
 	"math"
-	"strings"
 
 	_ "github.com/go-sql-driver/mysql"
 )
@@ -105,7 +104,7 @@ func xc(db *sql.DB, rqParam string) {
 					ok = true
 					break
 				} else {
-					ok = false
+					// ok = false
 				}
 			} else if cnt >= 18 {
 				break
@@ -123,6 +122,6 @@ func xc(db *sql.DB, rqParam string) {
 		}
 		Closedb(stmt, rows)
 	}
-	fileName := strings.Replace(rqParam, "-", "", -1)[2:] + "xc.EBK"
+	fileName := rqParam + "_xc.EBK"
 	saveEBK(rs, fileName)
 }

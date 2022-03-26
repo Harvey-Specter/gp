@@ -37,23 +37,21 @@ func main() {
 		}
 	}
 
-	// for _, buyDate := range getRqsByDB(db, rq, "21") { //复盘用的执行好多天的数据
-	// 	fmt.Println(" num==" + buyDate)
-	// 	gkht(db, buyDate)
-	// }
-
-	dltp3l(db, rq)
+	dltp3l(db, rq, 20)
+	dltp3l(db, rq, 30)
+	dltp3l(db, rq, 60)
 	// save5DayTP(db, rq)
-	//end := time.Now().UnixNano()
-	//fmt.Printf("dltp3l cost is :%d \n", (end-start)/1000)
+	end := time.Now().UnixNano()
+	fmt.Printf("dltp3l cost is :%d \n", (end-start)/1000)
 
 	xc(db, rq) //效果不好 暂停执行 调一调
-	//end = time.Now().UnixNano()
-	//fmt.Printf("xc cost is :%d \n", (end-start)/1000)
+	end = time.Now().UnixNano()
+	fmt.Printf("xc cost is :%d \n", (end-start)/1000)
 
 	// gkht(db, rq) //暂时放弃 和下面的缺口合并
 	qkht(db, rq)
+	stars(db, rq)
 
-	end := time.Now().UnixNano()
+	end = time.Now().UnixNano()
 	fmt.Printf(" cost is :%d \n", (end-start)/1000)
 }

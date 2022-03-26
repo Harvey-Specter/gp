@@ -3,7 +3,6 @@ package main
 import (
 	"database/sql"
 	"fmt"
-	"strings"
 
 	_ "github.com/go-sql-driver/mysql"
 )
@@ -60,7 +59,7 @@ func qkht(db *sql.DB, rqParam string) {
 
 		ok := false
 		qzg := 0.0
-		todayhigh := 0.05
+		todayhigh := 0.10
 		qksize := 1.003
 		//var sp float64
 		for rows.Next() {
@@ -114,10 +113,19 @@ func qkht(db *sql.DB, rqParam string) {
 					}
 				}
 				if len(gkqzg) > 0 {
-					if zd > closerValue(zd, gkqzg)*(1+todayhigh) { //0.5
+					if zd > closerValue(zd, gkqzg)*(1+todayhigh) { //0.1
 						ok = false
 					} else {
-						ok = true
+						lowk := sp
+						if sp >= kp {
+							lowk = kp
+						}
+						if (lowk-zd)/(zg-zd) >= 0.66 || (sp-qsp)/qsp >= 0.03 {
+							ok = true
+						} else {
+							ok = false
+						}
+						// ok = true
 					}
 				}
 
@@ -127,12 +135,13 @@ func qkht(db *sql.DB, rqParam string) {
 			cnt++
 		}
 		if ok && len(gkqzg) > 1 {
+
 			fmt.Println("qkht"+rqParam, dm["code"].(string)[0:6], gkqzg, gkdate, reveSliceF(sps))
 			code := transCode(dm["code"].(string))
 			rs += code + enter
 		}
 		Closedb(stmt, rows)
 	}
-	fileName := strings.Replace(rqParam, "-", "", -1)[2:] + "qk.EBK"
+	fileName := rqParam + "_qk.EBK"
 	saveEBK(rs, fileName)
 }

@@ -111,7 +111,8 @@ func getDm(db *sql.DB, rq string) []map[string]interface{} { //300859-西域; 60
 	//var dms []string
 	var dms []map[string]interface{}
 
-	// 回踩缺口 605289 002932 600889 a.code like '001205%' and
+	// 回踩缺口 605289 002932 600889 a.code like '002155%' and  002155%
+	// (a.code like '002128%' or a.code like '002155%' or a.code like '603353%' ) and a.code like '000655%' and
 	sql := `select distinct a.code from dayline a where a.code not like '688%' and a.code not like '3%' and a.paused='0' and a.date='` + rq + `' `
 
 	//sql := `select distinct a.code from dayline a where a.code like '688%' and a.date='` + rq + `' `

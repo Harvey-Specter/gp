@@ -4,13 +4,12 @@ import (
 	"database/sql"
 	"fmt"
 	"strconv"
-	"strings"
 
 	_ "github.com/go-sql-driver/mysql"
 )
 
-func dltp3l(db *sql.DB, rqParam string) {
-	fmt.Println("date==dltp3l=" + rqParam)
+func dltp3l(db *sql.DB, rqParam string, m int) {
+	fmt.Println("date==dltp3l="+rqParam+"  ma_n=", m)
 	voltimes := 2.5
 	dms := getDm(db, rqParam)
 	fmt.Println("day", "industry", "code", "name", "turnover_ratio", "pe_ratio",
@@ -27,7 +26,16 @@ func dltp3l(db *sql.DB, rqParam string) {
 		//dmSql := `SELECT id,rq,dm,sp,zg,zd,m5,cjl FROM rx where dm = "` +
 		//  dm + `" and rq <='` + rqParam + `' ORDER BY dm,rq DESC`
 
-		dmSql := "SELECT id, date rq,code dm, close sp, high zg, low zd, m5, volume as cjl,m20 FROM dayline where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC"
+		sqlMa := ""
+		if m == 20 {
+			sqlMa = "m20"
+		} else if m == 30 {
+			sqlMa = "m30"
+		} else if m == 60 {
+			sqlMa = "m60"
+		}
+
+		dmSql := "SELECT id, date rq,code dm, close sp, high zg, low zd, m5, volume as cjl,pre_close qsp, " + sqlMa + " FROM dayline where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC"
 
 		//fmt.Print(dmSql, "\n")
 		//------------
@@ -64,6 +72,7 @@ func dltp3l(db *sql.DB, rqParam string) {
 		cjlx := 0
 		ok := false
 		var qs int
+		quekou := false
 		for rows.Next() {
 			//
 			var id int
@@ -75,9 +84,10 @@ func dltp3l(db *sql.DB, rqParam string) {
 			var zd float64
 			var m5 float64
 			var cjl float64
-			var m20 float64
+			var qsp float64
+			var ma_n float64
 
-			rows.Scan(&id, &rq, &dm, &sp, &zg, &zd, &m5, &cjl, &m20)
+			rows.Scan(&id, &rq, &dm, &sp, &zg, &zd, &m5, &cjl, &qsp, &ma_n)
 
 			if rq > rqParam {
 				sps = append(sps, sp)
@@ -86,9 +96,12 @@ func dltp3l(db *sql.DB, rqParam string) {
 			//fmt.Println(rq, "---", sp, m5)
 			if cnt == 0 {
 				//fmt.Println(sp < zg*0.99, zg*0.99)
-				if m20 == 0 || sp < m20 { //|| sp < zg*0.95 {
+				if ma_n == 0 || sp < ma_n { //|| sp < zg*0.95 {
 					break
 				} else {
+					if zd > qsp*(1.01) {
+						quekou = true
+					}
 					qs1sps = append(qs1sps, sp)
 					qs1rqs = append(qs1rqs, rq)
 					sps = append(sps, sp)
@@ -134,8 +147,8 @@ func dltp3l(db *sql.DB, rqParam string) {
 					}
 
 				}
-				// fmt.Println(rq, sp, m20)
-				if sp < m20 {
+				// fmt.Println(rq, sp, ma_n)
+				if sp < ma_n {
 
 					qs0sps = append(qs0sps, sp)
 					qs0rqs = append(qs0rqs, rq)
@@ -186,13 +199,13 @@ func dltp3l(db *sql.DB, rqParam string) {
 		}
 		// fmt.Println("dltp 2"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx)
 
-		if ok && cjlx > 0 && sp3*(1+0.04) >= sp1 && sp3 <= sp1*1.14 && sp2 > sp0 {
+		if ok && sp3*(1+0.04) >= sp1 && sp3 <= sp1*1.14 && sp2 > sp0 && (quekou || cjlx > 0) {
 			//fmt.Println(sps)
 			//fmt.Println(rqParam, dm["zjw_name"].(string), dm["code"].(string)[0:6], dm["name"], dm["turnover_ratio"].(float64), dm["pe_ratio"].(float64), reveSliceF(sps), max2, min2, rq2, max1, min1, rq1, min0, rq0, cjlx)
 
 			//c.cnt,inc_revenue_year_rank,inc_revenue_annual_rank,cfo_sales_rank ,leverage_ratio_rank,
 
-			fmt.Println("dltp"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx)
+			fmt.Println("dltp"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
 			code := transCode(dm["code"].(string))
 			rs += code + enter
 
@@ -206,7 +219,7 @@ func dltp3l(db *sql.DB, rqParam string) {
 	}
 	// batchInsertTp(db, dataMapArray) 暂时不保存到db
 
-	fileName := strings.Replace(rqParam, "-", "", -1)[2:] + "tp.EBK"
+	fileName := rqParam + "_" + strconv.Itoa(m) + "_tp.EBK"
 
 	saveEBK(rs, fileName)
 }
