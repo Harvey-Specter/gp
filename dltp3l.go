@@ -17,10 +17,14 @@ func dltp3l(db *sql.DB, rqParam string, m int) {
 	enter := `
 `
 	rs := enter
-	var dataMapArray []map[string]string
+	rs0 := enter
+	// var dataMapArray []map[string]string
+	// var dataMapArray0 []map[string]string
+
 	for _, dm := range dms {
 		//fmt.Println(dm)
-		dataMap := make(map[string]string)
+		// dataMap := make(map[string]string)
+		// dataMap0 := make(map[string]string)
 		sps := []float64{}
 		//dmSql := `SELECT id,rq,dm,sp,zg,zd,m5,cjl FROM rx where dm = "` + dm + `" and rq<'2021-03-10' ORDER BY dm,rq DESC`
 		//dmSql := `SELECT id,rq,dm,sp,zg,zd,m5,cjl FROM rx where dm = "` +
@@ -199,27 +203,32 @@ func dltp3l(db *sql.DB, rqParam string, m int) {
 		}
 		// fmt.Println("dltp 2"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx)
 
-		if ok && sp3*(1+0.04) >= sp1 && sp3 <= sp1*1.14 && sp2 > sp0 && (quekou || cjlx > 0) {
-			//fmt.Println(sps)
-			//fmt.Println(rqParam, dm["zjw_name"].(string), dm["code"].(string)[0:6], dm["name"], dm["turnover_ratio"].(float64), dm["pe_ratio"].(float64), reveSliceF(sps), max2, min2, rq2, max1, min1, rq1, min0, rq0, cjlx)
+		if ok && sp3 <= sp1*1.14 && sp2 > sp0 {
+			if sp3*(1+0.04) >= sp1 && (quekou || cjlx > 0) {
 
-			//c.cnt,inc_revenue_year_rank,inc_revenue_annual_rank,cfo_sales_rank ,leverage_ratio_rank,
+				fmt.Println("dltp"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
+				code := transCode(dm["code"].(string))
+				rs += code + enter
 
-			fmt.Println("dltp"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
-			code := transCode(dm["code"].(string))
-			rs += code + enter
+				// dataMap["code"] = dm["code"].(string)
+				// dataMap["date"] = rqParam
+				// dataMap["price"] = strconv.FormatFloat(lastsp, 'E', -1, 64)
+				// dataMapArray = append(dataMapArray, dataMap)
+			} else if sp3*(1+0.01) >= sp1 {
 
-			dataMap["code"] = dm["code"].(string)
-			dataMap["date"] = rqParam
-			dataMap["price"] = strconv.FormatFloat(lastsp, 'E', -1, 64)
-			dataMapArray = append(dataMapArray, dataMap)
+				fmt.Println("dltp-00-"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
+				code := transCode(dm["code"].(string))
+				rs0 += code + enter
+			}
 		}
-
 		Closedb(stmt, rows)
 	}
 	// batchInsertTp(db, dataMapArray) 暂时不保存到db
 
 	fileName := rqParam + "_" + strconv.Itoa(m) + "_tp.EBK"
+	fileName0 := rqParam + "_" + strconv.Itoa(m) + "_tp0.EBK"
 
 	saveEBK(rs, fileName)
+	saveEBK(rs0, fileName0)
+
 }
