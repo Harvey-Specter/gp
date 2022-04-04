@@ -149,11 +149,9 @@ func dltp3l(db *sql.DB, rqParam string, m int) {
 					if float64(cjl3)*voltimes <= cjl2 { // && cjl0 < cjl*2 { ////这里做1, 1.5 和 2倍的切换
 						cjlx = 3
 					}
-
 				}
 				// fmt.Println(rq, sp, ma_n)
 				if sp < ma_n {
-
 					qs0sps = append(qs0sps, sp)
 					qs0rqs = append(qs0rqs, rq)
 					if qs == 1 {
@@ -202,14 +200,15 @@ func dltp3l(db *sql.DB, rqParam string, m int) {
 			cnt++
 		}
 		// fmt.Println("dltp 2"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx)
+		// 头肩放宽成箱体
+		if ok && sp3 <= sp1*1.14 && sp2 >= sp0 {
 
-		if ok && sp3 <= sp1*1.14 && sp2 > sp0 {
-			if sp3*(1+0.04) >= sp1 && (quekou || cjlx > 0) {
-
+			//if sp3*(1+0.04) >= sp1 && (quekou || cjlx > 0) {
+			// 颈线附近放量修改成中轴放量或者跳空
+			if sp3 >= sp0+(sp1-sp0)/2 && (quekou || cjlx > 0) {
 				fmt.Println("dltp"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
 				code := transCode(dm["code"].(string))
 				rs += code + enter
-
 				// dataMap["code"] = dm["code"].(string)
 				// dataMap["date"] = rqParam
 				// dataMap["price"] = strconv.FormatFloat(lastsp, 'E', -1, 64)
@@ -224,7 +223,6 @@ func dltp3l(db *sql.DB, rqParam string, m int) {
 		Closedb(stmt, rows)
 	}
 	// batchInsertTp(db, dataMapArray) 暂时不保存到db
-
 	fileName := rqParam + "_" + strconv.Itoa(m) + "_tp.EBK"
 	fileName0 := rqParam + "_" + strconv.Itoa(m) + "_tp0.EBK"
 
