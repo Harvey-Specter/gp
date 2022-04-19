@@ -140,7 +140,7 @@ def updateMA(rq):
     updateList=[]
     for code in codes:
 
-        id,ma5=genMA(code[0],rq,5)
+        id,ma5 =genMA(code[0],rq,5)
         id,ma10=genMA(code[0],rq,10)
         id,ma20=genMA(code[0],rq,20)
         id,ma30=genMA(code[0],rq,30)

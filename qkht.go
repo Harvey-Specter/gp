@@ -120,7 +120,7 @@ func qkht(db *sql.DB, rqParam string) {
 						if sp >= kp {
 							lowk = kp
 						}
-						if (lowk-zd)/(zg-zd) >= 0.66 || (sp-qsp)/qsp >= 0.03 {
+						if (lowk-zd)/(zg-zd) >= 0.66 || (sp-qsp)/qsp >= 0.02 {
 							ok = true
 						} else {
 							ok = false
