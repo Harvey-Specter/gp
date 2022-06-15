@@ -15,7 +15,7 @@ type Param struct {
 }
 
 func main() {
-	db, err := sql.Open("mysql", "root:123456@/stock?charset=utf8mb4")
+	db, err := sql.Open("mysql", "root:123456@tcp(localhost:3307)/stock?charset=utf8mb4")
 	if err != nil {
 		fmt.Printf("open sql err:%s\n", err.Error())
 		return
@@ -48,7 +48,6 @@ func main() {
 	end = time.Now().UnixNano()
 	fmt.Printf("xc cost is :%d \n", (end-start)/1000)
 
-	// gkht(db, rq) //暂时放弃 和下面的缺口合并
 	qkht(db, rq)
 	stars(db, rq)
 

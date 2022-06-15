@@ -22,3 +22,11 @@ select date,code from dayline  where  m5>=pre_close and m20>=pre_close and m30>=
 and m5<close and m20<close and m30<close and m60<close and open<close  
 and date = '2022-04-15' and code not like '300%' and code not like '688%' 
 order by date desc limit 50;
+
+A10:=MA(CLOSE,10);
+DIF := EMA(CLOSE,12) - EMA(CLOSE,26);
+DEA  := EMA(DIF,9);
+DIFUP:=UPNDAY(DIF,M);
+DEAUP:=UPNDAY(DEA,M);
+
+CLOSE>A10&&DIF>0&&DEA>0&&DIFUP&&DEAUP&&NOT(CODELIKE('68'))&&NOT(CODELIKE('30')); 

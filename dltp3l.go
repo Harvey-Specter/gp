@@ -39,7 +39,7 @@ func dltp3l(db *sql.DB, rqParam string, m int) {
 			sqlMa = "m60"
 		}
 
-		dmSql := "SELECT id, date rq,code dm, close sp, high zg, low zd, m5, volume as cjl,pre_close qsp, " + sqlMa + " FROM dayline where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC"
+		dmSql := "SELECT id, date rq,code dm, close sp, open kp, high zg, low zd, m5, volume as cjl,pre_close qsp, " + sqlMa + " FROM dayline where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC"
 
 		//fmt.Print(dmSql, "\n")
 		//------------
@@ -77,12 +77,14 @@ func dltp3l(db *sql.DB, rqParam string, m int) {
 		ok := false
 		var qs int
 		quekou := false
+		pinbar := false
 		for rows.Next() {
 			//
 			var id int
 			var rq string
 			var dm string
 			var sp float64
+			var kp float64
 
 			var zg float64
 			var zd float64
@@ -91,16 +93,27 @@ func dltp3l(db *sql.DB, rqParam string, m int) {
 			var qsp float64
 			var ma_n float64
 
-			rows.Scan(&id, &rq, &dm, &sp, &zg, &zd, &m5, &cjl, &qsp, &ma_n)
+			rows.Scan(&id, &rq, &dm, &sp, &kp, &zg, &zd, &m5, &cjl, &qsp, &ma_n)
 
 			if rq > rqParam {
 				sps = append(sps, sp)
 				continue
 			}
 			//fmt.Println(rq, "---", sp, m5)
+
 			if cnt == 0 {
-				//fmt.Println(sp < zg*0.99, zg*0.99)
-				if ma_n == 0 || sp < ma_n { //|| sp < zg*0.95 {
+
+				lowk := sp
+				if sp >= kp {
+					lowk = kp
+				}
+				if (lowk-zd)/(zg-zd) >= 0.66 {
+					pinbar = true
+				} else {
+					pinbar = false
+				}
+
+				if (ma_n == 0 || sp < ma_n) && !pinbar { //|| sp < zg*0.95 {
 					break
 				} else {
 					if zd > qsp*(1.01) {
@@ -213,7 +226,7 @@ func dltp3l(db *sql.DB, rqParam string, m int) {
 				// dataMap["date"] = rqParam
 				// dataMap["price"] = strconv.FormatFloat(lastsp, 'E', -1, 64)
 				// dataMapArray = append(dataMapArray, dataMap)
-			} else if sp3*(1+0.01) >= sp1 {
+			} else if pinbar {
 
 				fmt.Println("dltp-00-"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
 				code := transCode(dm["code"].(string))
