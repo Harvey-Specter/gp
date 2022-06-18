@@ -30,3 +30,23 @@ DIFUP:=UPNDAY(DIF,M);
 DEAUP:=UPNDAY(DEA,M);
 
 CLOSE>A10&&DIF>0&&DEA>0&&DIFUP&&DEAUP&&NOT(CODELIKE('68'))&&NOT(CODELIKE('30')); 
+
+
+find . -name "*.txt" -type f  |xargs  cat | awk 'BEGIN{FS=","}$3>=20200101&&$4=="000000"' | wc -l
+
+ 2123490
+
+                              <OPEN>,<HIGH>,<LOW>,<CLOSE>,<VOL>
+1301.JP,D,20220601,000000,3325.00,3395.00,3325.00,3395.00,14600,0
+1301.JP,D,20220602,000000,3375.00,3375.00,3345.00,3370.00,9300,0
+
+3097.JP,2020-01-15,4382.51,4470.74,4382.51,4426.63,66910
+
+find . -name "*.txt" -type f  |xargs  cat | awk 'BEGIN{FS=",";OFS=","}$3>=20200101&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > all_220613.txt 
+
+LOAD DATA INFILE '/Users/lihong/gitrep/jp_data_220615/daily/jp/stock/all_220613.txt'  
+  INTO TABLE dayline_jp
+  FIELDS TERMINATED BY ','
+  (code, date, open, high, low,close, volume);
+
+python savedate/tsdata.py $1

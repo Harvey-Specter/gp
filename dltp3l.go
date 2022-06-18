@@ -8,10 +8,10 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-func dltp3l(db *sql.DB, rqParam string, m int) {
+func dltp3l(db *sql.DB, rqParam string, m int, tname string) {
 	fmt.Println("date==dltp3l="+rqParam+"  ma_n=", m)
 	voltimes := 2.5
-	dms := getDm(db, rqParam)
+	dms := getDm(db, rqParam, tname)
 	fmt.Println("day", "industry", "code", "name", "turnover_ratio", "pe_ratio",
 		"industry_cnt", "inc_revenue_year_rank", "inc_revenue_annual_rank", "cfo_sales_rank", "leverage_ratio_rank")
 	enter := `

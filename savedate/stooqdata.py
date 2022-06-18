@@ -45,14 +45,39 @@ def getCodes(rq):
         return results
     except Exception as e:
         print("出现如下异常%s"%e)
-        return
     closeConn(conn,cs)
+
+def genPerClose(code,rq):
+    #print(rq+'======genM5======='+code)
+    conn,cs=getConn()
+    try:
+        sql = "SELECT id,close FROM dayline_jp WHERE code = '%s' and date<='%s' order by date desc limit 2" % (code,rq)
+
+        cs.execute(sql)
+
+        results = cs.fetchall()
+        preClose = 0 
+        id = -1
+        if len(results)==2:
+          for row in results:
+            if id==-1:
+                id=row[0]
+            else:
+                preClose=row[1]
+        else:
+          preClose = -1
+        return id,preClose
+    except Exception as e:
+        print("genPerClose 出现如下异常%s"%e)
+        return id,preClose
+    finally:
+        closeConn(conn,cs)
 
 def genMA(code,rq,n):
     #print(rq+'======genM5======='+code)
     conn,cs=getConn()
     try:
-        sql = "SELECT id,close FROM dayline_jp WHERE code = '%s' and date<='%s' and paused='0' order by date desc limit %d" % (code,rq ,n)
+        sql = "SELECT id,close FROM dayline_jp WHERE code = '%s' and date<='%s' order by date desc limit %d" % (code,rq ,n)
 
         cs.execute(sql)
 
@@ -96,12 +121,12 @@ def saveBatch(vals,tName):
     closeConn(conn,cs)
 
 def updateBatchM510203060(vals):
-    print('======updateBatchM5203060=======')
+    print('======updateBatchM5203060pre_close=======')
     conn,cs=getConn()
     try:
-        sql = 'UPDATE dayline SET m5 = (%s), m10=(%s), m20=(%s), m30 = (%s), m60=(%s) WHERE id = (%s) '
+        sql = 'UPDATE dayline_jp SET pre_close=(%s), m5 = (%s), m10=(%s), m20=(%s), m30 = (%s), m60=(%s) WHERE id = (%s) '
         cs.executemany(sql, vals)
-        #print('sql==',sql)
+        print('sql==',sql)
     except Exception as e:
         print("updateBatchM510203060 出现如下异常%s"%e)
         return
@@ -159,12 +184,13 @@ def updateMA(rq):
     updateList=[]
     for code in codes:
 
+        id,preClose= genPerClose(code[0],rq)
         id,ma5 =genMA(code[0],rq,5)
         id,ma10=genMA(code[0],rq,10)
         id,ma20=genMA(code[0],rq,20)
         id,ma30=genMA(code[0],rq,30)
         id,ma60=genMA(code[0],rq,60)
-        updateList.append([ma5,ma10,ma20,ma30,ma60,id])
+        updateList.append([preClose,ma5,ma10,ma20,ma30,ma60,id])
 
     updateBatchM510203060(updateList)
 
@@ -178,8 +204,8 @@ rq=sys.argv[1]
 
 start=time.time()
 
-savePrice(rq) #每天执行
-# updateMA(rq) #每天执行
+# savePrice(rq) #每天执行
+updateMA(rq) #每天执行
 
 end=time.time()
 

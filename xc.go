@@ -8,9 +8,9 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-func xc(db *sql.DB, rqParam string) {
+func xc(db *sql.DB, rqParam string, tname string) {
 	fmt.Println("date==xc=" + rqParam)
-	dms := getDm(db, rqParam)
+	dms := getDm(db, rqParam, tname)
 
 	fmt.Println("day", "industry", "code", "name", "turnover_ratio", "pe_ratio",
 		"industry_cnt", "inc_revenue_year_rank", "inc_revenue_annual_rank", "cfo_sales_rank", "leverage_ratio_rank")
