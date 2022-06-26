@@ -44,9 +44,21 @@ find . -name "*.txt" -type f  |xargs  cat | awk 'BEGIN{FS=","}$3>=20200101&&$4==
 
 find . -name "*.txt" -type f  |xargs  cat | awk 'BEGIN{FS=",";OFS=","}$3>=20200101&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > all_220613.txt 
 
-LOAD DATA INFILE '/Users/lihong/gitrep/jp_data_220615/daily/jp/stock/all_220613.txt'  
+LOAD DATA INFILE '/Users/lihong/gitrep/jp_data_220615/daily/jp/stock/0614_16.txt'  
   INTO TABLE dayline_jp
   FIELDS TERMINATED BY ','
   (code, date, open, high, low,close, volume);
 
+LOAD DATA INFILE '/Users/lihong/Documents/d_ja_0614/0614_16.txt'  
+  INTO TABLE dayline_jp
+  FIELDS TERMINATED BY ','
+  (code, date, open, high, low,close, volume);
+
+
 python savedate/tsdata.py $1
+
+sort -u  * | awk 'BEGIN{FS=","}$1~/\.JP$/' | awk 'BEGIN{FS=",";OFS=","}$3>=20220614&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > 0614_16.txt
+
+awk '{print "python savedate/stooqdata.py " $1}' jprq.txt | sh
+
+https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1375

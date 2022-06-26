@@ -106,7 +106,18 @@ func getTpDmByDate(db *sql.DB, rq string) []map[string]string { //300859-西域;
 	defer Closedb(dmstmt, dmrows)
 	return dms
 }
+func tvLog(funcName string, code string, day string) {
 
+	if strings.Contains(code, ".JP") {
+		code = code[0:4]
+		fmt.Println(funcName, day, "https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A"+code)
+		//https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1375
+	} else {
+		//code = code[0:6]
+		//fmt.Println(funcName, day, code)
+
+	}
+}
 func getDm(db *sql.DB, rq string, tname string) []map[string]interface{} { //300859-西域; 600718-东软
 	//var dms []string
 	var dms []map[string]interface{}
@@ -114,7 +125,7 @@ func getDm(db *sql.DB, rq string, tname string) []map[string]interface{} { //300
 	// 回踩缺口 605289 002932 600889 a.code like '002155%' and  002155%
 	// (a.code like '002128%' or a.code like '002155%' or a.code like '603353%' ) and a.code like '000655%' and
 	sql := `select distinct a.code from ` + tname + ` a where a.code not like '688%' and a.code not like '3%' and a.paused='0' and a.date='` + rq + `' `
-
+	// fmt.Println(sql)
 	//sql := `select distinct a.code from dayline a where a.code like '688%' and a.date='` + rq + `' `
 
 	dmstmt, err := db.Prepare(sql)

@@ -39,9 +39,9 @@ func dltp3l(db *sql.DB, rqParam string, m int, tname string) {
 			sqlMa = "m60"
 		}
 
-		dmSql := "SELECT id, date rq,code dm, close sp, open kp, high zg, low zd, m5, volume as cjl,pre_close qsp, " + sqlMa + " FROM dayline where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC"
+		dmSql := "SELECT id, date rq,code dm, close sp, open kp, high zg, low zd, m5, volume as cjl,pre_close qsp, " + sqlMa + " FROM " + tname + " where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC"
 
-		//fmt.Print(dmSql, "\n")
+		// fmt.Print(dmSql, "\n")
 		//------------
 		//if(stmt!=nil){}
 		stmt, err := db.Prepare(dmSql)
@@ -219,17 +219,23 @@ func dltp3l(db *sql.DB, rqParam string, m int, tname string) {
 			//if sp3*(1+0.04) >= sp1 && (quekou || cjlx > 0) {
 			// 颈线附近放量修改成中轴放量或者跳空
 			if sp3 >= sp0+(sp1-sp0)/2 && (quekou || cjlx > 0) {
-				fmt.Println("dltp"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
 				code := transCode(dm["code"].(string))
+
+				tvLog("tp", dm["code"].(string), rqParam)
+				fmt.Println("dltp"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
 				rs += code + enter
+
 				// dataMap["code"] = dm["code"].(string)
 				// dataMap["date"] = rqParam
 				// dataMap["price"] = strconv.FormatFloat(lastsp, 'E', -1, 64)
 				// dataMapArray = append(dataMapArray, dataMap)
 			} else if pinbar {
 
-				fmt.Println("dltp-00-"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
 				code := transCode(dm["code"].(string))
+
+				tvLog("tp00", dm["code"].(string), rqParam)
+
+				fmt.Println("dltp00-"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
 				rs0 += code + enter
 			}
 		}

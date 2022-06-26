@@ -20,7 +20,7 @@ func xc(db *sql.DB, rqParam string, tname string) {
 	for _, dm := range dms {
 		sps := []float64{}
 
-		dmSql := "SELECT id, date rq,code dm, close sp, high zg, low zd, m5, volume as cjl ,pre_close as qsp FROM dayline where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC limit 20"
+		dmSql := "SELECT id, date rq,code dm, close sp, high zg, low zd, m5, volume as cjl ,pre_close as qsp FROM " + tname + " where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC limit 20"
 
 		// fmt.Print(dmSql, "\n")
 		//------------
@@ -115,6 +115,8 @@ func xc(db *sql.DB, rqParam string, tname string) {
 
 		if ok && qs1sum0 >= 5 && change0 < change1 {
 			//if ok && qs1sum >= 7 {
+			tvLog("xc", dm["code"].(string), rqParam)
+
 			fmt.Println("xc"+rqParam, dm["code"].(string)[0:6], reveSliceF(sps))
 			// fmt.Println(rqParam, dm["zjw_name"].(string), dm["code"].(string)[0:6], dm["name"], dm["turnover_ratio"].(float64), dm["pe_ratio"].(float64), reveSliceF(sps), qs1sum)
 			code := transCode(dm["code"].(string))

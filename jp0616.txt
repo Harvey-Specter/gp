@@ -1,0 +1,1906 @@
+date==dltp3l=2022-06-16  ma_n= 20
+day industry code name turnover_ratio pe_ratio industry_cnt inc_revenue_year_rank inc_revenue_annual_rank cfo_sales_rank leverage_ratio_rank
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1431
+dltp2022-06-16 1431.J 694 2022-05-13 732 2022-05-23 716 2022-05-26 799 2022-06-09 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1736
+dltp2022-06-16 1736.J 2090 2022-05-30 2127 2022-05-31 2105 2022-06-07 2300 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1758
+dltp2022-06-16 1758.J 4660 2022-05-24 4720 2022-06-10 4700 2022-06-13 4890 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1768
+dltp2022-06-16 1768.J 1000 2022-06-01 1006 2022-06-03 1001 2022-06-07 1040 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1793
+dltp2022-06-16 1793.J 5678.22 2022-02-28 6550 2022-03-30 5850 2022-05-09 6660 2022-06-14 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1905
+dltp2022-06-16 1905.J 774 2022-04-28 787 2022-05-02 780 2022-05-10 843 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1946
+dltp2022-06-16 1946.J 3040 2022-05-20 3515 2022-06-09 3215 2022-06-15 3330 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1965
+dltp00-2022-06-16 1965.J 839 2022-05-18 848 2022-05-19 842 2022-05-20 857 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1992
+dltp2022-06-16 1992.J 1060 2022-05-06 1125 2022-05-13 1100 2022-05-20 1161 2022-06-14 2 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1994
+dltp00-2022-06-16 1994.J 501 2022-05-30 531 2022-06-07 510 2022-06-14 513 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2055
+dltp00-2022-06-16 2055.J 274 2022-05-30 279 2022-06-01 275 2022-06-13 277 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2114
+dltp00-2022-06-16 2114.J 446 2022-05-31 450 2022-06-10 449 2022-06-13 453 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2152
+dltp2022-06-16 2152.J 1135 2022-06-03 1148 2022-06-06 1139 2022-06-07 1168 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2157
+dltp2022-06-16 2157.J 744 2022-06-02 800 2022-06-14 764 2022-06-15 787 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2179
+dltp00-2022-06-16 2179.J 701 2022-05-27 708 2022-06-13 705 2022-06-14 709 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2220
+dltp2022-06-16 2220.J 4035 2022-04-27 4240 2022-05-06 4040 2022-05-09 4540 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2300
+dltp2022-06-16 2300.J 431 2022-05-31 434 2022-06-02 431 2022-06-10 436 2022-06-16 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2303
+dltp00-2022-06-16 2303.J 1822 2022-05-09 1908 2022-05-23 1873 2022-05-25 2103 2022-06-09 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2338
+dltp00-2022-06-16 2338.J 796 2022-04-21 840 2022-05-09 817 2022-05-10 867 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2411
+dltp2022-06-16 2411.J 306 2022-04-28 314 2022-05-09 306 2022-05-13 326 2022-06-16 2 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2424
+dltp00-2022-06-16 2424.J 669 2022-04-28 910 2022-06-10 790 2022-06-14 865 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2445
+dltp2022-06-16 2445.J 344 2022-05-25 392 2022-06-09 363 2022-06-15 382 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2454
+dltp2022-06-16 2454.J 491 2022-05-13 525 2022-05-23 507 2022-05-25 540 2022-06-06 3 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2487
+dltp00-2022-06-16 2487.J 1282 2022-06-10 1291 2022-06-14 1283 2022-06-15 1290 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2502
+dltp2022-06-16 2502.J 4177 2022-05-17 4467 2022-06-09 4223 2022-06-15 4350 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2531
+dltp2022-06-16 2531.J 925 2022-05-26 968 2022-06-10 950 2022-06-15 967 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2676
+dltp2022-06-16 2676.J 1479 2022-04-25 1874 2022-06-01 1790 2022-06-15 1825 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2708
+dltp00-2022-06-16 2708.J 615 2022-05-20 639 2022-05-31 631 2022-06-01 645 2022-06-09 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2749
+dltp2022-06-16 2749.J 208 2022-05-11 230 2022-06-08 219 2022-06-15 226 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2762
+dltp00-2022-06-16 2762.J 224 2022-03-29 279 2022-06-06 257 2022-06-15 261 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2806
+dltp2022-06-16 2806.J 1786 2022-05-11 1834 2022-05-18 1803 2022-06-01 1869 2022-06-06 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2813
+dltp2022-06-16 2813.J 2832 2022-05-02 3445 2022-06-09 3250 2022-06-14 3400 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2814
+dltp2022-06-16 2814.J 1360.12 2022-03-15 1498 2022-04-20 1395 2022-05-20 1633 2022-06-10 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2901
+dltp2022-06-16 2901.J 131 2022-05-12 144 2022-06-06 140 2022-06-13 155 2022-06-16 3 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2907
+dltp00-2022-06-16 2907.J 837 2022-06-13 852 2022-06-14 840 2022-06-15 845 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2916
+dltp2022-06-16 2916.J 632 2022-06-01 648 2022-06-02 635 2022-06-07 650 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4099
+dltp2022-06-16 4099.J 1213 2022-04-27 1301 2022-06-09 1239 2022-06-15 1263 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4199
+dltp2022-06-16 4199.J 1657 2022-06-06 1941 2022-06-10 1811 2022-06-15 1898 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4243
+dltp2022-06-16 4243.J 643 2022-05-25 699 2022-06-09 669 2022-06-14 698 2022-06-15 3 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4264
+dltp00-2022-06-16 4264.J 942 2022-05-27 1118 2022-06-02 989 2022-06-15 993 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4288
+dltp2022-06-16 4288.J 740 2022-06-03 800 2022-06-09 778 2022-06-14 785 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4331
+dltp2022-06-16 4331.J 1172 2022-05-12 1750 2022-05-31 1487 2022-06-15 1641 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4335
+dltp00-2022-06-16 4335.J 607 2022-05-19 637 2022-06-07 622 2022-06-15 631 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4343
+dltp2022-06-16 4343.J 1985 2022-05-12 2638 2022-06-10 2474 2022-06-15 2552 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4347
+dltp00-2022-06-16 4347.J 814 2022-04-25 1073 2022-06-09 1015 2022-06-15 1018 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4395
+dltp2022-06-16 4395.J 1086 2022-05-12 1735 2022-06-13 1558 2022-06-15 1627 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4432
+dltp2022-06-16 4432.J 1125 2022-03-14 1518 2022-04-05 1202 2022-05-12 1472 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4444
+dltp2022-06-16 4444.J 656 2022-05-19 740 2022-06-09 709 2022-06-15 720 2022-06-16 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4491
+dltp00-2022-06-16 4491.J 2771 2022-06-08 2923 2022-06-10 2799 2022-06-14 2800 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4558
+dltp00-2022-06-16 4558.J 221.77 2022-03-09 269 2022-03-31 233 2022-05-17 258 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4576
+dltp2022-06-16 4576.J 200 2022-05-26 220 2022-06-09 202 2022-06-13 210 2022-06-16 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4611
+dltp00-2022-06-16 4611.J 727 2022-05-24 769 2022-06-01 735 2022-06-15 742 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4667
+dltp00-2022-06-16 4667.J 1641 2022-05-18 1785 2022-06-03 1695 2022-06-15 1709 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4668
+dltp2022-06-16 4668.J 572 2022-05-12 604 2022-05-30 591 2022-06-14 599 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4690
+dltp2022-06-16 4690.J 1060 2022-04-25 1392 2022-05-11 1240 2022-06-15 1290 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4705
+dltp2022-06-16 4705.J 772 2022-06-13 775 2022-06-14 772 2022-06-15 774 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4725
+dltp2022-06-16 4725.J 1319 2022-05-12 1449 2022-06-13 1392 2022-06-15 1420 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4770
+dltp00-2022-06-16 4770.J 268 2022-05-13 318 2022-06-09 303 2022-06-15 308 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4931
+dltp2022-06-16 4931.J 1286 2022-05-25 1458 2022-06-09 1348 2022-06-15 1381 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4955
+dltp00-2022-06-16 4955.J 1109 2022-04-18 1367 2022-06-08 1239 2022-06-15 1254 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4968
+dltp00-2022-06-16 4968.J 975 2022-05-26 1025 2022-06-09 996 2022-06-15 1007 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5104
+dltp00-2022-06-16 5104.J 396 2022-05-12 399 2022-05-16 397 2022-05-18 415 2022-06-09 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5110
+dltp2022-06-16 5110.J 1149 2022-05-25 1260 2022-06-09 1190 2022-06-15 1208 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5121
+dltp2022-06-16 5121.J 662 2022-04-27 896 2022-06-09 847 2022-06-15 868 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5162
+dltp2022-06-16 5162.J 524 2022-05-19 542 2022-05-31 535 2022-06-02 554 2022-06-09 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5212
+dltp00-2022-06-16 5212.J 901 2022-05-13 990 2022-06-08 945 2022-06-14 970 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5285
+dltp2022-06-16 5285.J 561 2022-05-20 595 2022-05-31 575 2022-06-14 584 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5287
+dltp00-2022-06-16 5287.J 713 2022-05-17 757 2022-06-13 741 2022-06-15 741 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5344
+dltp2022-06-16 5344.J 14260 2022-05-26 16130 2022-06-06 14320 2022-06-14 15280 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5355
+dltp2022-06-16 5355.J 561 2022-05-11 585 2022-05-30 577 2022-06-15 578 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5395
+dltp2022-06-16 5395.J 1902 2022-03-09 1974 2022-03-18 1945 2022-03-25 2200 2022-06-16 2 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5449
+dltp2022-06-16 5449.J 1219 2022-05-12 1391 2022-05-23 1339 2022-05-25 1495 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5464
+dltp2022-06-16 5464.J 2378 2022-05-12 2503 2022-06-07 2412 2022-06-15 2457 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5482
+dltp2022-06-16 5482.J 1910 2022-05-17 2197 2022-06-07 2038 2022-06-15 2088 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5660
+dltp2022-06-16 5660.J 777 2022-05-12 787 2022-05-23 783 2022-05-24 818 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5801
+dltp2022-06-16 5801.J 2105 2022-05-26 2175 2022-05-27 2155 2022-05-31 2304 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5802
+dltp2022-06-16 5802.J 1387 2022-05-19 1525.5 2022-06-09 1453.5 2022-06-15 1482 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5903
+dltp2022-06-16 5903.J 1044 2022-05-17 1115 2022-06-03 1080 2022-06-15 1093 2022-06-16 1 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5906
+dltp2022-06-16 5906.J 341 2022-05-20 344 2022-05-27 341 2022-06-01 351 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5918
+dltp2022-06-16 5918.J 6250 2022-05-20 6650 2022-06-09 6450 2022-06-13 6950 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5928
+dltp2022-06-16 5928.J 267 2022-06-06 273 2022-06-10 269 2022-06-15 275 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5929
+dltp2022-06-16 5929.J 1117 2022-05-12 1310 2022-06-01 1248 2022-06-15 1269 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5965
+dltp2022-06-16 5965.J 730 2022-05-31 738 2022-06-02 736 2022-06-03 760 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5970
+dltp2022-06-16 5970.J 1241 2022-05-26 1347 2022-06-09 1280 2022-06-15 1302 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5973
+dltp00-2022-06-16 5973.J 419 2022-05-27 423 2022-06-02 421 2022-06-03 436 2022-06-09 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5989
+dltp2022-06-16 5989.J 575 2022-05-25 630 2022-06-09 590 2022-06-15 604 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6063
+dltp00-2022-06-16 6063.J 1094 2022-05-19 1319 2022-06-01 1163 2022-06-15 1188 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6074
+dltp2022-06-16 6074.J 405 2022-05-13 441 2022-06-03 430 2022-06-15 440 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6090
+dltp2022-06-16 6090.J 568 2022-05-17 646 2022-05-18 581 2022-05-25 629 2022-06-14 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6094
+dltp2022-06-16 6094.J 1604 2022-05-25 1853 2022-05-30 1670 2022-06-03 1814 2022-06-14 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6103
+dltp2022-06-16 6103.J 5350 2022-06-13 5410 2022-06-14 5380 2022-06-15 5450 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6140
+dltp2022-06-16 6140.J 556 2022-05-16 586 2022-05-20 568 2022-05-24 626 2022-06-08 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6158
+dltp00-2022-06-16 6158.J 926 2022-05-16 972 2022-06-09 941 2022-06-15 955 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6181
+dltp2022-06-16 6181.J 96 2022-05-19 115 2022-06-07 99 2022-06-15 112 2022-06-16 3 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6188
+dltp00-2022-06-16 6188.J 313 2022-04-18 406 2022-05-25 352 2022-06-01 400 2022-06-09 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6235
+dltp2022-06-16 6235.J 1853 2022-05-24 2111 2022-06-01 1965 2022-06-15 2003 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6248
+dltp2022-06-16 6248.J 1069 2022-06-09 1074 2022-06-10 1069 2022-06-14 1073 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6268
+dltp2022-06-16 6268.J 2954 2022-05-25 3320 2022-06-10 3120 2022-06-15 3180 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6342
+dltp2022-06-16 6342.J 1520 2022-06-01 1568 2022-06-06 1525 2022-06-09 1593 2022-06-16 1 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6349
+dltp2022-06-16 6349.J 731 2022-05-24 736 2022-05-25 736 2022-05-26 834 2022-06-08 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6428
+dltp00-2022-06-16 6428.J 397 2022-05-25 440 2022-06-07 406 2022-06-15 403 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6459
+dltp2022-06-16 6459.J 992 2022-05-26 1082 2022-06-09 1032 2022-06-15 1050 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6465
+dltp2022-06-16 6465.J 7480 2022-05-19 7960 2022-06-08 7670 2022-06-14 7870 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6551
+dltp2022-06-16 6551.J 259 2022-05-12 359 2022-06-08 313 2022-06-15 319 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6558
+dltp2022-06-16 6558.J 748 2022-05-12 941 2022-06-06 887 2022-06-15 1037 2022-06-16 1 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6588
+dltp2022-06-16 6588.J 3890 2022-05-17 4240 2022-06-07 4020 2022-06-15 4185 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6637
+dltp00-2022-06-16 6637.J 978 2022-05-12 1114 2022-05-30 1040 2022-06-14 1053 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6647
+dltp2022-06-16 6647.J 1675 2022-05-30 1745 2022-06-02 1697 2022-06-08 1780 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6664
+dltp2022-06-16 6664.J 378 2022-05-16 428 2022-06-03 405 2022-06-15 440 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6734
+dltp2022-06-16 6734.J 1101 2022-04-27 1187 2022-05-26 1153 2022-06-07 1192 2022-06-10 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6755
+dltp2022-06-16 6755.J 2166 2022-05-10 2544 2022-06-07 2395 2022-06-15 2457 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6771
+dltp00-2022-06-16 6771.J 593 2022-05-26 624 2022-06-09 595 2022-06-15 600 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6772
+dltp2022-06-16 6772.J 1549 2022-05-27 1614 2022-06-01 1600 2022-06-02 1631 2022-06-14 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6786
+dltp2022-06-16 6786.J 68 2022-05-30 70 2022-06-01 69 2022-06-02 73 2022-06-10 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6806
+dltp2022-06-16 6806.J 17600 2022-06-13 17660 2022-06-14 17650 2022-06-15 18140 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6819
+dltp2022-06-16 6819.J 99 2022-05-24 101 2022-05-26 100 2022-05-30 106 2022-06-10 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6822
+dltp2022-06-16 6822.J 2261.03 2022-03-17 2528 2022-06-03 2421 2022-06-09 2450 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6864
+dltp2022-06-16 6864.J 1081.76 2022-03-15 1366 2022-04-07 1148 2022-05-16 1323 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6879
+dltp2022-06-16 6879.J 609 2022-05-12 779 2022-06-10 710 2022-06-15 727 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6905
+dltp2022-06-16 6905.J 753 2022-05-19 773 2022-05-23 753 2022-05-25 857 2022-06-16 3 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6982
+dltp00-2022-06-16 6982.J 472 2022-06-02 511 2022-06-10 479 2022-06-14 484 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7042
+dltp2022-06-16 7042.J 802 2022-05-24 840 2022-06-03 814 2022-06-09 831 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7070
+dltp2022-06-16 7070.J 295 2022-05-26 306 2022-06-08 295 2022-06-15 301 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7077
+dltp00-2022-06-16 7077.J 925 2022-05-19 991 2022-06-07 946 2022-06-13 954 2022-06-15 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7081
+dltp00-2022-06-16 7081.J 1321 2022-05-09 1484 2022-06-10 1321 2022-06-14 1343 2022-06-16 3 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7097
+dltp00-2022-06-16 7097.J 1253 2022-05-10 1471 2022-06-09 1258 2022-06-15 1263 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7130
+dltp2022-06-16 7130.J 977 2022-04-27 1229 2022-06-09 1152 2022-06-15 1189 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7131
+dltp00-2022-06-16 7131.J 872 2022-05-13 890 2022-05-24 877 2022-05-25 965 2022-06-06 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7162
+dltp2022-06-16 7162.J 220 2022-05-17 254 2022-06-09 235 2022-06-15 238 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7169
+dltp2022-06-16 7169.J 1375 2022-05-10 1588 2022-05-30 1468 2022-06-10 1780 2022-06-16 3 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7187
+dltp2022-06-16 7187.J 1736 2022-06-13 1798 2022-06-14 1773 2022-06-15 1866 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7202
+dltp2022-06-16 7202.J 1490 2022-05-27 1653 2022-06-09 1571 2022-06-15 1596 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7203
+dltp2022-06-16 7203.J 2005 2022-05-19 2239 2022-06-09 2080 2022-06-15 2140 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7235
+dltp00-2022-06-16 7235.J 610 2022-05-13 714 2022-05-31 662 2022-06-14 676 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7236
+dltp2022-06-16 7236.J 2223 2022-05-12 2910 2022-06-01 2726 2022-06-15 2802 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7240
+dltp2022-06-16 7240.J 1050 2022-04-27 1152 2022-05-10 1085 2022-05-25 1240 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7261
+dltp2022-06-16 7261.J 891 2022-04-27 1185 2022-06-09 1107 2022-06-15 1134 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7266
+dltp2022-06-16 7266.J 568 2022-05-26 630 2022-06-02 584 2022-06-15 605 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7284
+dltp00-2022-06-16 7284.J 1006 2022-06-06 1020 2022-06-09 1006 2022-06-14 1040 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7291
+dltp2022-06-16 7291.J 437 2022-05-25 478 2022-06-08 451 2022-06-15 459 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7363
+dltp2022-06-16 7363.J 1907 2022-05-19 2257 2022-06-08 2058 2022-06-15 2558 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7412
+dltp00-2022-06-16 7412.J 754 2022-05-31 777 2022-06-08 763 2022-06-14 776 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7422
+dltp2022-06-16 7422.J 2750 2022-05-09 2840 2022-05-23 2785 2022-05-27 3050 2022-06-15 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7444
+dltp2022-06-16 7444.J 1655 2022-05-19 1710 2022-06-08 1680 2022-06-13 1699 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7460
+dltp2022-06-16 7460.J 1086 2022-05-20 1130 2022-06-01 1100 2022-06-02 1257 2022-06-16 1 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7472
+dltp00-2022-06-16 7472.J 2791 2022-05-31 2832 2022-06-08 2798 2022-06-15 2817 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7486
+dltp2022-06-16 7486.J 619 2022-05-16 645 2022-05-20 626 2022-05-24 678 2022-06-14 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7490
+dltp2022-06-16 7490.J 848 2022-05-16 877 2022-05-20 872 2022-05-23 890 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7604
+dltp2022-06-16 7604.J 994 2022-05-19 1010 2022-06-14 1000 2022-06-15 1009 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7623
+dltp2022-06-16 7623.J 408 2022-05-20 419 2022-06-01 411 2022-06-03 475 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7624
+dltp2022-06-16 7624.J 165 2022-04-28 169 2022-05-12 166 2022-05-16 176 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7677
+dltp2022-06-16 7677.J 1902 2022-04-11 2098 2022-06-03 2001 2022-06-06 2066 2022-06-16 2 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7686
+dltp00-2022-06-16 7686.J 1338 2022-05-27 1378 2022-06-06 1350 2022-06-07 1456 2022-06-13 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7733
+dltp2022-06-16 7733.J 2214.5 2022-05-10 2807.5 2022-06-09 2705 2022-06-15 2741 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7780
+dltp2022-06-16 7780.J 2270 2022-05-12 2897 2022-06-09 2685 2022-06-15 2779 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7807
+dltp2022-06-16 7807.J 660 2022-06-10 664 2022-06-14 661 2022-06-15 663 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7808
+dltp2022-06-16 7808.J 3360 2022-05-17 3735 2022-05-23 3490 2022-05-26 3950 2022-06-08 1 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7811
+dltp00-2022-06-16 7811.J 1499 2022-04-19 1636 2022-06-08 1565 2022-06-15 1590 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7896
+dltp2022-06-16 7896.J 498 2022-05-13 521 2022-06-09 503 2022-06-14 515 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7922
+dltp2022-06-16 7922.J 312 2022-04-25 321 2022-05-11 316 2022-05-12 344 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7955
+dltp2022-06-16 7955.J 513 2022-04-27 583 2022-06-08 545 2022-06-15 561 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8018
+dltp2022-06-16 8018.J 524 2022-05-26 581 2022-06-08 538 2022-06-15 559 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8039
+dltp00-2022-06-16 8039.J 2605 2022-04-26 2685 2022-05-10 2613 2022-05-12 2791 2022-06-13 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8118
+dltp2022-06-16 8118.J 510 2022-05-19 576 2022-06-07 536 2022-06-15 551 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8147
+dltp2022-06-16 8147.J 950 2022-05-02 984 2022-05-16 955 2022-05-17 1033 2022-06-01 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8152
+dltp2022-06-16 8152.J 1774 2022-05-17 1836 2022-05-24 1812 2022-05-25 1998 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8253
+dltp2022-06-16 8253.J 1498 2022-05-31 1553 2022-06-02 1501 2022-06-14 1570 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8424
+dltp2022-06-16 8424.J 6800 2022-04-27 7830 2022-06-08 7510 2022-06-15 7660 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8624
+dltp2022-06-16 8624.J 550 2022-05-12 647 2022-06-09 630 2022-06-15 642 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8699
+dltp2022-06-16 8699.J 1215 2022-05-10 1346 2022-06-06 1270 2022-06-15 1317 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8708
+dltp2022-06-16 8708.J 659 2022-05-24 708 2022-06-08 676 2022-06-15 693 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8830
+dltp2022-06-16 8830.J 3221 2022-05-19 3702 2022-06-09 3485 2022-06-15 3555 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8889
+dltp2022-06-16 8889.J 477 2022-05-20 483 2022-05-25 477 2022-05-30 488 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8891
+dltp2022-06-16 8891.J 880 2022-04-27 992 2022-05-11 882 2022-05-31 956 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8905
+dltp2022-06-16 8905.J 1557 2022-05-31 1671 2022-06-09 1599 2022-06-15 1620 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8999
+dltp00-2022-06-16 8999.J 515 2022-05-24 541 2022-06-09 523 2022-06-15 530 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9014
+dltp2022-06-16 9014.J 2099 2022-04-28 3015 2022-06-09 2821 2022-06-15 2866 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9029
+dltp00-2022-06-16 9029.J 603 2022-05-09 661 2022-06-08 635 2022-06-15 640 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9034
+dltp2022-06-16 9034.J 1047 2022-04-08 1081 2022-04-13 1062 2022-05-10 1175 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9045
+dltp2022-06-16 9045.J 2929 2022-05-25 3040 2022-05-27 2972 2022-05-31 3340 2022-06-10 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9318
+dltp2022-06-16 9318.J 5 2022-06-07 6 2022-06-10 5 2022-06-13 6 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9369
+dltp2022-06-16 9369.J 1069 2022-05-31 1114 2022-06-08 1075 2022-06-15 1099 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9421
+dltp00-2022-06-16 9421.J 612 2022-03-22 755 2022-05-10 660 2022-05-17 721 2022-06-08 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9444
+dltp00-2022-06-16 9444.J 613 2022-04-28 626 2022-05-20 622 2022-05-23 638 2022-06-07 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9517
+dltp2022-06-16 9517.J 1954 2022-06-02 2221 2022-06-09 2036 2022-06-15 2088 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9720
+dltp2022-06-16 9720.J 3920 2022-05-24 3990 2022-06-14 3930 2022-06-15 3980 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9763
+dltp2022-06-16 9763.J 1692.13 2022-03-08 1781.09 2022-03-23 1700 2022-04-27 1951 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9791
+dltp2022-06-16 9791.J 894 2022-05-18 910 2022-05-20 899 2022-05-25 937 2022-05-30 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9823
+dltp2022-06-16 9823.J 2157 2022-05-11 2187 2022-05-18 2167 2022-05-20 2230 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9846
+dltp2022-06-16 9846.J 1001 2022-05-19 1034 2022-06-10 1008 2022-06-15 1019 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9913
+dltp00-2022-06-16 9913.J 630 2022-05-12 712 2022-06-10 676 2022-06-15 679 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9964
+dltp2022-06-16 9964.J 1440 2022-05-19 1478 2022-06-03 1460 2022-06-07 1489 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9979
+dltp2022-06-16 9979.J 1025 2022-05-10 1187 2022-06-06 1136 2022-06-15 1162 2022-06-16 0 true
+date==dltp3l=2022-06-16  ma_n= 30
+day industry code name turnover_ratio pe_ratio industry_cnt inc_revenue_year_rank inc_revenue_annual_rank cfo_sales_rank leverage_ratio_rank
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1736
+dltp2022-06-16 1736.J 2090 2022-05-30 2127 2022-05-31 2105 2022-06-07 2300 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1758
+dltp2022-06-16 1758.J 4610 2022-04-13 4795 2022-05-13 4665 2022-06-01 4890 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1768
+dltp2022-06-16 1768.J 996 2022-05-25 1006 2022-06-03 1001 2022-06-07 1040 2022-06-16 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1840
+dltp00-2022-06-16 1840.J 167 2022-04-28 170 2022-05-10 169 2022-05-11 192 2022-06-14 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1905
+dltp2022-06-16 1905.J 774 2022-04-28 787 2022-05-02 780 2022-05-10 843 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1946
+dltp2022-06-16 1946.J 3040 2022-05-20 3515 2022-06-09 3215 2022-06-15 3330 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1965
+dltp00-2022-06-16 1965.J 839 2022-05-18 851 2022-05-26 847 2022-05-27 857 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1994
+dltp00-2022-06-16 1994.J 501 2022-05-30 531 2022-06-07 510 2022-06-14 513 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2055
+dltp00-2022-06-16 2055.J 272 2022-05-19 282 2022-05-27 274 2022-05-30 277 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2152
+dltp2022-06-16 2152.J 1135 2022-06-03 1148 2022-06-06 1139 2022-06-07 1168 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2220
+dltp2022-06-16 2220.J 4035 2022-04-27 4240 2022-05-06 4040 2022-05-09 4540 2022-06-16 3 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2303
+dltp00-2022-06-16 2303.J 1822 2022-05-09 1919 2022-05-30 1903 2022-05-31 2103 2022-06-09 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2338
+dltp00-2022-06-16 2338.J 817 2022-05-10 839 2022-05-13 822 2022-05-18 867 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2393
+dltp2022-06-16 2393.J 1400 2022-05-11 1409 2022-05-12 1405 2022-05-16 1499 2022-06-06 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2411
+dltp2022-06-16 2411.J 306 2022-04-28 314 2022-05-09 306 2022-05-13 326 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2415
+dltp2022-06-16 2415.J 806.35 2022-03-09 900 2022-03-30 851 2022-05-02 981 2022-06-10 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2445
+dltp2022-06-16 2445.J 328 2022-05-12 352 2022-05-23 344 2022-05-25 392 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2454
+dltp2022-06-16 2454.J 491 2022-05-13 525 2022-05-23 507 2022-05-25 540 2022-06-06 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2464
+dltp2022-06-16 2464.J 407 2022-05-20 458 2022-06-09 414 2022-06-15 433 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2483
+dltp2022-06-16 2483.J 1432 2022-05-27 1469 2022-05-31 1451 2022-06-02 1560 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2487
+dltp00-2022-06-16 2487.J 1282 2022-06-10 1291 2022-06-14 1283 2022-06-15 1290 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2488
+dltp2022-06-16 2488.J 595.37 2022-03-09 653 2022-04-05 625 2022-05-12 702 2022-06-06 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2668
+dltp2022-06-16 2668.J 1012 2022-04-19 1044 2022-05-12 1023 2022-05-26 1064 2022-06-02 2 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2687
+dltp00-2022-06-16 2687.J 350 2022-03-11 381 2022-04-04 360 2022-04-07 402 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2693
+dltp2022-06-16 2693.J 232 2022-03-09 285 2022-05-06 262 2022-05-12 295 2022-06-16 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2708
+dltp00-2022-06-16 2708.J 615 2022-05-20 645 2022-06-09 633 2022-06-14 640 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2749
+dltp2022-06-16 2749.J 208 2022-05-11 230 2022-06-08 219 2022-06-15 226 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2762
+dltp00-2022-06-16 2762.J 212 2022-02-16 279 2022-06-06 257 2022-06-15 261 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2768
+dltp2022-06-16 2768.J 1954 2022-05-16 2165 2022-06-09 2028 2022-06-15 2064 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2806
+dltp2022-06-16 2806.J 1793 2022-05-16 1834 2022-05-18 1803 2022-06-01 1869 2022-06-06 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2901
+dltp2022-06-16 2901.J 131 2022-04-28 136 2022-05-11 131 2022-05-12 155 2022-06-16 3 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2907
+dltp00-2022-06-16 2907.J 837 2022-06-13 852 2022-06-14 840 2022-06-15 845 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2916
+dltp2022-06-16 2916.J 621 2022-04-21 633 2022-05-11 621 2022-05-17 650 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4015
+dltp2022-06-16 4015.J 381 2022-03-09 656 2022-03-25 421 2022-05-19 567 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4119
+dltp2022-06-16 4119.J 2186 2022-05-23 2248 2022-06-10 2202 2022-06-14 2256 2022-06-16 3 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4246
+dltp2022-06-16 4246.J 465 2022-05-26 522 2022-06-09 497 2022-06-15 509 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4264
+dltp00-2022-06-16 4264.J 907 2022-05-16 1118 2022-06-02 989 2022-06-15 993 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4331
+dltp2022-06-16 4331.J 1172 2022-05-12 1750 2022-05-31 1487 2022-06-15 1641 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4335
+dltp00-2022-06-16 4335.J 595 2022-03-08 698 2022-04-21 607 2022-05-19 631 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4491
+dltp00-2022-06-16 4491.J 2636 2022-05-19 2923 2022-06-10 2799 2022-06-14 2800 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4558
+dltp00-2022-06-16 4558.J 221.77 2022-03-09 269 2022-03-31 233 2022-05-17 258 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4576
+dltp2022-06-16 4576.J 200 2022-05-26 220 2022-06-09 202 2022-06-13 210 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4613
+dltp2022-06-16 4613.J 1520 2022-05-26 1799 2022-06-02 1649 2022-06-14 1767 2022-06-15 2 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4616
+dltp00-2022-06-16 4616.J 1721 2022-05-19 1796 2022-06-03 1779 2022-06-06 2043 2022-06-08 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4667
+dltp00-2022-06-16 4667.J 1541 2022-05-10 1785 2022-06-03 1695 2022-06-15 1709 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4668
+dltp2022-06-16 4668.J 562 2022-04-25 587 2022-05-06 572 2022-05-12 604 2022-05-30 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4673
+dltp2022-06-16 4673.J 2421 2022-04-13 2988 2022-04-15 2599 2022-05-20 2853 2022-06-01 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4690
+dltp2022-06-16 4690.J 1060 2022-04-25 1392 2022-05-11 1240 2022-06-15 1290 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4725
+dltp2022-06-16 4725.J 1302 2022-04-27 1449 2022-06-13 1392 2022-06-15 1420 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4770
+dltp00-2022-06-16 4770.J 268 2022-05-13 318 2022-06-09 303 2022-06-15 308 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4880
+dltp2022-06-16 4880.J 3285 2022-06-07 3660 2022-06-09 3440 2022-06-13 3885 2022-06-16 3 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4931
+dltp2022-06-16 4931.J 1286 2022-05-25 1458 2022-06-09 1348 2022-06-15 1381 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4955
+dltp00-2022-06-16 4955.J 1149 2022-05-10 1367 2022-06-08 1239 2022-06-15 1254 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4968
+dltp00-2022-06-16 4968.J 975 2022-05-26 1025 2022-06-09 996 2022-06-15 1007 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5104
+dltp00-2022-06-16 5104.J 396 2022-05-12 399 2022-05-16 397 2022-05-18 415 2022-06-09 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5110
+dltp2022-06-16 5110.J 1070 2022-04-08 1153 2022-04-21 1080 2022-04-27 1260 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5162
+dltp2022-06-16 5162.J 524 2022-05-19 542 2022-05-31 535 2022-06-02 554 2022-06-09 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5212
+dltp00-2022-06-16 5212.J 901 2022-05-13 990 2022-06-08 945 2022-06-14 970 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5285
+dltp2022-06-16 5285.J 534 2022-05-16 595 2022-05-31 575 2022-06-14 584 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5287
+dltp00-2022-06-16 5287.J 708 2022-03-29 758 2022-04-21 713 2022-05-17 757 2022-06-13 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5344
+dltp2022-06-16 5344.J 14260 2022-05-26 16130 2022-06-06 14320 2022-06-14 15280 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5355
+dltp2022-06-16 5355.J 521.88 2022-01-25 586 2022-04-05 561 2022-05-11 585 2022-05-30 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5449
+dltp2022-06-16 5449.J 1219 2022-05-12 1409 2022-05-30 1378 2022-05-31 1495 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5458
+dltp2022-06-16 5458.J 800 2022-04-26 824 2022-06-03 804 2022-06-06 859 2022-06-08 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5464
+dltp2022-06-16 5464.J 2378 2022-05-12 2503 2022-06-07 2412 2022-06-15 2457 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5482
+dltp2022-06-16 5482.J 1910 2022-05-17 2197 2022-06-07 2038 2022-06-15 2088 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5816
+dltp2022-06-16 5816.J 441 2022-05-12 466 2022-05-23 460 2022-05-27 490 2022-06-09 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5906
+dltp2022-06-16 5906.J 341 2022-05-20 344 2022-05-27 341 2022-06-01 351 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5918
+dltp2022-06-16 5918.J 5855.3 2022-02-25 6550 2022-03-31 5900 2022-05-11 6950 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5928
+dltp2022-06-16 5928.J 265 2022-05-16 273 2022-06-10 269 2022-06-15 275 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5945
+dltp2022-06-16 5945.J 2996 2022-06-01 3015 2022-06-06 3005 2022-06-08 3055 2022-06-16 3 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5965
+dltp2022-06-16 5965.J 713 2022-03-25 756 2022-04-15 730 2022-05-31 760 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5970
+dltp2022-06-16 5970.J 1241 2022-05-26 1347 2022-06-09 1280 2022-06-15 1302 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5973
+dltp00-2022-06-16 5973.J 417 2022-05-13 426 2022-05-26 419 2022-05-27 436 2022-06-09 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5989
+dltp2022-06-16 5989.J 575 2022-05-25 630 2022-06-09 590 2022-06-15 604 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5992
+dltp2022-06-16 5992.J 645 2022-05-12 733 2022-06-09 684 2022-06-15 698 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6040
+dltp2022-06-16 6040.J 606 2022-03-09 630 2022-03-18 624 2022-03-22 692 2022-06-03 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6061
+dltp2022-06-16 6061.J 2325 2022-04-27 2435 2022-05-09 2385 2022-05-10 2763 2022-05-31 3 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6063
+dltp00-2022-06-16 6063.J 1093 2022-05-25 1319 2022-06-01 1163 2022-06-15 1188 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6074
+dltp2022-06-16 6074.J 403 2022-04-27 417 2022-05-11 405 2022-05-13 441 2022-06-03 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6090
+dltp2022-06-16 6090.J 568 2022-05-17 646 2022-05-18 581 2022-05-25 629 2022-06-14 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6094
+dltp2022-06-16 6094.J 1604 2022-05-25 1814 2022-06-14 1750 2022-06-15 1798 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6140
+dltp2022-06-16 6140.J 551 2022-04-27 581 2022-05-13 556 2022-05-16 626 2022-06-08 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6158
+dltp00-2022-06-16 6158.J 926 2022-05-16 972 2022-06-09 941 2022-06-15 955 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6181
+dltp2022-06-16 6181.J 96 2022-05-19 115 2022-06-07 99 2022-06-15 112 2022-06-16 3 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6188
+dltp00-2022-06-16 6188.J 281 2022-03-09 406 2022-05-25 352 2022-06-01 400 2022-06-09 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6262
+dltp2022-06-16 6262.J 519.83 2022-03-16 649 2022-05-06 551 2022-05-27 625 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6342
+dltp2022-06-16 6342.J 1520 2022-06-01 1568 2022-06-06 1525 2022-06-09 1593 2022-06-16 1 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6349
+dltp2022-06-16 6349.J 679 2022-04-12 768 2022-05-06 703 2022-05-11 834 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6405
+dltp2022-06-16 6405.J 1464.35 2022-01-27 2378 2022-04-01 1817 2022-05-16 2459 2022-06-10 3 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6428
+dltp00-2022-06-16 6428.J 397 2022-05-25 440 2022-06-07 406 2022-06-15 403 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6459
+dltp2022-06-16 6459.J 992 2022-05-26 1082 2022-06-09 1032 2022-06-15 1050 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6465
+dltp2022-06-16 6465.J 7480 2022-05-19 7960 2022-06-08 7670 2022-06-14 7870 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6473
+dltp2022-06-16 6473.J 817.31 2022-03-09 986.93 2022-03-28 861 2022-04-12 1112 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6548
+dltp2022-06-16 6548.J 647 2022-05-12 884 2022-06-06 770 2022-06-15 799 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6558
+dltp2022-06-16 6558.J 686 2022-02-24 1133 2022-04-07 748 2022-05-12 1037 2022-06-16 1 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6588
+dltp2022-06-16 6588.J 3890 2022-05-17 4240 2022-06-07 4020 2022-06-15 4185 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6647
+dltp2022-06-16 6647.J 1675 2022-05-30 1745 2022-06-02 1697 2022-06-08 1780 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6664
+dltp2022-06-16 6664.J 378 2022-05-16 406 2022-05-23 395 2022-05-27 440 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6734
+dltp2022-06-16 6734.J 1124 2022-05-17 1187 2022-05-26 1153 2022-06-07 1192 2022-06-10 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6819
+dltp2022-06-16 6819.J 99 2022-05-24 101 2022-05-26 100 2022-05-30 106 2022-06-10 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6822
+dltp2022-06-16 6822.J 2261.03 2022-03-17 2528 2022-06-03 2421 2022-06-09 2450 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6823
+dltp2022-06-16 6823.J 2205 2022-04-26 2662 2022-06-08 2501 2022-06-15 2575 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6864
+dltp2022-06-16 6864.J 1081.76 2022-03-15 1366 2022-04-07 1148 2022-05-16 1323 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6879
+dltp2022-06-16 6879.J 609 2022-05-12 715 2022-05-18 690 2022-05-19 779 2022-06-10 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6905
+dltp2022-06-16 6905.J 753 2022-05-19 773 2022-05-23 753 2022-05-25 857 2022-06-16 3 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6971
+dltp2022-06-16 6971.J 6705 2022-04-27 6863 2022-04-28 6765 2022-05-02 7612 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6982
+dltp2022-06-16 6982.J 470 2022-05-26 477 2022-06-01 472 2022-06-02 511 2022-06-10 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6999
+dltp2022-06-16 6999.J 1315 2022-04-18 1819 2022-06-07 1650 2022-06-15 1679 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7021
+dltp2022-06-16 7021.J 1211 2022-05-06 1283 2022-05-13 1216 2022-05-27 1270 2022-06-10 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7042
+dltp2022-06-16 7042.J 814 2022-06-09 828 2022-06-10 818 2022-06-14 831 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7043
+dltp2022-06-16 7043.J 617 2022-03-09 825 2022-04-04 620 2022-05-25 749 2022-06-08 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7070
+dltp2022-06-16 7070.J 292 2022-05-19 306 2022-06-08 295 2022-06-15 301 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7084
+dltp2022-06-16 7084.J 1009 2022-05-26 1150 2022-06-08 1054 2022-06-14 1155 2022-06-16 3 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7097
+dltp00-2022-06-16 7097.J 1253 2022-05-10 1471 2022-06-09 1258 2022-06-15 1263 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7131
+dltp00-2022-06-16 7131.J 872 2022-05-13 890 2022-05-24 877 2022-05-25 965 2022-06-06 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7162
+dltp2022-06-16 7162.J 218.58 2022-03-08 277 2022-04-01 220 2022-05-17 254 2022-06-09 3 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7175
+dltp00-2022-06-16 7175.J 830 2022-05-16 876 2022-06-08 856 2022-06-13 855 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7203
+dltp2022-06-16 7203.J 2005 2022-05-19 2239 2022-06-09 2080 2022-06-15 2140 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7235
+dltp00-2022-06-16 7235.J 610 2022-05-13 647 2022-05-20 644 2022-05-23 714 2022-05-31 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7240
+dltp2022-06-16 7240.J 1050 2022-04-27 1152 2022-05-10 1085 2022-05-25 1240 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7254
+dltp2022-06-16 7254.J 397 2022-05-25 494 2022-06-01 434 2022-06-15 449 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7266
+dltp2022-06-16 7266.J 568 2022-05-26 630 2022-06-02 584 2022-06-15 605 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7284
+dltp00-2022-06-16 7284.J 1005 2022-05-24 1050 2022-05-30 1006 2022-06-14 1040 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7314
+dltp2022-06-16 7314.J 509 2022-05-18 529 2022-05-27 513 2022-05-31 545 2022-06-09 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7363
+dltp2022-06-16 7363.J 1907 2022-05-19 2257 2022-06-08 2058 2022-06-15 2558 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7422
+dltp2022-06-16 7422.J 2668 2022-03-22 2850 2022-04-14 2721 2022-04-25 3050 2022-06-15 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7444
+dltp2022-06-16 7444.J 1655 2022-05-19 1710 2022-06-08 1680 2022-06-13 1699 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7466
+dltp2022-06-16 7466.J 1308 2022-05-24 1407 2022-06-01 1319 2022-06-15 1359 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7472
+dltp00-2022-06-16 7472.J 2791 2022-05-31 2832 2022-06-08 2798 2022-06-15 2817 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7486
+dltp2022-06-16 7486.J 619 2022-05-16 645 2022-05-20 626 2022-05-24 678 2022-06-14 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7505
+dltp2022-06-16 7505.J 1170 2022-05-20 1210 2022-05-23 1201 2022-05-24 1305 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7599
+dltp2022-06-16 7599.J 562 2022-03-09 784 2022-04-05 611 2022-04-26 737 2022-06-14 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7623
+dltp2022-06-16 7623.J 364.1 2022-02-24 470.79 2022-04-01 408 2022-05-20 475 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7624
+dltp2022-06-16 7624.J 165 2022-04-28 170 2022-05-23 168 2022-05-24 176 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7634
+dltp2022-06-16 7634.J 3215.53 2022-03-14 3570 2022-05-26 3430 2022-06-03 3580 2022-06-06 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7677
+dltp2022-06-16 7677.J 1835.79 2022-02-28 1999.63 2022-03-02 1902 2022-04-11 2098 2022-06-03 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7681
+dltp2022-06-16 7681.J 2568 2022-05-27 2669 2022-06-06 2625 2022-06-08 2633 2022-06-16 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7686
+dltp00-2022-06-16 7686.J 1252 2022-03-09 1530 2022-03-24 1319 2022-05-19 1456 2022-06-13 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7808
+dltp2022-06-16 7808.J 3490 2022-05-26 3790 2022-06-03 3680 2022-06-06 3950 2022-06-08 1 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7811
+dltp00-2022-06-16 7811.J 1499 2022-04-19 1636 2022-06-08 1565 2022-06-15 1590 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7813
+dltp00-2022-06-16 7813.J 826 2022-05-18 865 2022-06-02 856 2022-06-06 867 2022-06-09 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7816
+dltp2022-06-16 7816.J 2039 2022-05-12 2849 2022-06-09 2400 2022-06-14 2476 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7896
+dltp2022-06-16 7896.J 498 2022-05-13 521 2022-06-09 503 2022-06-14 515 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7932
+dltp2022-06-16 7932.J 3405 2022-05-27 3490 2022-06-09 3460 2022-06-13 3475 2022-06-14 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7955
+dltp2022-06-16 7955.J 524 2022-05-09 583 2022-06-08 545 2022-06-15 561 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8018
+dltp2022-06-16 8018.J 524 2022-05-26 581 2022-06-08 538 2022-06-15 559 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8039
+dltp00-2022-06-16 8039.J 2605 2022-04-26 2685 2022-05-10 2613 2022-05-12 2791 2022-06-13 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8118
+dltp2022-06-16 8118.J 506 2022-05-11 529 2022-05-16 510 2022-05-19 576 2022-06-07 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8147
+dltp2022-06-16 8147.J 950 2022-05-02 984 2022-05-16 955 2022-05-17 1033 2022-06-01 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8214
+dltp2022-06-16 8214.J 499.76 2022-03-09 711 2022-06-09 663 2022-06-15 674 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8354
+dltp00-2022-06-16 8354.J 2054.78 2022-03-08 2486 2022-04-21 2196 2022-05-20 2472 2022-06-15 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8424
+dltp2022-06-16 8424.J 6800 2022-04-27 7030 2022-04-28 7020 2022-05-02 7830 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8624
+dltp2022-06-16 8624.J 550 2022-05-12 602 2022-05-16 588 2022-05-19 647 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8708
+dltp2022-06-16 8708.J 638 2022-05-12 686 2022-05-23 659 2022-05-24 708 2022-06-08 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8747
+dltp00-2022-06-16 8747.J 796 2022-05-17 860 2022-05-24 820 2022-06-15 837 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8802
+dltp2022-06-16 8802.J 1592.95 2022-03-09 1884.5 2022-05-06 1790.5 2022-05-11 1994.5 2022-06-13 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8841
+dltp2022-06-16 8841.J 603 2022-05-26 648 2022-06-09 618 2022-06-14 633 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8844
+dltp2022-06-16 8844.J 413 2022-05-10 425 2022-05-11 413 2022-05-20 472 2022-05-31 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8889
+dltp2022-06-16 8889.J 477 2022-05-30 481 2022-06-01 480 2022-06-03 488 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8891
+dltp2022-06-16 8891.J 882 2022-05-31 956 2022-06-09 911 2022-06-15 939 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8905
+dltp2022-06-16 8905.J 1528 2022-04-13 1598 2022-05-30 1557 2022-05-31 1671 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8914
+dltp2022-06-16 8914.J 1351 2022-05-16 1452 2022-06-07 1372 2022-06-15 1406 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8927
+dltp2022-06-16 8927.J 180 2022-05-09 206 2022-06-13 188 2022-06-15 193 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8999
+dltp00-2022-06-16 8999.J 515 2022-05-24 541 2022-06-09 523 2022-06-15 530 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9029
+dltp00-2022-06-16 9029.J 603 2022-05-09 661 2022-06-08 635 2022-06-15 640 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9034
+dltp2022-06-16 9034.J 1047 2022-04-08 1081 2022-04-13 1062 2022-05-10 1175 2022-06-16 3 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9307
+dltp00-2022-06-16 9307.J 597.34 2022-03-08 757 2022-03-30 629 2022-06-15 639 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9318
+dltp2022-06-16 9318.J 5 2022-06-07 6 2022-06-10 5 2022-06-13 6 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9369
+dltp2022-06-16 9369.J 1069 2022-05-31 1114 2022-06-08 1075 2022-06-15 1099 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9416
+dltp2022-06-16 9416.J 1232 2022-05-25 1416 2022-06-09 1295 2022-06-15 1333 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9421
+dltp00-2022-06-16 9421.J 611 2022-03-08 755 2022-05-10 660 2022-05-17 721 2022-06-08 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9517
+dltp2022-06-16 9517.J 1954 2022-06-02 2221 2022-06-09 2036 2022-06-15 2088 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9635
+dltp2022-06-16 9635.J 2126 2022-03-31 2187 2022-05-13 2149 2022-05-19 2235 2022-06-06 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9720
+dltp2022-06-16 9720.J 3920 2022-05-24 3990 2022-06-14 3930 2022-06-15 3980 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9778
+dltp2022-06-16 9778.J 4400 2021-09-02 4800 2022-02-24 4565 2022-03-08 5020 2022-06-13 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9780
+dltp2022-06-16 9780.J 4099.95 2022-03-08 4678.59 2022-03-22 4285 2022-05-18 5180 2022-06-01 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9791
+dltp2022-06-16 9791.J 894 2022-05-18 910 2022-05-20 899 2022-05-25 937 2022-05-30 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9823
+dltp2022-06-16 9823.J 2157 2022-05-11 2187 2022-05-18 2167 2022-05-20 2230 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9835
+dltp2022-06-16 9835.J 574 2022-05-25 600 2022-05-27 592 2022-05-31 617 2022-06-13 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9846
+dltp2022-06-16 9846.J 988 2022-04-25 1034 2022-06-10 1008 2022-06-15 1019 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9967
+dltp2022-06-16 9967.J 2198 2022-05-16 2368 2022-05-30 2276 2022-06-01 2410 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9978
+dltp2022-06-16 9978.J 43 2022-05-25 44 2022-05-26 43 2022-05-27 50 2022-06-08 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9979
+dltp2022-06-16 9979.J 1000 2022-04-25 1061 2022-05-06 1025 2022-05-10 1187 2022-06-06 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9990
+dltp2022-06-16 9990.J 487 2022-04-25 610 2022-06-03 541 2022-06-15 559 2022-06-16 0 true
+date==dltp3l=2022-06-16  ma_n= 60
+day industry code name turnover_ratio pe_ratio industry_cnt inc_revenue_year_rank inc_revenue_annual_rank cfo_sales_rank leverage_ratio_rank
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1431
+dltp2022-06-16 1431.J 763 2022-06-13 773 2022-06-14 765 2022-06-15 768 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1758
+dltp2022-06-16 1758.J 4640 2022-04-28 4795 2022-05-13 4660 2022-05-24 4890 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1768
+dltp2022-06-16 1768.J 1016 2022-06-10 1021 2022-06-14 1016 2022-06-15 1040 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1773
+dltp2022-06-16 1773.J 16 2022-05-19 17 2022-05-30 17 2022-05-31 19 2022-06-06 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1828
+dltp00-2022-06-16 1828.J 900 2022-06-10 903 2022-06-13 900 2022-06-14 910 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1946
+dltp2022-06-16 1946.J 3040 2022-05-20 3515 2022-06-09 3215 2022-06-15 3330 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1960
+dltp2022-06-16 1960.J 622 2022-05-11 679 2022-06-09 651 2022-06-14 676 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1975
+dltp2022-06-16 1975.J 1499 2022-05-19 1587 2022-05-23 1531 2022-05-24 1663 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2053
+dltp2022-06-16 2053.J 955 2022-05-12 1048 2022-06-01 989 2022-06-15 1009 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2216
+dltp2022-06-16 2216.J 1500 2022-04-05 1507 2022-04-08 1500 2022-04-11 1695 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2220
+dltp2022-06-16 2220.J 4035 2022-04-27 4240 2022-05-06 4040 2022-05-09 4540 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2282
+dltp2022-06-16 2282.J 3915 2022-05-27 4090 2022-06-08 4020 2022-06-14 4150 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2393
+dltp2022-06-16 2393.J 1295.48 2022-02-24 1381.78 2022-03-14 1349.18 2022-03-15 1499 2022-06-06 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2411
+dltp2022-06-16 2411.J 300 2022-04-12 330 2022-04-18 306 2022-05-13 326 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2415
+dltp2022-06-16 2415.J 851 2022-05-02 868 2022-05-09 856 2022-05-12 981 2022-06-10 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2424
+dltp00-2022-06-16 2424.J 669 2022-04-28 910 2022-06-10 790 2022-06-14 865 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2454
+dltp2022-06-16 2454.J 491 2022-05-13 540 2022-06-06 527 2022-06-15 538 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2464
+dltp2022-06-16 2464.J 407 2022-05-20 458 2022-06-09 414 2022-06-15 433 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2488
+dltp2022-06-16 2488.J 595.37 2022-03-09 653 2022-04-05 625 2022-05-12 702 2022-06-06 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2687
+dltp00-2022-06-16 2687.J 350 2022-03-11 381 2022-04-04 360 2022-04-07 402 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2693
+dltp2022-06-16 2693.J 232 2022-03-09 279 2022-04-07 255 2022-04-12 295 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2768
+dltp2022-06-16 2768.J 1938 2022-05-11 1996 2022-05-13 1954 2022-05-16 2165 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2806
+dltp2022-06-16 2806.J 1769.65 2022-03-22 1834 2022-05-18 1803 2022-06-01 1869 2022-06-06 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2814
+dltp2022-06-16 2814.J 1360.12 2022-03-15 1498 2022-04-20 1395 2022-05-20 1633 2022-06-10 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2907
+dltp00-2022-06-16 2907.J 818 2022-03-29 849 2022-04-06 825 2022-04-27 854 2022-06-09 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2916
+dltp2022-06-16 2916.J 606.49 2022-03-04 623.09 2022-03-08 607.47 2022-03-10 650 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2917
+dltp2022-06-16 2917.J 774 2022-01-27 784 2022-02-01 779 2022-02-04 811 2022-05-17 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4015
+dltp2022-06-16 4015.J 381 2022-03-09 656 2022-03-25 421 2022-05-19 567 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4169
+dltp2022-06-16 4169.J 510 2022-05-12 797 2022-06-09 684 2022-06-13 800 2022-06-16 2 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4264
+dltp00-2022-06-16 4264.J 907 2022-05-16 1118 2022-06-02 989 2022-06-15 993 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4558
+dltp00-2022-06-16 4558.J 221.77 2022-03-09 269 2022-03-31 233 2022-05-17 258 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4576
+dltp2022-06-16 4576.J 200 2022-05-26 220 2022-06-09 202 2022-06-13 210 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4578
+dltp2022-06-16 4578.J 3837 2022-03-08 4550 2022-05-18 4311 2022-06-15 4360 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4668
+dltp2022-06-16 4668.J 542 2022-03-08 597 2022-04-01 562 2022-04-25 604 2022-05-30 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4719
+dltp2022-06-16 4719.J 3625 2022-04-26 3985 2022-05-06 3720 2022-05-10 4435 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4772
+dltp2022-06-16 4772.J 132 2022-05-16 149 2022-05-25 142 2022-05-27 165 2022-06-14 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4931
+dltp2022-06-16 4931.J 1286 2022-05-25 1458 2022-06-09 1348 2022-06-15 1381 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4955
+dltp00-2022-06-16 4955.J 1149 2022-05-10 1213 2022-05-13 1170 2022-05-17 1367 2022-06-08 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5104
+dltp00-2022-06-16 5104.J 393 2022-04-25 400 2022-05-02 396 2022-05-06 415 2022-06-09 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5110
+dltp2022-06-16 5110.J 1070 2022-04-08 1153 2022-04-21 1080 2022-04-27 1260 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5162
+dltp2022-06-16 5162.J 524 2022-05-19 554 2022-06-09 540 2022-06-15 542 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5285
+dltp2022-06-16 5285.J 561 2022-05-20 595 2022-05-31 575 2022-06-14 584 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5337
+dltp2022-06-16 5337.J 220 2022-01-27 371 2022-02-10 224 2022-03-14 304 2022-06-06 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5344
+dltp2022-06-16 5344.J 14260 2022-05-26 16130 2022-06-06 14320 2022-06-14 15280 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5368
+dltp2022-06-16 5368.J 853 2022-05-23 882 2022-06-08 863 2022-06-15 869 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5395
+dltp2022-06-16 5395.J 1953 2022-04-08 1984 2022-04-14 1961 2022-04-18 2200 2022-06-16 2 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5449
+dltp2022-06-16 5449.J 1378 2022-05-31 1495 2022-06-09 1421 2022-06-15 1452 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5802
+dltp2022-06-16 5802.J 1344.5 2022-04-27 1465.5 2022-05-06 1387 2022-05-19 1525.5 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5918
+dltp2022-06-16 5918.J 5666.74 2022-02-15 6550 2022-03-31 5900 2022-05-11 6950 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5929
+dltp2022-06-16 5929.J 1102 2022-04-18 1202 2022-05-06 1117 2022-05-12 1310 2022-06-01 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5945
+dltp2022-06-16 5945.J 2840.61 2022-03-09 3055 2022-05-06 2975 2022-05-10 3055 2022-06-16 3 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5965
+dltp2022-06-16 5965.J 730 2022-05-19 739 2022-05-27 730 2022-05-31 760 2022-06-16 3 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5973
+dltp00-2022-06-16 5973.J 417 2022-05-13 436 2022-06-09 426 2022-06-13 432 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5984
+dltp2022-06-16 5984.J 696 2022-05-23 697 2022-05-25 696 2022-05-31 726 2022-06-09 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5989
+dltp2022-06-16 5989.J 556.35 2022-03-11 630 2022-06-09 590 2022-06-15 604 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5994
+dltp00-2022-06-16 5994.J 1342 2022-03-14 1479.14 2022-03-25 1346 2022-06-07 1380 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6030
+dltp2022-06-16 6030.J 7710 2022-05-19 9370 2022-05-27 8310 2022-06-13 8800 2022-06-16 1 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6040
+dltp2022-06-16 6040.J 606 2022-03-09 630 2022-03-18 624 2022-03-22 692 2022-06-03 3 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6063
+dltp00-2022-06-16 6063.J 1093 2022-05-25 1319 2022-06-01 1163 2022-06-15 1188 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6074
+dltp2022-06-16 6074.J 403 2022-04-27 417 2022-05-11 405 2022-05-13 441 2022-06-03 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6085
+dltp2022-06-16 6085.J 615 2022-05-17 687 2022-06-02 631 2022-06-13 654 2022-06-15 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6090
+dltp2022-06-16 6090.J 568 2022-05-17 646 2022-05-18 581 2022-05-25 629 2022-06-14 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6140
+dltp2022-06-16 6140.J 556 2022-05-16 586 2022-05-20 568 2022-05-24 626 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6144
+dltp2022-06-16 6144.J 1426 2022-06-03 1458 2022-06-10 1440 2022-06-14 1515 2022-06-16 3 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6164
+dltp00-2022-06-16 6164.J 1063 2022-03-09 1203 2022-03-28 1065 2022-04-11 1314 2022-06-07 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6235
+dltp2022-06-16 6235.J 1853 2022-05-24 2111 2022-06-01 1965 2022-06-15 2003 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6248
+dltp2022-06-16 6248.J 1060 2022-05-13 1067 2022-05-18 1064 2022-05-19 1082 2022-06-03 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6262
+dltp2022-06-16 6262.J 551 2022-05-27 576 2022-06-02 573 2022-06-06 625 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6268
+dltp2022-06-16 6268.J 2792 2022-05-09 3095 2022-05-13 2954 2022-05-25 3320 2022-06-10 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6302
+dltp2022-06-16 6302.J 2549.32 2022-03-08 2948.69 2022-03-25 2611 2022-04-12 3295 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6342
+dltp2022-06-16 6342.J 1480.58 2022-03-11 1568 2022-06-06 1525 2022-06-09 1593 2022-06-16 1 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6349
+dltp2022-06-16 6349.J 692 2022-04-27 768 2022-05-06 703 2022-05-11 834 2022-06-08 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6428
+dltp00-2022-06-16 6428.J 397 2022-05-25 440 2022-06-07 406 2022-06-15 403 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6558
+dltp2022-06-16 6558.J 686 2022-02-24 1133 2022-04-07 748 2022-05-12 1037 2022-06-16 1 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6630
+dltp2022-06-16 6630.J 895.48 2022-03-11 1297.8 2022-04-12 1073 2022-05-25 1399 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6647
+dltp2022-06-16 6647.J 1637 2022-05-19 1771 2022-05-26 1675 2022-05-30 1780 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6664
+dltp2022-06-16 6664.J 378 2022-05-16 428 2022-06-03 405 2022-06-15 440 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6742
+dltp2022-06-16 6742.J 415 2022-04-18 452 2022-06-08 422 2022-06-15 434 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6755
+dltp2022-06-16 6755.J 2140.85 2022-03-08 2449 2022-04-04 2166 2022-05-10 2544 2022-06-07 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6762
+dltp2022-06-16 6762.J 3660.58 2022-03-11 4479 2022-03-29 3855 2022-04-27 4770 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6772
+dltp2022-06-16 6772.J 1502 2022-04-18 1700 2022-04-28 1549 2022-05-27 1631 2022-06-14 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6775
+dltp2022-06-16 6775.J 157 2022-05-20 160 2022-05-23 157 2022-05-26 169 2022-06-01 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6786
+dltp2022-06-16 6786.J 68 2022-05-30 70 2022-06-01 69 2022-06-02 73 2022-06-10 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6806
+dltp2022-06-16 6806.J 16960 2022-05-24 16990 2022-05-25 16960 2022-05-26 18440 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6815
+dltp2022-06-16 6815.J 2759 2022-05-26 3440 2022-06-01 3275 2022-06-03 3870 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6823
+dltp2022-06-16 6823.J 1982.62 2022-03-11 2488 2022-04-08 2205 2022-04-26 2662 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6864
+dltp2022-06-16 6864.J 1154 2022-05-27 1264 2022-06-08 1241 2022-06-13 1323 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6879
+dltp2022-06-16 6879.J 609 2022-05-12 779 2022-06-10 710 2022-06-15 727 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6905
+dltp2022-06-16 6905.J 730.59 2022-04-26 782 2022-05-30 765 2022-05-31 857 2022-06-16 3 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6923
+dltp2022-06-16 6923.J 2028 2022-04-12 2399 2022-06-01 2225 2022-06-14 2267 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6971
+dltp2022-06-16 6971.J 5998.18 2022-03-09 6955 2022-03-30 6564 2022-04-12 7612 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7042
+dltp2022-06-16 7042.J 814 2022-06-09 828 2022-06-10 818 2022-06-14 831 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7073
+dltp2022-06-16 7073.J 2080 2022-05-16 2389 2022-06-07 2212 2022-06-08 2599 2022-06-16 3 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7077
+dltp00-2022-06-16 7077.J 941 2022-05-31 991 2022-06-07 946 2022-06-13 953 2022-06-16 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7097
+dltp00-2022-06-16 7097.J 1253 2022-05-10 1471 2022-06-09 1258 2022-06-15 1263 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7131
+dltp00-2022-06-16 7131.J 872 2022-05-13 890 2022-05-24 877 2022-05-25 965 2022-06-06 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7187
+dltp2022-06-16 7187.J 1388 2022-05-09 1663 2022-05-16 1611 2022-05-18 1871 2022-05-26 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7205
+dltp2022-06-16 7205.J 630.81 2022-03-09 743 2022-06-08 692 2022-06-15 705 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7266
+dltp2022-06-16 7266.J 568 2022-05-26 630 2022-06-02 584 2022-06-15 605 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7284
+dltp00-2022-06-16 7284.J 1006 2022-06-06 1020 2022-06-09 1006 2022-06-14 1040 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7292
+dltp2022-06-16 7292.J 2248 2022-05-26 2413 2022-06-06 2400 2022-06-07 2421 2022-06-10 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7314
+dltp2022-06-16 7314.J 465 2022-02-18 503 2022-03-24 497 2022-03-25 545 2022-06-09 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7369
+dltp2022-06-16 7369.J 1123 2022-05-12 1459 2022-06-08 1250 2022-06-15 1306 2022-06-16 3 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7444
+dltp2022-06-16 7444.J 1655 2022-05-19 1710 2022-06-08 1680 2022-06-13 1699 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7458
+dltp2022-06-16 7458.J 3085.77 2022-03-09 3665 2022-04-05 3285 2022-04-12 4030 2022-05-30 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7466
+dltp2022-06-16 7466.J 1308 2022-05-24 1407 2022-06-01 1319 2022-06-15 1359 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7467
+dltp2022-06-16 7467.J 1851 2022-05-12 2029 2022-05-24 2006 2022-05-26 2125 2022-06-08 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7472
+dltp00-2022-06-16 7472.J 2369.73 2021-10-06 2832 2022-06-08 2798 2022-06-15 2817 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7505
+dltp2022-06-16 7505.J 1140.41 2022-03-22 1294 2022-03-31 1170 2022-05-20 1305 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7551
+dltp2022-06-16 7551.J 448.34 2022-03-09 485 2022-05-10 474 2022-06-15 477 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7623
+dltp2022-06-16 7623.J 408 2022-05-20 451 2022-06-09 428 2022-06-14 475 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7624
+dltp2022-06-16 7624.J 166 2022-05-16 170 2022-05-23 168 2022-05-24 176 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7634
+dltp2022-06-16 7634.J 3215.53 2022-03-14 3435 2022-04-22 3345 2022-04-25 3580 2022-06-06 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7638
+dltp2022-06-16 7638.J 1030.02 2022-03-09 1395 2022-04-12 1139 2022-06-13 1312 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7677
+dltp2022-06-16 7677.J 1896 2022-03-29 1955 2022-04-04 1902 2022-04-11 2098 2022-06-03 2 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7686
+dltp00-2022-06-16 7686.J 1319 2022-05-19 1456 2022-06-13 1419 2022-06-15 1428 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7792
+dltp2022-06-16 7792.J 636 2022-05-12 849 2022-05-31 719 2022-06-15 746 2022-06-16 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7811
+dltp00-2022-06-16 7811.J 1554 2022-05-12 1636 2022-06-08 1565 2022-06-15 1590 2022-06-16 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7813
+dltp00-2022-06-16 7813.J 826 2022-03-17 891 2022-05-02 826 2022-05-18 867 2022-06-09 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7885
+dltp2022-06-16 7885.J 657.19 2022-03-09 879 2022-06-02 766 2022-06-15 810 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7906
+dltp2022-06-16 7906.J 798 2022-05-10 1094 2022-05-31 978 2022-06-15 1000 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7919
+dltp2022-06-16 7919.J 107 2022-05-12 110 2022-05-18 108 2022-05-20 114 2022-06-01 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7922
+dltp2022-06-16 7922.J 316 2022-05-12 318 2022-05-16 317 2022-05-18 344 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7955
+dltp2022-06-16 7955.J 524 2022-05-09 536 2022-05-11 527 2022-05-12 583 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7958
+dltp2022-06-16 7958.J 2095 2022-05-26 2314 2022-05-31 2300 2022-06-01 2447 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7983
+dltp2022-06-16 7983.J 1462.63 2022-03-09 1523.82 2022-04-21 1500 2022-04-28 1685 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7997
+dltp2022-06-16 7997.J 558 2022-05-17 595 2022-06-03 559 2022-06-15 579 2022-06-16 3 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8014
+dltp2022-06-16 8014.J 1627.49 2022-03-08 1784 2022-03-30 1731 2022-04-26 2006 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8018
+dltp2022-06-16 8018.J 524 2022-04-25 550 2022-05-02 524 2022-05-26 581 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8118
+dltp2022-06-16 8118.J 506 2022-05-11 529 2022-05-16 510 2022-05-19 576 2022-06-07 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8147
+dltp2022-06-16 8147.J 943.78 2022-02-28 984 2022-05-16 955 2022-05-17 1033 2022-06-01 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8424
+dltp2022-06-16 8424.J 6502.11 2022-03-09 7170 2022-05-06 7120 2022-05-09 7830 2022-06-08 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8462
+dltp2022-06-16 8462.J 538.33 2022-03-08 659 2022-04-13 556 2022-05-24 740 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8699
+dltp2022-06-16 8699.J 1234 2022-05-20 1346 2022-06-06 1270 2022-06-15 1317 2022-06-16 1 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8747
+dltp00-2022-06-16 8747.J 770 2022-04-07 860 2022-05-24 818 2022-06-02 841 2022-06-08 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8844
+dltp2022-06-16 8844.J 413 2022-05-10 425 2022-05-11 413 2022-05-20 472 2022-05-31 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8889
+dltp2022-06-16 8889.J 477 2022-05-30 486 2022-06-10 482 2022-06-13 488 2022-06-16 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8905
+dltp2022-06-16 8905.J 1528 2022-04-13 1598 2022-05-30 1557 2022-05-31 1671 2022-06-09 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8927
+dltp2022-06-16 8927.J 175 2022-03-08 185 2022-03-17 178 2022-03-22 206 2022-06-13 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9029
+dltp00-2022-06-16 9029.J 603 2022-04-22 612 2022-04-26 603 2022-04-28 661 2022-06-08 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9259
+dltp2022-06-16 9259.J 1459 2022-05-12 1738 2022-05-24 1717 2022-05-25 1809 2022-06-08 2 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9307
+dltp00-2022-06-16 9307.J 629 2022-05-12 679 2022-05-30 629 2022-06-15 639 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9318
+dltp2022-06-16 9318.J 5 2022-06-07 6 2022-06-10 5 2022-06-13 6 2022-06-16 2 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9369
+dltp2022-06-16 9369.J 820.93 2021-08-20 1008.46 2021-11-05 833 2022-01-27 1114 2022-06-08 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9421
+dltp00-2022-06-16 9421.J 561 2022-02-07 755 2022-05-10 660 2022-05-17 721 2022-06-08 0 false
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9444
+dltp00-2022-06-16 9444.J 613 2022-04-28 638 2022-06-07 633 2022-06-15 632 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9517
+dltp2022-06-16 9517.J 1647 2022-03-29 2070 2022-04-11 1787 2022-05-13 2242 2022-05-18 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9635
+dltp2022-06-16 9635.J 2127 2022-04-07 2143 2022-04-11 2140 2022-04-12 2235 2022-06-06 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9661
+dltp2022-06-16 9661.J 4665 2022-03-29 4715 2022-04-12 4680 2022-04-13 4875 2022-04-22 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9720
+dltp2022-06-16 9720.J 3920 2022-05-24 3990 2022-06-14 3930 2022-06-15 3980 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9726
+dltp2022-06-16 9726.J 1404 2022-05-12 1802 2022-06-06 1589 2022-06-15 1625 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9778
+dltp2022-06-16 9778.J 4565 2022-03-08 4690 2022-03-30 4660 2022-04-01 5020 2022-06-13 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9780
+dltp2022-06-16 9780.J 3946.63 2022-02-28 4678.59 2022-03-22 4285 2022-05-18 5180 2022-06-01 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9791
+dltp2022-06-16 9791.J 879 2022-04-07 950 2022-05-13 894 2022-05-18 937 2022-05-30 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9816
+dltp2022-06-16 9816.J 212 2022-04-14 221 2022-04-26 213 2022-06-14 223 2022-06-15 3 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9823
+dltp2022-06-16 9823.J 2157 2022-05-11 2187 2022-05-18 2167 2022-05-20 2230 2022-06-16 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9846
+dltp2022-06-16 9846.J 976 2022-02-25 1000 2022-04-21 988 2022-04-25 1034 2022-06-10 0 true
+tp00 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9854
+dltp00-2022-06-16 9854.J 174 2021-12-28 200 2022-03-29 185 2022-06-15 186 2022-06-16 0 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9967
+dltp2022-06-16 9967.J 2198 2022-05-16 2368 2022-05-30 2276 2022-06-01 2410 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9976
+dltp2022-06-16 9976.J 1471 2022-02-22 1687 2022-04-25 1600 2022-04-26 1775 2022-06-16 0 true
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9978
+dltp2022-06-16 9978.J 42 2022-05-20 44 2022-05-26 43 2022-05-30 50 2022-06-08 1 false
+tp 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9979
+dltp2022-06-16 9979.J 1000 2022-04-25 1061 2022-05-06 1025 2022-05-10 1187 2022-06-06 0 true
+dltp3l cost is :72878341 
+date==xc=2022-06-16
+day industry code name turnover_ratio pe_ratio industry_cnt inc_revenue_year_rank inc_revenue_annual_rank cfo_sales_rank leverage_ratio_rank
+xc 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7685
+xc2022-06-16 7685.J []
+xc cost is :83127853 
+date==qkht=2022-06-16
+day industry code name turnover_ratio pe_ratio industry_cnt inc_revenue_year_rank inc_revenue_annual_rank cfo_sales_rank leverage_ratio_rank
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1332
+qkht2022-06-16 1332.J [-1 500.62 528] [0000-00-00 2022-03-10 2022-06-01] [550]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1376
+qkht2022-06-16 1376.J [-1 883.26 1153.93 1582] [0000-00-00 2020-03-16 2020-03-27 2022-04-19] [1687]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1776
+qkht2022-06-16 1776.J [-1 678.83 972] [0000-00-00 2020-04-28 2022-06-15] [1021]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1905
+qkht2022-06-16 1905.J [-1 636.01 757.61 782] [0000-00-00 2020-03-24 2020-05-25 2022-05-13] [843]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1965
+qkht2022-06-16 1965.J [-1 698.28 809.58] [0000-00-00 2020-04-09 2020-06-15] [857]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1994
+qkht2022-06-16 1994.J [-1 483.42] [0000-00-00 2020-11-05] [513]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2173
+qkht2022-06-16 2173.J [-1 476.43 570 666] [0000-00-00 2022-03-10 2022-06-01 2022-06-16] [704]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2179
+qkht2022-06-16 2179.J [-1 668.1 677] [0000-00-00 2020-04-28 2020-04-30] [709]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2198
+qkht2022-06-16 2198.J [-1 468.08 537] [0000-00-00 2020-08-04 2022-03-16] [588]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2282
+qkht2022-06-16 2282.J [-1 2974.01 3375.47 3864.08 4065] [0000-00-00 2020-03-24 2020-04-27 2021-12-10 2022-06-16] [4150]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2418
+qkht2022-06-16 2418.J [-1 318] [0000-00-00 2022-05-30] [337]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2436
+qkht2022-06-16 2436.J [-1 698.59 850] [0000-00-00 2020-08-03 2022-06-02] [920]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2445
+qkht2022-06-16 2445.J [-1 355] [0000-00-00 2022-05-30] [382]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2454
+qkht2022-06-16 2454.J [-1 502] [0000-00-00 2022-05-20] [538]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2483
+qkht2022-06-16 2483.J [-1 1238.68 1390.73 1460 1492 1530] [0000-00-00 2021-01-12 2022-03-30 2022-06-07 2022-06-13 2022-06-16] [1560]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2487
+qkht2022-06-16 2487.J [-1 1172.91] [0000-00-00 2020-03-23] [1290]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2687
+qkht2022-06-16 2687.J [-1 388] [0000-00-00 2022-06-02] [402]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2708
+qkht2022-06-16 2708.J [-1 621] [0000-00-00 2022-05-27] [640]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2749
+qkht2022-06-16 2749.J [-1 212 222] [0000-00-00 2022-05-13 2022-06-16] [226]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2761
+qkht2022-06-16 2761.J [-1 5253.83 5752.66 5782.52 5950] [0000-00-00 2020-08-03 2022-04-27 2022-05-06 2022-06-16] [6100]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2907
+qkht2022-06-16 2907.J [-1 615.25 655.81 667.41 783.32 820.95] [0000-00-00 2020-04-07 2020-04-28 2020-05-01 2021-01-05 2022-03-30] [845]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4041
+qkht2022-06-16 4041.J [-1 2320.1 3058.92 3480 3880 4405] [0000-00-00 2020-03-25 2021-07-12 2022-05-11 2022-05-30 2022-06-16] [4555]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4307
+qkht2022-06-16 4307.J [-1 2182.16 2791.9 2971.51 3380] [0000-00-00 2020-04-07 2020-09-15 2020-10-29 2022-05-23] [3745]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4360
+qkht2022-06-16 4360.J [-1 516 520] [0000-00-00 2022-04-18 2022-04-19] [587]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4558
+qkht2022-06-16 4558.J [-1 214.22 240] [0000-00-00 2020-01-22 2022-05-23] [258]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4581
+qkht2022-06-16 4581.J [-1 4915] [0000-00-00 2022-06-16] [5000]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4592
+qkht2022-06-16 4592.J [-1 951] [0000-00-00 2021-12-16] [1096]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4616
+qkht2022-06-16 4616.J [-1 1434 1460 1783] [0000-00-00 2022-03-15 2022-03-16 2022-06-07] [1962]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4735
+qkht2022-06-16 4735.J [-1 499] [0000-00-00 2022-06-16] [504]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4769
+qkht2022-06-16 4769.J [-1 825 841 852] [0000-00-00 2022-06-07 2022-06-08 2022-06-15] [897]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4847
+qkht2022-06-16 4847.J [-1 429.52 657 757] [0000-00-00 2020-03-24 2022-06-03 2022-06-15] [883]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5101
+qkht2022-06-16 5101.J [-1 1247.8 1320.57 1431 1481 1678] [0000-00-00 2020-05-11 2020-08-04 2022-03-10 2022-03-14 2022-06-01] [1764]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5108
+qkht2022-06-16 5108.J [-1 3272.16 3348.93 3605.49 3822.21 3890.24 4413 4756] [0000-00-00 2021-01-07 2021-01-08 2021-01-14 2021-02-03 2021-02-04 2022-03-17 2022-05-12] [5167]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5121
+qkht2022-06-16 5121.J [-1 478.56 499.27 631.05 823] [0000-00-00 2021-07-26 2021-08-10 2022-03-10 2022-05-30] [868]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5212
+qkht2022-06-16 5212.J [-1 382.02 390.91 409.66 418.54 443.22 475.79 528.12 618.92 717.64 860.77 928] [0000-00-00 2020-04-08 2020-04-14 2020-04-24 2020-04-27 2020-05-07 2020-05-21 2020-08-21 2020-08-24 2020-08-25 2020-10-20 2022-05-23] [970]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5344
+qkht2022-06-16 5344.J [-1 7026.07 7995.88 10546.77 14470 15060] [0000-00-00 2020-04-30 2020-07-15 2021-10-15 2022-06-15 2022-06-16] [15280]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5395
+qkht2022-06-16 5395.J [-1 1663.97 1762.88 1801.67 1869.36 1953 2008 2100 2130 2162] [0000-00-00 2021-01-07 2021-05-14 2021-05-31 2021-09-24 2022-04-14 2022-04-19 2022-05-25 2022-05-30 2022-06-16] [2200]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5446
+qkht2022-06-16 5446.J [-1 961 973 1029] [0000-00-00 2022-05-18 2022-05-23 2022-05-24] [1118]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5928
+qkht2022-06-16 5928.J [-1 194.1 201.67 245.09] [0000-00-00 2020-04-07 2020-04-09 2021-02-25] [275]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5973
+qkht2022-06-16 5973.J [-1 354.69 393.26] [0000-00-00 2020-04-28 2020-08-05] [432]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6030
+qkht2022-06-16 6030.J [-1 1845.62 6640 7140 8630] [0000-00-00 2020-04-07 2022-03-10 2022-03-14 2022-06-16] [8800]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6042
+qkht2022-06-16 6042.J [-1 1778] [0000-00-00 2022-06-16] [1819]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6074
+qkht2022-06-16 6074.J [-1 406] [0000-00-00 2022-05-16] [440]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6144
+qkht2022-06-16 6144.J [-1 1002.68 1050.42 1307.79 1470] [0000-00-00 2020-09-23 2020-09-29 2021-12-10 2022-06-16] [1515]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6164
+qkht2022-06-16 6164.J [-1 1180] [0000-00-00 2022-05-24] [1289]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6258
+qkht2022-06-16 6258.J [-1 3911.24] [0000-00-00 2020-03-24] [4190]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6265
+qkht2022-06-16 6265.J [-1 1488.07 1705 1903 1956] [0000-00-00 2020-08-25 2022-05-13 2022-06-15 2022-06-16] [2000]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6349
+qkht2022-06-16 6349.J [-1 752] [0000-00-00 2022-05-30] [813]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6387
+qkht2022-06-16 6387.J [-1 1480.06 2109 2289 2471] [0000-00-00 2020-04-07 2022-03-16 2022-03-17 2022-06-15] [2583]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6428
+qkht2022-06-16 6428.J [-1 361.72] [0000-00-00 2022-03-10] [403]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6473
+qkht2022-06-16 6473.J [-1 1034] [0000-00-00 2022-06-07] [1088]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6548
+qkht2022-06-16 6548.J [-1 598 739] [0000-00-00 2022-03-14 2022-05-23] [799]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6637
+qkht2022-06-16 6637.J [-1 753.18 832.34 964.54 993] [0000-00-00 2020-03-19 2020-04-17 2020-11-04 2022-05-16] [1053]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6652
+qkht2022-06-16 6652.J [-1 1548.37 1709.98 2036.27 2298 2534] [0000-00-00 2020-07-13 2021-05-17 2021-10-13 2022-05-16 2022-05-18] [2703]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6728
+qkht2022-06-16 6728.J [-1 2391.05 2784.16 3298.46 3914.77 5130] [0000-00-00 2020-04-07 2020-05-19 2020-08-12 2020-11-24 2022-06-16] [5170]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6734
+qkht2022-06-16 6734.J [-1 1066] [0000-00-00 2022-04-14] [1179]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6755
+qkht2022-06-16 6755.J [-1 1654.06 1896.64 2402] [0000-00-00 2020-04-30 2020-05-18 2022-06-16] [2457]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6806
+qkht2022-06-16 6806.J [-1 10433.23 11199.24 14159.16 15368.2 16170 17820] [0000-00-00 2020-04-23 2020-08-04 2020-11-24 2021-06-22 2022-04-28 2022-06-16] [18140]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6848
+qkht2022-06-16 6848.J [-1 795.47] [0000-00-00 2021-07-26] [864]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6879
+qkht2022-06-16 6879.J [-1 376.54 472.15 504.68 552.97 679] [0000-00-00 2021-02-05 2021-08-24 2021-10-27 2022-01-31 2022-05-18] [727]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6905
+qkht2022-06-16 6905.J [-1 816] [0000-00-00 2022-06-16] [857]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7050
+qkht2022-06-16 7050.J [-1 1577.96 1977.77 2204.3] [0000-00-00 2021-09-06 2022-03-10 2022-03-15] [2405]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7070
+qkht2022-06-16 7070.J [-1 296] [0000-00-00 2022-06-16] [301]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7081
+qkht2022-06-16 7081.J [-1 634.39 757.45 956.83 1147.02 1280] [0000-00-00 2020-04-07 2020-04-09 2020-07-30 2021-08-11 2022-03-14] [1343]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7131
+qkht2022-06-16 7131.J [-1 854] [0000-00-00 2022-03-23] [923]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7201
+qkht2022-06-16 7201.J [-1 348 393 493.7] [0000-00-00 2020-05-11 2020-11-10 2022-05-30] [547.2]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7203
+qkht2022-06-16 7203.J [-1 1267.6 1491 1703.2 2108] [0000-00-00 2020-08-04 2021-02-03 2021-05-17 2022-06-16] [2140]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7236
+qkht2022-06-16 7236.J [-1 1499.98 1835.79 1916.11 2635] [0000-00-00 2021-02-08 2021-05-17 2021-05-18 2022-05-26] [2802]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7261
+qkht2022-06-16 7261.J [-1 682.68 727.93 748.59 1032] [0000-00-00 2021-01-07 2022-03-10 2022-03-14 2022-05-16] [1134]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7294
+qkht2022-06-16 7294.J [-1 855] [0000-00-00 2022-06-02] [893]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7356
+qkht2022-06-16 7356.J [-1 329] [0000-00-00 2022-05-23] [360]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7369
+qkht2022-06-16 7369.J [-1 1251] [0000-00-00 2022-06-16] [1306]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7408
+qkht2022-06-16 7408.J [-1 807 1157] [0000-00-00 2022-05-18 2022-06-07] [1258]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7444
+qkht2022-06-16 7444.J [-1 1164.19 1225.66 1467.17 1498.73 1530.3 1539.86 1655] [0000-00-00 2020-03-24 2020-03-25 2020-06-01 2020-06-02 2020-06-04 2020-06-08 2022-05-27] [1699]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7472
+qkht2022-06-16 7472.J [-1 2215.09 2391.87 2648.86] [0000-00-00 2020-04-09 2021-11-05 2022-03-10] [2817]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7505
+qkht2022-06-16 7505.J [-1 678.41 689.12 718.87 747.29 751.15 789.68 845.04 904.27 914.39 939.9 970.5 978.75 1172 1295] [0000-00-00 2020-03-17 2020-03-18 2020-03-23 2020-04-22 2020-04-23 2020-04-27 2020-05-15 2020-06-23 2020-06-25 2020-11-26 2020-12-14 2020-12-22 2022-05-23 2022-06-16] [1305]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7515
+qkht2022-06-16 7515.J [-1 2178.29 2429.26 2499.84 2548.85 2661.6 2705 2724 2776 2840] [0000-00-00 2020-04-13 2020-05-07 2020-06-08 2020-06-09 2020-09-01 2022-03-25 2022-06-08 2022-06-09 2022-06-16] [2918]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7555
+qkht2022-06-16 7555.J [-1 617.7 646.02 699.61 741] [0000-00-00 2020-03-24 2020-08-07 2021-01-21 2022-06-16] [756]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7599
+qkht2022-06-16 7599.J [-1 572 680] [0000-00-00 2022-03-10 2022-06-01] [727]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7625
+qkht2022-06-16 7625.J [-1 232 297] [0000-00-00 2021-03-22 2022-06-07] [320]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7686
+qkht2022-06-16 7686.J [-1 972.95 1351] [0000-00-00 2020-04-09 2022-06-08] [1428]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7780
+qkht2022-06-16 7780.J [-1 2058.54 2244.28 2703] [0000-00-00 2020-03-27 2020-05-18 2022-06-16] [2779]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7782
+qkht2022-06-16 7782.J [-1 304.15 389.94] [0000-00-00 2020-03-30 2020-12-21] [424]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7791
+qkht2022-06-16 7791.J [-1 767] [0000-00-00 2022-06-06] [815]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7792
+qkht2022-06-16 7792.J [-1 551 562 686] [0000-00-00 2022-03-10 2022-03-11 2022-05-16] [746]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7816
+qkht2022-06-16 7816.J [-1 403.48 467.83 874.8 1065.71 1475.94 1719.68 2138 2447] [0000-00-00 2020-05-11 2020-05-26 2021-01-19 2021-02-15 2021-03-11 2021-07-12 2022-05-16 2022-06-16] [2476]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7944
+qkht2022-06-16 7944.J [-1 3451.38 4090] [0000-00-00 2021-03-02 2022-04-04] [4380]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7957
+qkht2022-06-16 7957.J [-1 1324.47 1380.37 1412.19 1448.82 1542.32 1580 1636 1650] [0000-00-00 2021-01-06 2021-03-10 2021-03-18 2021-04-15 2021-08-25 2022-03-10 2022-06-10 2022-06-16] [1743]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7995
+qkht2022-06-16 7995.J [-1 1461.1 1664.37 1958.03 2108.18 2269.9 2557 2703] [0000-00-00 2020-03-24 2020-11-04 2021-05-28 2021-10-28 2021-11-01 2022-05-20 2022-05-30] [2793]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7997
+qkht2022-06-16 7997.J [-1 509 560] [0000-00-00 2020-04-07 2022-06-16] [579]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8018
+qkht2022-06-16 8018.J [-1 449.24 478.61 500] [0000-00-00 2021-02-08 2021-02-26 2022-04-14] [559]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8252
+qkht2022-06-16 8252.J [-1 1492.36 1532.38 2214] [0000-00-00 2020-08-04 2020-08-07 2022-05-13] [2324]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8253
+qkht2022-06-16 8253.J [-1 1146.72 1200.82 1340 1510] [0000-00-00 2021-12-28 2022-03-10 2022-04-18 2022-06-15] [1570]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8366
+qkht2022-06-16 8366.J [-1 1965.1 2513] [0000-00-00 2021-12-21 2022-05-30] [2766]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8562
+qkht2022-06-16 8562.J [-1 153.69 217] [0000-00-00 2020-09-03 2022-05-26] [226]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8699
+qkht2022-06-16 8699.J [-1 1134 1249] [0000-00-00 2022-03-17 2022-05-23] [1317]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8747
+qkht2022-06-16 8747.J [-1 651 796] [0000-00-00 2020-12-16 2022-05-18] [837]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8771
+qkht2022-06-16 8771.J [-1 1968] [0000-00-00 2022-06-16] [2002]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8830
+qkht2022-06-16 8830.J [-1 3531] [0000-00-00 2022-06-16] [3555]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8891
+qkht2022-06-16 8891.J [-1 496.33 591 686.64 817.36 883 893] [0000-00-00 2020-09-14 2020-09-15 2020-09-16 2021-04-14 2022-06-01 2022-06-07] [939]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8914
+qkht2022-06-16 8914.J [-1 985.49 1072.7 1273 1387] [0000-00-00 2021-02-22 2021-04-30 2022-03-10 2022-06-16] [1406]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8927
+qkht2022-06-16 8927.J [-1 173] [0000-00-00 2022-03-01] [193]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8999
+qkht2022-06-16 8999.J [-1 384.63 488.49] [0000-00-00 2021-02-03 2022-02-08] [530]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9241
+qkht2022-06-16 9241.J [-1 1336] [0000-00-00 2022-06-16] [1386]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9251
+qkht2022-06-16 9251.J [-1 688] [0000-00-00 2022-06-15] [774]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9272
+qkht2022-06-16 9272.J [-1 747 856 1014 1100 1165 1315 1750 2003 2085] [0000-00-00 2020-09-07 2020-11-02 2020-11-16 2021-01-04 2021-02-03 2021-02-12 2021-08-11 2022-03-10 2022-05-26] [2234]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9274
+qkht2022-06-16 9274.J [-1 262.42 295 448] [0000-00-00 2021-08-12 2022-05-16 2022-06-15] [489]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9324
+qkht2022-06-16 9324.J [-1 857.84 936.68] [0000-00-00 2020-08-31 2022-03-10] [951]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9438
+qkht2022-06-16 9438.J [-1 436] [0000-00-00 2022-05-30] [460]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9517
+qkht2022-06-16 9517.J [-1 1210.43 1507.69 1676 1843 2057] [0000-00-00 2020-11-09 2022-02-14 2022-03-31 2022-05-16 2022-06-16] [2088]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9603
+qkht2022-06-16 9603.J [-1 1525 1604 1884] [0000-00-00 2021-01-07 2021-01-12 2022-03-14] [2010]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9629
+qkht2022-06-16 9629.J [-1 954.75 1006.55] [0000-00-00 2020-04-07 2020-04-17] [1094]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9791
+qkht2022-06-16 9791.J [-1 597.76 832.26 905] [0000-00-00 2020-03-24 2021-07-27 2022-05-30] [912]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9843
+qkht2022-06-16 9843.J [-1 12220] [0000-00-00 2022-06-16] [12460]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9960
+qkht2022-06-16 9960.J [-1 1749.72 1831.1 2231 2730] [0000-00-00 2020-04-27 2020-04-28 2022-04-20 2022-05-16] [2883]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9973
+qkht2022-06-16 9973.J [-1 33] [0000-00-00 2022-06-16] [34]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9976
+qkht2022-06-16 9976.J [-1 826.46 874.33 981.79 1009.14 1083.38 1173.26 1372.55 1479 1493 1528 1625 1660 1672 1740] [0000-00-00 2020-03-18 2020-03-23 2020-04-15 2020-04-16 2020-04-24 2020-05-19 2020-06-19 2022-02-25 2022-03-16 2022-04-14 2022-05-16 2022-05-19 2022-06-03 2022-06-16] [1775]
+qkht 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9990
+qkht2022-06-16 9990.J [-1 535] [0000-00-00 2022-05-26] [559]
+date==stars=2022-06-16
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1435
+stars_2022-06-16 1435.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1662
+stars_2022-06-16 1662.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1663
+stars_2022-06-16 1663.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1776
+stars_2022-06-16 1776.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1867
+stars_2022-06-16 1867.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1954
+stars_2022-06-16 1954.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1963
+stars_2022-06-16 1963.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1964
+stars_2022-06-16 1964.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1972
+stars_2022-06-16 1972.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2130
+stars_2022-06-16 2130.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2222
+stars_2022-06-16 2222.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2375
+stars_2022-06-16 2375.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2433
+stars_2022-06-16 2433.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2440
+stars_2022-06-16 2440.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2462
+stars_2022-06-16 2462.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2483
+stars_2022-06-16 2483.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2489
+stars_2022-06-16 2489.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2497
+stars_2022-06-16 2497.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2588
+stars_2022-06-16 2588.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A2813
+stars_2022-06-16 2813.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4005
+stars_2022-06-16 4005.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4028
+stars_2022-06-16 4028.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4059
+stars_2022-06-16 4059.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4082
+stars_2022-06-16 4082.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4109
+stars_2022-06-16 4109.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4189
+stars_2022-06-16 4189.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4199
+stars_2022-06-16 4199.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4203
+stars_2022-06-16 4203.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4216
+stars_2022-06-16 4216.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4235
+stars_2022-06-16 4235.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4243
+stars_2022-06-16 4243.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4246
+stars_2022-06-16 4246.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4275
+stars_2022-06-16 4275.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4288
+stars_2022-06-16 4288.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4317
+stars_2022-06-16 4317.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4324
+stars_2022-06-16 4324.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4333
+stars_2022-06-16 4333.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4368
+stars_2022-06-16 4368.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4401
+stars_2022-06-16 4401.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4403
+stars_2022-06-16 4403.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4420
+stars_2022-06-16 4420.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4461
+stars_2022-06-16 4461.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4507
+stars_2022-06-16 4507.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4543
+stars_2022-06-16 4543.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4582
+stars_2022-06-16 4582.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4613
+stars_2022-06-16 4613.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4666
+stars_2022-06-16 4666.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4671
+stars_2022-06-16 4671.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4728
+stars_2022-06-16 4728.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4739
+stars_2022-06-16 4739.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4770
+stars_2022-06-16 4770.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4783
+stars_2022-06-16 4783.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4917
+stars_2022-06-16 4917.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4932
+stars_2022-06-16 4932.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4980
+stars_2022-06-16 4980.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A4992
+stars_2022-06-16 4992.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5017
+stars_2022-06-16 5017.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5018
+stars_2022-06-16 5018.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5101
+stars_2022-06-16 5101.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5105
+stars_2022-06-16 5105.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5110
+stars_2022-06-16 5110.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5121
+stars_2022-06-16 5121.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5201
+stars_2022-06-16 5201.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5218
+stars_2022-06-16 5218.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5301
+stars_2022-06-16 5301.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5344
+stars_2022-06-16 5344.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5380
+stars_2022-06-16 5380.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5384
+stars_2022-06-16 5384.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5401
+stars_2022-06-16 5401.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5406
+stars_2022-06-16 5406.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5410
+stars_2022-06-16 5410.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5411
+stars_2022-06-16 5411.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5423
+stars_2022-06-16 5423.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5471
+stars_2022-06-16 5471.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5480
+stars_2022-06-16 5480.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5631
+stars_2022-06-16 5631.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5707
+stars_2022-06-16 5707.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5802
+stars_2022-06-16 5802.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5851
+stars_2022-06-16 5851.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5852
+stars_2022-06-16 5852.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5938
+stars_2022-06-16 5938.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5947
+stars_2022-06-16 5947.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5975
+stars_2022-06-16 5975.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5981
+stars_2022-06-16 5981.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5986
+stars_2022-06-16 5986.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A5988
+stars_2022-06-16 5988.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6005
+stars_2022-06-16 6005.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6022
+stars_2022-06-16 6022.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6042
+stars_2022-06-16 6042.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6049
+stars_2022-06-16 6049.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6055
+stars_2022-06-16 6055.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6081
+stars_2022-06-16 6081.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6089
+stars_2022-06-16 6089.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6099
+stars_2022-06-16 6099.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6103
+stars_2022-06-16 6103.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6104
+stars_2022-06-16 6104.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6125
+stars_2022-06-16 6125.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6134
+stars_2022-06-16 6134.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6136
+stars_2022-06-16 6136.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6146
+stars_2022-06-16 6146.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6165
+stars_2022-06-16 6165.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6182
+stars_2022-06-16 6182.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6201
+stars_2022-06-16 6201.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6222
+stars_2022-06-16 6222.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6235
+stars_2022-06-16 6235.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6245
+stars_2022-06-16 6245.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6258
+stars_2022-06-16 6258.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6265
+stars_2022-06-16 6265.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6292
+stars_2022-06-16 6292.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6301
+stars_2022-06-16 6301.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6305
+stars_2022-06-16 6305.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6326
+stars_2022-06-16 6326.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6330
+stars_2022-06-16 6330.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6331
+stars_2022-06-16 6331.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6355
+stars_2022-06-16 6355.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6360
+stars_2022-06-16 6360.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6365
+stars_2022-06-16 6365.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6371
+stars_2022-06-16 6371.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6378
+stars_2022-06-16 6378.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6387
+stars_2022-06-16 6387.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6444
+stars_2022-06-16 6444.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6459
+stars_2022-06-16 6459.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6464
+stars_2022-06-16 6464.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6470
+stars_2022-06-16 6470.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6471
+stars_2022-06-16 6471.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6472
+stars_2022-06-16 6472.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6473
+stars_2022-06-16 6473.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6474
+stars_2022-06-16 6474.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6479
+stars_2022-06-16 6479.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6481
+stars_2022-06-16 6481.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6501
+stars_2022-06-16 6501.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6508
+stars_2022-06-16 6508.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6533
+stars_2022-06-16 6533.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6543
+stars_2022-06-16 6543.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6572
+stars_2022-06-16 6572.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6586
+stars_2022-06-16 6586.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6592
+stars_2022-06-16 6592.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6594
+stars_2022-06-16 6594.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6617
+stars_2022-06-16 6617.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6620
+stars_2022-06-16 6620.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6627
+stars_2022-06-16 6627.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6652
+stars_2022-06-16 6652.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6668
+stars_2022-06-16 6668.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6676
+stars_2022-06-16 6676.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6702
+stars_2022-06-16 6702.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6706
+stars_2022-06-16 6706.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6707
+stars_2022-06-16 6707.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6723
+stars_2022-06-16 6723.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6728
+stars_2022-06-16 6728.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6744
+stars_2022-06-16 6744.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6752
+stars_2022-06-16 6752.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6758
+stars_2022-06-16 6758.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6806
+stars_2022-06-16 6806.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6814
+stars_2022-06-16 6814.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6823
+stars_2022-06-16 6823.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6838
+stars_2022-06-16 6838.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6856
+stars_2022-06-16 6856.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6862
+stars_2022-06-16 6862.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6863
+stars_2022-06-16 6863.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6869
+stars_2022-06-16 6869.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6875
+stars_2022-06-16 6875.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6902
+stars_2022-06-16 6902.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6915
+stars_2022-06-16 6915.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6923
+stars_2022-06-16 6923.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6938
+stars_2022-06-16 6938.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6941
+stars_2022-06-16 6941.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6952
+stars_2022-06-16 6952.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6954
+stars_2022-06-16 6954.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6963
+stars_2022-06-16 6963.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6965
+stars_2022-06-16 6965.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6969
+stars_2022-06-16 6969.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6971
+stars_2022-06-16 6971.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6981
+stars_2022-06-16 6981.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6995
+stars_2022-06-16 6995.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A6996
+stars_2022-06-16 6996.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7012
+stars_2022-06-16 7012.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7035
+stars_2022-06-16 7035.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7042
+stars_2022-06-16 7042.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7048
+stars_2022-06-16 7048.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7068
+stars_2022-06-16 7068.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7070
+stars_2022-06-16 7070.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7081
+stars_2022-06-16 7081.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7096
+stars_2022-06-16 7096.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7105
+stars_2022-06-16 7105.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7203
+stars_2022-06-16 7203.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7217
+stars_2022-06-16 7217.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7224
+stars_2022-06-16 7224.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7241
+stars_2022-06-16 7241.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7242
+stars_2022-06-16 7242.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7244
+stars_2022-06-16 7244.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7250
+stars_2022-06-16 7250.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7256
+stars_2022-06-16 7256.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7259
+stars_2022-06-16 7259.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7261
+stars_2022-06-16 7261.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7267
+stars_2022-06-16 7267.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7269
+stars_2022-06-16 7269.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7271
+stars_2022-06-16 7271.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7282
+stars_2022-06-16 7282.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7291
+stars_2022-06-16 7291.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7294
+stars_2022-06-16 7294.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7309
+stars_2022-06-16 7309.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7313
+stars_2022-06-16 7313.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7370
+stars_2022-06-16 7370.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7371
+stars_2022-06-16 7371.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7372
+stars_2022-06-16 7372.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7458
+stars_2022-06-16 7458.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7460
+stars_2022-06-16 7460.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7477
+stars_2022-06-16 7477.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7515
+stars_2022-06-16 7515.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7537
+stars_2022-06-16 7537.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7590
+stars_2022-06-16 7590.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7618
+stars_2022-06-16 7618.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7637
+stars_2022-06-16 7637.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7677
+stars_2022-06-16 7677.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7683
+stars_2022-06-16 7683.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7707
+stars_2022-06-16 7707.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7715
+stars_2022-06-16 7715.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7725
+stars_2022-06-16 7725.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7726
+stars_2022-06-16 7726.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7729
+stars_2022-06-16 7729.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7731
+stars_2022-06-16 7731.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7732
+stars_2022-06-16 7732.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7741
+stars_2022-06-16 7741.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7747
+stars_2022-06-16 7747.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7752
+stars_2022-06-16 7752.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7760
+stars_2022-06-16 7760.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7762
+stars_2022-06-16 7762.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7780
+stars_2022-06-16 7780.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7820
+stars_2022-06-16 7820.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7832
+stars_2022-06-16 7832.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7833
+stars_2022-06-16 7833.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7839
+stars_2022-06-16 7839.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7915
+stars_2022-06-16 7915.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7936
+stars_2022-06-16 7936.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7951
+stars_2022-06-16 7951.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7957
+stars_2022-06-16 7957.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7958
+stars_2022-06-16 7958.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7972
+stars_2022-06-16 7972.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7988
+stars_2022-06-16 7988.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A7994
+stars_2022-06-16 7994.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8002
+stars_2022-06-16 8002.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8015
+stars_2022-06-16 8015.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8052
+stars_2022-06-16 8052.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8053
+stars_2022-06-16 8053.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8105
+stars_2022-06-16 8105.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8111
+stars_2022-06-16 8111.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8118
+stars_2022-06-16 8118.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8136
+stars_2022-06-16 8136.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8155
+stars_2022-06-16 8155.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8253
+stars_2022-06-16 8253.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8289
+stars_2022-06-16 8289.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8439
+stars_2022-06-16 8439.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8473
+stars_2022-06-16 8473.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8591
+stars_2022-06-16 8591.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8697
+stars_2022-06-16 8697.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8699
+stars_2022-06-16 8699.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8830
+stars_2022-06-16 8830.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8841
+stars_2022-06-16 8841.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8876
+stars_2022-06-16 8876.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A8940
+stars_2022-06-16 8940.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9025
+stars_2022-06-16 9025.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9127
+stars_2022-06-16 9127.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9143
+stars_2022-06-16 9143.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9202
+stars_2022-06-16 9202.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9241
+stars_2022-06-16 9241.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9267
+stars_2022-06-16 9267.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9272
+stars_2022-06-16 9272.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9365
+stars_2022-06-16 9365.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9450
+stars_2022-06-16 9450.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9466
+stars_2022-06-16 9466.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9476
+stars_2022-06-16 9476.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9517
+stars_2022-06-16 9517.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9602
+stars_2022-06-16 9602.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9605
+stars_2022-06-16 9605.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9678
+stars_2022-06-16 9678.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9697
+stars_2022-06-16 9697.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9706
+stars_2022-06-16 9706.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9715
+stars_2022-06-16 9715.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9716
+stars_2022-06-16 9716.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9717
+stars_2022-06-16 9717.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9719
+stars_2022-06-16 9719.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9742
+stars_2022-06-16 9742.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9744
+stars_2022-06-16 9744.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9757
+stars_2022-06-16 9757.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9790
+stars_2022-06-16 9790.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9843
+stars_2022-06-16 9843.J []
+stars 2022-06-16 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A9983
+stars_2022-06-16 9983.J []
+ cost is :151750352 

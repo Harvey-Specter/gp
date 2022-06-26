@@ -19,7 +19,7 @@ func stars(db *sql.DB, rqParam string, tname string) {
 	for _, dm := range dms {
 		sps := []float64{}
 
-		dmSql := "SELECT id, date rq,code dm, close sp, high zg, low zd, m5, volume as cjl ,pre_close as qsp,open as kp,round(abs(open-close)/open,4) as ch ,round(abs(open-pre_close)/pre_close,4) as ch1 FROM dayline where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC limit 8"
+		dmSql := "SELECT id, date rq,code dm, close sp, high zg, low zd, m5, volume as cjl ,pre_close as qsp,open as kp,round(abs(open-close)/open,4) as ch ,round(abs(open-pre_close)/pre_close,4) as ch1 FROM " + tname + " where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC limit 8"
 
 		// fmt.Print(dmSql, "\n")
 		//------------
@@ -93,6 +93,9 @@ func stars(db *sql.DB, rqParam string, tname string) {
 		// fmt.Println("zuih", cnt, ok, gks)
 
 		if ok && gks >= 2 {
+
+			tvLog("stars", dm["code"].(string), rqParam)
+
 			//if ok && qs1sum >= 7 {
 			fmt.Println("stars_"+rqParam, dm["code"].(string)[0:6], reveSliceF(sps))
 			// fmt.Println(rqParam, dm["zjw_name"].(string), dm["code"].(string)[0:6], dm["name"], dm["turnover_ratio"].(float64), dm["pe_ratio"].(float64), reveSliceF(sps), qs1sum)

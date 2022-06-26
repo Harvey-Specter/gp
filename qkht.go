@@ -25,8 +25,10 @@ func closerValue(zd float64, values []float64) float64 {
 func qkht(db *sql.DB, rqParam string, tname string) {
 	fmt.Println("date==qkht=" + rqParam)
 	dms := getDm(db, rqParam, tname)
+
 	fmt.Println("day", "industry", "code", "name", "turnover_ratio", "pe_ratio",
 		"industry_cnt", "inc_revenue_year_rank", "inc_revenue_annual_rank", "cfo_sales_rank", "leverage_ratio_rank")
+
 	enter := `
 `
 	rs := enter
@@ -38,7 +40,7 @@ func qkht(db *sql.DB, rqParam string, tname string) {
 		// 	dm["code"].(string) +
 		// 	//	"000063.XSHE" +
 		// 	"'  and date<='" + rqParam + "' order by date desc  limit 60 ) as x order by rq  "
-		dmSql := "SELECT id, date rq,code dm, close sp, high zg, low zd, m5 ,pre_close qsp,open kp FROM dayline where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "'  ORDER BY date "
+		dmSql := "SELECT id, date rq,code dm, close sp, high zg, low zd, m5 ,pre_close qsp,open kp FROM " + tname + " where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "'  ORDER BY date "
 		stmt, err := db.Prepare(dmSql)
 		if err != nil {
 			fmt.Printf("query prepare err:%s\n", err.Error())
@@ -135,6 +137,8 @@ func qkht(db *sql.DB, rqParam string, tname string) {
 			cnt++
 		}
 		if ok && len(gkqzg) > 1 {
+
+			tvLog("qkht", dm["code"].(string), rqParam)
 
 			fmt.Println("qkht"+rqParam, dm["code"].(string)[0:6], gkqzg, gkdate, reveSliceF(sps))
 			code := transCode(dm["code"].(string))

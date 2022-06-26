@@ -36,7 +36,7 @@ func main() {
 		if k == 1 {
 			rq = v
 		} else if k == 2 {
-			tname = "dayline_jp"
+			tname = v
 		}
 	}
 
