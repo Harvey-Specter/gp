@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 	"io/ioutil"
+	"strconv"
 	"strings"
 	"time"
 
@@ -211,4 +212,18 @@ func getRqs(buyDate string) []string {
 	}
 	return reveSlice(rqs)
 	//return rqs
+}
+func getDataMap(day string, code string, pa string, price float64) map[string]string {
+
+	dataMap := make(map[string]string)
+	dataMap["day"] = day
+	dataMap["code"] = code
+	dataMap["pattern"] = "1"
+	dataMap["price"] = strconv.FormatFloat(price, 'E', -1, 64)
+	market := ""
+	if strings.Contains(code, "JP") {
+		market = "TSE"
+	}
+	dataMap["market"] = market
+	return dataMap
 }

@@ -352,3 +352,43 @@ round(total_assets/total_owner_equities,4) as leverage,
 rank() over(partition by zjw_code ORDER BY total_assets/total_owner_equities)  leverage_rank ,
 round((select sum(total_assets/total_owner_equities)/count(1) from industry1 b where b.zjw_code=a.zjw_code),4) leverage_avg
 from industry1 a 
+
+#=============
+
+CREATE TABLE `pattern_day` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `day` date NOT NULL,
+  `code` varchar(16) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `pattern` varchar(16) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `price` double NOT NULL DEFAULT 0,
+  `market` varchar(16) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `remark` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `create_time` timestamp NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `idx_date` (`day`,`code`,`pattern`) USING BTREE,
+  KEY `code` (`code`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE `category` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user` date NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `code` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `remark` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `create_time` timestamp NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `idx_user` (`user`,`name`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ;
+
+CREATE TABLE `category_detail` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `category_id` date NOT NULL,
+  `pattern_day_id` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `code` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `remark` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `create_time` timestamp NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `idx_cate` (`category_id`,`code`) USING BTREE,
+  KEY `code` (`code`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ;
+

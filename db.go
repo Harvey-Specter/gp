@@ -53,6 +53,36 @@ func batchInsertTp(db *sql.DB, data []map[string]string) {
 	fmt.Printf("lastId:%d affectRow:%d\n", lastId, affect)
 }
 
+// `day` date NOT NULL,
+// `code` varchar(16) COLLATE utf8mb4_unicode_ci NOT NULL,
+// `pattern` varchar(16) COLLATE utf8mb4_unicode_ci NOT NULL,
+// `price` double NOT NULL DEFAULT 0,
+// `market` varchar(16) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+
+func batchInsertPattern(db *sql.DB, data []map[string]string) {
+	sqlStr := "replace INTO pattern_day(day, code,pattern,price,market) VALUES "
+	vals := []interface{}{}
+
+	for _, row := range data {
+		sqlStr += "(?, ?, ?, ?, ?),"
+		vals = append(vals, row["day"], row["code"], row["pattern"], row["price"], row["market"])
+	}
+	//trim the last ,
+	sqlStr = sqlStr[0 : len(sqlStr)-1]
+	//prepare the statement
+	stmt, _ := db.Prepare(sqlStr)
+
+	//format all vals at once
+	res, err := stmt.Exec(vals...)
+	if err != nil {
+		fmt.Printf("batchInsertPattern err:%s\n", err.Error())
+		return
+	}
+	lastId, _ := res.LastInsertId()
+	affect, _ := res.RowsAffected()
+	fmt.Printf("lastId:%d affectRow:%d\n", lastId, affect)
+}
+
 func save5DayTP(db *sql.DB, rqParam string) {
 
 	dms := getTpDmByDate(db, rqParam)
