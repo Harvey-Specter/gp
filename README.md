@@ -10,9 +10,51 @@ Plunge是通过识别图表的形态量价来选股的工具,主要用来参考�
 
 ## 准备
 
-- [Python](https://www.python.org/) - 行情数据入库使用python开发
+- [Python](https://www.python.org/) - 行情数据采集使用python开发
 - [Golang](https://go.dev/) - 识别图表使用Go语言开发
-- [MariaDB](https://mariadb.org/) - 数据库使用MariaDB
+- [MariaDB](https://mariadb.org/) - 数据库使用MariaDB（也可以使用MySQL的其他分支）
+- [tushare.pro](https://tushare.pro/) - 行情数据源
+
+## 表结构 
+
+      +-------------+------------------+------+-----+---------------------+----------------+
+      | Field       | Type             | Null | Key | Default             | Extra          |
+
+      +-------------+------------------+------+-----+---------------------+----------------+
+
+      | id          | int(10) unsigned | NO   | PRI | NULL                | auto_increment |
+
+      | date        | date             | NO   | MUL | NULL                |                |
+
+      | code        | varchar(16)      | NO   | MUL | NULL                |                |
+
+      | open        | double unsigned  | NO   |     | NULL                |                |
+
+      | close       | double unsigned  | NO   |     | NULL                |                |
+
+      | low         | double unsigned  | NO   |     | NULL                |                |
+
+      | high        | double unsigned  | NO   |     | NULL                |                |
+
+      | volume      | double unsigned  | NO   |     | NULL                |                |
+
+      | pre_close   | double unsigned  | NO   |     | 0                   |                |
+
+      | paused      | varchar(25)      | NO   |     | 0                   |                |
+
+      | m5          | double unsigned  | NO   |     | 0                   |                |
+
+      | m10         | double unsigned  | NO   |     | 0                   |                |
+
+      | m20         | double unsigned  | NO   |     | 0                   |                |
+
+      | m30         | double unsigned  | NO   |     | 0                   |                |
+
+      | m60         | double unsigned  | NO   |     | 0                   |                |
+
+      | create_time | timestamp        | YES  |     | current_timestamp() |                |
+
+      +-------------+------------------+------+-----+---------------------+----------------+
 
 ## 安装和使用
 - 获取代码  
