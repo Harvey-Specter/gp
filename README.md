@@ -91,4 +91,4 @@ Plunge是通过识别图表的形态量价来选股的工具,主要用来参考�
    ![缺口](./qk.png)
 
 ## 许可
-[MIT](https://www.python.org/)
+[MIT](./LICENSE)
