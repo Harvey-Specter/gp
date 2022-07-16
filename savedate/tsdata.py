@@ -67,8 +67,8 @@ def genMA(code,rq,n):
 def getSQL(tName):
     sql = ''
     if tName=='dayline':
-        sql = "INSERT INTO dayline(date,code,open,close,low,high,volume,money,factor, high_limit,low_limit,avg,pre_close,paused, m5,m10,m20,m60,m30) \
-            VALUES (%s,%s,%s,%s,%s, %s,%s,%s,%s,%s, %s,%s,%s,%s,%s,  %s,%s,%s,%s )"
+        sql = "INSERT INTO dayline(date,code,open,close,low,high,volume,pre_close,paused,m5,m10,m20,m60,m30) \
+        VALUES (%s, %s,  %s,  %s,   %s,%s,%s,%s,%s,%s,%s,%s,%s,%s )"
     return sql
 
 def saveBatch(vals,tName):
@@ -124,8 +124,10 @@ def savePrice(rq):
     for index, row in df.iterrows():
         
         if str(row['open'])!='nan' and is_number(row['open']):
-            rowlist = [row['trade_date'],row['ts_code'].replace('SH','XSHG').replace('SZ','XSHE'), row['open'],row['close'],row['low'], row['high'],row['vol'],row['amount'],0,0,0,0,row['pre_close'],'0', 
+            rowlist = [row['trade_date'],row['ts_code'].replace('SH','XSHG').replace('SZ','XSHE'), row['open'],row['close'],row['low'], row['high'],row['vol'],row['pre_close'],'0', 
             0,0,0,0,0]
+
+            # print(rowlist)
 
             datalist.append(rowlist)
 
