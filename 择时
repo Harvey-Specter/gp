@@ -54,7 +54,6 @@ LOAD DATA INFILE '/Users/lihong/Documents/d_jp_0724/data/daily/jp/tse_stocks/1/0
   FIELDS TERMINATED BY ','
   (code, date, open, high, low,close, volume);
 
-
 python savedate/tsdata.py $1
 
 select count(1),date from dayline_jp where m5>0 group by date desc limit 5 ;
@@ -66,3 +65,5 @@ cat * | awk 'BEGIN{FS=","}$1~/\.JP$/' | awk 'BEGIN{FS=",";OFS=","}$3>20220616&&$
 awk '{print "python savedate/stooqdata.py " $1}' jprq.txt | sh
 
 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1375
+
+load data infile '/home/vagrant/code/plunge_be/data_ju.csv' into table co_jp fields terminated by ',' lines terminated by'\n' ignore 1 lines (date,code,name,market,cate33_code,cate33,cate17_code,cate17,size_code,size);
