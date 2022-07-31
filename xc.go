@@ -4,14 +4,19 @@ import (
 	"database/sql"
 	"fmt"
 	"math"
+	"strings"
 
 	_ "github.com/go-sql-driver/mysql"
 )
 
-func xc(db *sql.DB, rqParam string, tname string) {
+func xc(db *sql.DB, rqParam string, tname string) []map[string]string {
 	fmt.Println("date==xc=" + rqParam)
 	dms := getDm(db, rqParam, tname)
-
+	market := "1"
+	if tname == "dayline_jp" {
+		market = "2"
+	}
+	var dataMapArray []map[string]string
 	fmt.Println("day", "industry", "code", "name", "turnover_ratio", "pe_ratio",
 		"industry_cnt", "inc_revenue_year_rank", "inc_revenue_annual_rank", "cfo_sales_rank", "leverage_ratio_rank")
 	enter := `
@@ -19,7 +24,7 @@ func xc(db *sql.DB, rqParam string, tname string) {
 	rs := enter
 	for _, dm := range dms {
 		sps := []float64{}
-
+		dataMap := make(map[string]string)
 		dmSql := "SELECT id, date rq,code dm, close sp, high zg, low zd, m5, volume as cjl ,pre_close as qsp FROM " + tname + " where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC limit 20"
 
 		// fmt.Print(dmSql, "\n")
@@ -28,7 +33,7 @@ func xc(db *sql.DB, rqParam string, tname string) {
 		stmt, err := db.Prepare(dmSql)
 		if err != nil {
 			fmt.Printf("query prepare err:%s\n", err.Error())
-			return
+			return nil
 		}
 
 		rows, err := stmt.Query()
@@ -120,10 +125,15 @@ func xc(db *sql.DB, rqParam string, tname string) {
 			fmt.Println("xc"+rqParam, dm["code"].(string)[0:6], reveSliceF(sps))
 			// fmt.Println(rqParam, dm["zjw_name"].(string), dm["code"].(string)[0:6], dm["name"], dm["turnover_ratio"].(float64), dm["pe_ratio"].(float64), reveSliceF(sps), qs1sum)
 			code := transCode(dm["code"].(string))
+
+			dataMap = setDataMap(rqParam, strings.Split(dm["code"].(string), ".")[0], "2", market)
+			dataMapArray = append(dataMapArray, dataMap)
+
 			rs += code + enter
 		}
 		Closedb(stmt, rows)
 	}
 	fileName := rqParam + "_xc.EBK"
 	saveEBK(rs, fileName)
+	return dataMapArray
 }

@@ -4,7 +4,6 @@ import (
 	"database/sql"
 	"fmt"
 	"io/ioutil"
-	"strconv"
 	"strings"
 	"time"
 
@@ -125,7 +124,11 @@ func getDm(db *sql.DB, rq string, tname string) []map[string]interface{} { //300
 
 	// 回踩缺口 605289 002932 600889 a.code like '002155%' and  002155%
 	// (a.code like '002128%' or a.code like '002155%' or a.code like '603353%' ) and a.code like '000655%' and
-	sql := `select distinct a.code from ` + tname + ` a where a.code not like '688%' and a.code not like '3%' and a.paused='0' and a.date='` + rq + `' `
+	sql := `select distinct a.code from ` + tname + ` a where a.paused='0' and a.date='` + rq + `' `
+	if tname == "dayline" {
+		sql = `select distinct a.code from ` + tname + ` a where a.code not like '688%' and a.code not like '3%' and a.paused='0' and a.date='` + rq + `' `
+	}
+
 	// fmt.Println(sql)
 	//sql := `select distinct a.code from dayline a where a.code like '688%' and a.date='` + rq + `' `
 
@@ -213,17 +216,17 @@ func getRqs(buyDate string) []string {
 	return reveSlice(rqs)
 	//return rqs
 }
-func getDataMap(day string, code string, pa string, price float64) map[string]string {
-
+func setDataMap(day string, code string, pa string, market string) map[string]string {
 	dataMap := make(map[string]string)
+	dataMap["price_id"] = "0"
 	dataMap["day"] = day
 	dataMap["code"] = code
+	dataMap["user_id"] = "1"
+	dataMap["category_id"] = "xxx"
 	dataMap["pattern"] = "1"
-	dataMap["price"] = strconv.FormatFloat(price, 'E', -1, 64)
-	market := ""
-	if strings.Contains(code, "JP") {
-		market = "TSE"
-	}
 	dataMap["market"] = market
+	dataMap["remark"] = "auto"
+	dataMap["created_at"] = time.Now().Format("2006-01-02 15:04:05")
+	//dataMap["updated_at"] = "auto"
 	return dataMap
 }

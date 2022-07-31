@@ -3,22 +3,27 @@ package main
 import (
 	"database/sql"
 	"fmt"
+	"strings"
 
 	_ "github.com/go-sql-driver/mysql"
 )
 
-func stars(db *sql.DB, rqParam string, tname string) {
+func stars(db *sql.DB, rqParam string, tname string) []map[string]string {
 	fmt.Println("date==stars=" + rqParam)
 	dms := getDm(db, rqParam, tname)
-
+	market := "1"
+	if tname == "dayline_jp" {
+		market = "2"
+	}
 	//fmt.Println("day", "industry", "code", "name", "turnover_ratio", "pe_ratio",
 	//	"industry_cnt", "inc_revenue_year_rank", "inc_revenue_annual_rank", "cfo_sales_rank", "leverage_ratio_rank")
 	enter := `
 `
 	rs := enter
+	var dataMapArray []map[string]string
 	for _, dm := range dms {
 		sps := []float64{}
-
+		dataMap := make(map[string]string)
 		dmSql := "SELECT id, date rq,code dm, close sp, high zg, low zd, m5, volume as cjl ,pre_close as qsp,open as kp,round(abs(open-close)/open,4) as ch ,round(abs(open-pre_close)/pre_close,4) as ch1 FROM " + tname + " where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC limit 8"
 
 		// fmt.Print(dmSql, "\n")
@@ -27,7 +32,7 @@ func stars(db *sql.DB, rqParam string, tname string) {
 		stmt, err := db.Prepare(dmSql)
 		if err != nil {
 			fmt.Printf("query prepare err:%s\n", err.Error())
-			return
+			return nil
 		}
 
 		rows, err := stmt.Query()
@@ -100,10 +105,13 @@ func stars(db *sql.DB, rqParam string, tname string) {
 			fmt.Println("stars_"+rqParam, dm["code"].(string)[0:6], reveSliceF(sps))
 			// fmt.Println(rqParam, dm["zjw_name"].(string), dm["code"].(string)[0:6], dm["name"], dm["turnover_ratio"].(float64), dm["pe_ratio"].(float64), reveSliceF(sps), qs1sum)
 			code := transCode(dm["code"].(string))
+			dataMap = setDataMap(rqParam, strings.Split(dm["code"].(string), ".")[0], "3", market)
+			dataMapArray = append(dataMapArray, dataMap)
 			rs += code + enter
 		}
 		Closedb(stmt, rows)
 	}
 	fileName := rqParam + "_stars.EBK"
 	saveEBK(rs, fileName)
+	return dataMapArray
 }

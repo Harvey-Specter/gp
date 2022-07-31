@@ -3,6 +3,7 @@ package main
 import (
 	"database/sql"
 	"fmt"
+	"strings"
 
 	_ "github.com/go-sql-driver/mysql"
 )
@@ -22,7 +23,11 @@ func closerValue(zd float64, values []float64) float64 {
 	return min
 }
 
-func qkht(db *sql.DB, rqParam string, tname string) {
+func qkht(db *sql.DB, rqParam string, tname string) []map[string]string {
+	market := "1"
+	if tname == "dayline_jp" {
+		market = "2"
+	}
 	fmt.Println("date==qkht=" + rqParam)
 	dms := getDm(db, rqParam, tname)
 
@@ -32,10 +37,11 @@ func qkht(db *sql.DB, rqParam string, tname string) {
 	enter := `
 `
 	rs := enter
+	var dataMapArray []map[string]string
 	for _, dm := range dms {
 		//fmt.Println(dm)
 		sps := []float64{}
-
+		dataMap := make(map[string]string)
 		// dmSql := "select * from (select id, date rq,code dm, close sp, high zg, low zd, m5 ,pre_close qsp,open kp from dayline where code = '" +
 		// 	dm["code"].(string) +
 		// 	//	"000063.XSHE" +
@@ -44,7 +50,7 @@ func qkht(db *sql.DB, rqParam string, tname string) {
 		stmt, err := db.Prepare(dmSql)
 		if err != nil {
 			fmt.Printf("query prepare err:%s\n", err.Error())
-			return
+			return nil
 		}
 		rows, err := stmt.Query()
 		defer Closedb(stmt, rows)
@@ -143,9 +149,13 @@ func qkht(db *sql.DB, rqParam string, tname string) {
 			fmt.Println("qkht"+rqParam, dm["code"].(string)[0:6], gkqzg, gkdate, reveSliceF(sps))
 			code := transCode(dm["code"].(string))
 			rs += code + enter
+
+			dataMap = setDataMap(rqParam, strings.Split(dm["code"].(string), ".")[0], "4", market)
+			dataMapArray = append(dataMapArray, dataMap)
 		}
 		Closedb(stmt, rows)
 	}
 	fileName := rqParam + "_qk.EBK"
 	saveEBK(rs, fileName)
+	return dataMapArray
 }

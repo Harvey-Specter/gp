@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 	"strconv"
+	"time"
 
 	_ "github.com/go-sql-driver/mysql"
 )
@@ -149,6 +150,89 @@ func UpdateTp(db *sql.DB, data []float64, date string, code string, r1 string) {
 	// affect, _ := res.RowsAffected()
 	// fmt.Printf("lastId:%d affectRow:%d\n", lastId, affect)
 }
+
+// | id          | int unsigned | NO   | PRI | NULL    | auto_increment |
+// | price_id    | int unsigned | NO   |     | NULL    |                |
+// | day         | date         | NO   | MUL | NULL    |                |
+// | code        | varchar(255) | NO   | MUL | NULL    |                |
+// | user_id     | int unsigned | NO   |     | NULL    |                |
+// | category_id | int unsigned | NO   |     | NULL    |                |
+// | pattern     | varchar(255) | NO   |     | NULL    |                |
+// | market      | varchar(255) | NO   |     | NULL    |                |
+// | remark      | varchar(255) | YES  |     | NULL    |                |
+// | created_at  | timestamp    | YES  |     | NULL    |                |
+// | updated_at  | timestamp    | YES  |     | NULL    |                |
+func batchSaveStock(db *sql.DB, data []map[string]string, cateId int64) {
+	fmt.Println("len(data)===", len(data))
+	sqlStr := "replace INTO stocks (price_id, day,code,user_id,category_id,pattern,market,remark,created_at) VALUES "
+	vals := []interface{}{}
+
+	for _, row := range data {
+		sqlStr += "(?, ?, ?, ?, ? , ?, ?, ?, ?),"
+		vals = append(vals, row["price_id"], row["day"], row["code"], row["user_id"], cateId, row["pattern"], row["market"], row["remark"], row["created_at"])
+	}
+	//trim the last ,
+	sqlStr = sqlStr[0 : len(sqlStr)-1]
+	//prepare the statement
+	stmt, err := db.Prepare(sqlStr)
+	if err != nil {
+		fmt.Printf("batchSaveStock Prepare err:%s\n", err.Error())
+		return
+	}
+	//format all vals at once
+	res, err := stmt.Exec(vals...)
+	if err != nil {
+		fmt.Printf("batchInsertPattern err:%s\n", err.Error())
+		return
+	}
+	lastId, _ := res.LastInsertId()
+	affect, _ := res.RowsAffected()
+	fmt.Printf("lastId:%d affectRow:%d\n", lastId, affect)
+}
+func SaveCategoyStock(db *sql.DB, name string, code string, remark string, stocklist []map[string]string) int64 {
+
+	seSql := "SELECT  id from categories where name=? and code=?"
+
+	seStmt, seErr := db.Prepare(seSql)
+	if seErr != nil {
+		fmt.Printf("query prepare err:%s\n", seErr.Error())
+	}
+	rows, seErr := seStmt.Query(name, code)
+	var id int64
+	id = -1
+	for rows.Next() {
+		seErr = rows.Scan(&id)
+	}
+	if id == -1 {
+		stmt, err := db.Prepare("INSERT INTO categories (name,code,remark,user_id,created_at,updated_at) VALUES (?,?,?,?,?,?)")
+		if err != nil {
+			fmt.Printf("insert prepare err:%s\n", err.Error())
+			return -1
+		}
+		defer stmt.Close()
+		now := time.Now().Format("2006-01-02 15:04:05")
+		res, err := stmt.Exec(name, code, remark, 1, now, now)
+		if err != nil {
+			fmt.Printf("insert err:%s\n", err.Error())
+			return -1
+		}
+		id, _ = res.LastInsertId()
+		affect, _ := res.RowsAffected()
+		fmt.Printf("SaveCategoy lastId:%d affectRow:%d\n", id, affect)
+		batchSaveStock(db, stocklist, id)
+	} else {
+		batchSaveStock(db, stocklist, id)
+	}
+	return id
+}
+
+// | name        | varchar(255) | NO   |     | NULL    |                |
+// | code        | varchar(255) | NO   |     |         |                |
+// | remark      | varchar(255) | YES  |     | NULL    |                |
+// | user_id     | int unsigned | NO   |     | 0       |                |
+// | stock_count | int unsigned | NO   |     | 0       |                |
+// | created_at  | timestamp    | YES  |     | NULL    |                |
+// | updated_at  | timestamp    | YES  |     | NULL    |                |
 
 func insert(db *sql.DB) {
 	stmt, err := db.Prepare("INSERT INTO user (uid,name,age) VALUES (?,?,?)")

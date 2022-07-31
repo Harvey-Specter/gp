@@ -4,16 +4,19 @@ import (
 	"database/sql"
 	"fmt"
 	"strconv"
+	"strings"
 
 	_ "github.com/go-sql-driver/mysql"
 )
 
-func dltp3l(db *sql.DB, rqParam string, m int, tname string) {
+func dltp3l(db *sql.DB, rqParam string, m int, tname string) []map[string]string {
 	fmt.Println("date==dltp3l="+rqParam+"  ma_n=", m)
 	voltimes := 2.5
+	market := "1"
+	if tname == "dayline_jp" {
+		market = "2"
+	}
 	dms := getDm(db, rqParam, tname)
-	fmt.Println("day", "industry", "code", "name", "turnover_ratio", "pe_ratio",
-		"industry_cnt", "inc_revenue_year_rank", "inc_revenue_annual_rank", "cfo_sales_rank", "leverage_ratio_rank")
 	enter := `
 `
 	rs := enter
@@ -39,21 +42,20 @@ func dltp3l(db *sql.DB, rqParam string, m int, tname string) {
 			sqlMa = "m60"
 		}
 
-		dmSql := "SELECT id, date rq,code dm, close sp, open kp, high zg, low zd, m5, volume as cjl,pre_close qsp, " + sqlMa + " FROM " + tname + " where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC"
-
+		dmSql := "SELECT id, date rq,code dm, close sp, open kp, high zg, low zd, m5, volume as cjl,pre_close qsp, " + sqlMa + " , m60 FROM " + tname + " where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC"
 		// fmt.Print(dmSql, "\n")
-		//------------
-		//if(stmt!=nil){}
+
 		stmt, err := db.Prepare(dmSql)
 		if err != nil {
 			fmt.Printf("query prepare err:%s\n", err.Error())
-			return
+			return nil
 		}
 
 		rows, err := stmt.Query()
 		defer Closedb(stmt, rows)
 		if err != nil {
 			fmt.Printf("query err:%s\n", err.Error())
+			return nil
 		}
 		var lastsp float64
 		cnt := 0
@@ -92,17 +94,16 @@ func dltp3l(db *sql.DB, rqParam string, m int, tname string) {
 			var cjl float64
 			var qsp float64
 			var ma_n float64
+			var ma_60 float64
 
-			rows.Scan(&id, &rq, &dm, &sp, &kp, &zg, &zd, &m5, &cjl, &qsp, &ma_n)
+			rows.Scan(&id, &rq, &dm, &sp, &kp, &zg, &zd, &m5, &cjl, &qsp, &ma_n, &ma_60)
 
 			if rq > rqParam {
 				sps = append(sps, sp)
 				continue
 			}
 			//fmt.Println(rq, "---", sp, m5)
-
 			if cnt == 0 {
-
 				lowk := sp
 				if sp >= kp {
 					lowk = kp
@@ -112,8 +113,7 @@ func dltp3l(db *sql.DB, rqParam string, m int, tname string) {
 				} else {
 					pinbar = false
 				}
-
-				if (ma_n == 0 || sp < ma_n) && !pinbar { //|| sp < zg*0.95 {
+				if (ma_n == 0 || sp <= ma_n || sp <= ma_60) && !pinbar { //|| sp < zg*0.95 {
 					break
 				} else {
 					if zd > qsp*(1.01) {
@@ -220,31 +220,30 @@ func dltp3l(db *sql.DB, rqParam string, m int, tname string) {
 			if sp3 >= sp0+(sp1-sp0)/2 && (quekou || cjlx > 0) {
 				code := transCode(dm["code"].(string))
 
-				tvLog("tp", dm["code"].(string), rqParam)
-				fmt.Println("dltp"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
+				if market == "2" {
+					if sp3 >= sp1 && (sp3-sp0)/sp0 >= 0.15 {
+						dataMap = setDataMap(rqParam, strings.Split(dm["code"].(string), ".")[0], "1", market)
+						dataMapArray = append(dataMapArray, dataMap)
+					}
+				}
+				fmt.Println("dltp"+rqParam, strings.Split(dm["code"].(string), ".")[0], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
 				rs += code + enter
 
-				// getDataMap(day string, code string, pa string, price float64) map[string]string
-
-				dataMap = getDataMap(rqParam, dm["code"].(string), "1", lastsp)
-
-				dataMapArray = append(dataMapArray, dataMap)
-
 			} else if pinbar {
-
 				code := transCode(dm["code"].(string))
-
-				fmt.Println("dltp00-"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
+				//fmt.Println("dltp00-"+rqParam, dm["code"].(string)[0:6], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
 				rs0 += code + enter
 			}
 		}
 		Closedb(stmt, rows)
 	}
-	batchInsertPattern(db, dataMapArray) // 暂时不保存到db
+
 	fileName := rqParam + "_" + strconv.Itoa(m) + "_tp.EBK"
 	fileName0 := rqParam + "_" + strconv.Itoa(m) + "_tp0.EBK"
 
 	saveEBK(rs, fileName)
 	saveEBK(rs0, fileName0)
+
+	return dataMapArray
 
 }
