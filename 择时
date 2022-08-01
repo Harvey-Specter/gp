@@ -80,3 +80,5 @@ LOAD DATA INFILE '/Users/lihong/Documents/d_jp/0722_0728.txt'
   (code, date, open, high, low,close, volume);
 
 
+UPDATE co_jp SET cate33 = REPLACE(cate33, '?', '~') WHERE cate33 LIKE '%?%' 
+
