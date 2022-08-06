@@ -1,6 +1,6 @@
-<div align="center"> <a href="https://github.com/Harvey-Specter/plunge"> <img width="120" src="./logo_1024.png"> </a><br/><br/>
+<div align="center"> <a href="https://github.com/Harvey-Specter/plunge"> <img width="120" src="./img/logo_1024.png"> </a><br/><br/>
 
-[![license](./mit_lic.svg)](LICENSE)
+[![license](./img/mit_lic.svg)](LICENSE)
 <h1>Plunge</h1>
 </div>
 
@@ -85,24 +85,24 @@ Plungeは、チャートの形状と出来高価格を特定して銘柄を選�
 以下はフォームに沿ったものです。実際の選択にはいくつかのエラーがあります。好みに応じてプログラムを変更して、フィルタリング ルールを強化/緩和できます。
 
 1.	**頭と肩の底がネックラインを突き破る**    
-   ![頭と肩の底がネックラインを突き破る](./headshoulder1.png)  
+   ![頭と肩の底がネックラインを突き破る](./img/headshoulder1.png)  
 
 <hr/>
 
 2.	**頭と肩の底/ボックスの中心軸の上から重いボリュームを開始します**  
-   ![頭と肩の底/ボックスの中心軸の上から重いボリュームを開始します](./headshoulder2.png)
+   ![頭と肩の底/ボックスの中心軸の上から重いボリュームを開始します](./img/headshoulder2.png)
 <hr/>
 
 3.	**大上昇後は下落せず積み上げパターンで登場**  
-   ![大上昇後は下落せず積み上げパターンで登場](./getChips.png)
+   ![大上昇後は下落せず積み上げパターンで登場](./img/getChips.png)
 <hr/>
 
 4.	**上昇トレンドでの連続した高値/安値の始値と星の終値** 
-   ![上昇トレンドでの連続した高値/安値の始値と星の終値](./stars.png)
+   ![上昇トレンドでの連続した高値/安値の始値と星の終値](./img/stars.png)
 <hr/>
 
 5.	**ギャップ付近のサポート** 
-   ![ギャップ付近のサポート](./gap.png)
+   ![ギャップ付近のサポート](./img/gap.png)
 
 ## Lic
 [MIT](./LICENSE)

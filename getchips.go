@@ -9,7 +9,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-func xc(db *sql.DB, rqParam string, tname string) []map[string]string {
+func getchips(db *sql.DB, rqParam string, tname string) []map[string]string {
 	fmt.Println("date==xc=" + rqParam)
 	dms := getDm(db, rqParam, tname)
 	market := "1"

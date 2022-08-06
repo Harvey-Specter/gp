@@ -9,7 +9,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-func dltp3l(db *sql.DB, rqParam string, m int, tname string) []map[string]string {
+func breakwithvol(db *sql.DB, rqParam string, m int, tname string) []map[string]string {
 	fmt.Println("date==dltp3l="+rqParam+"  ma_n=", m)
 	voltimes := 2.5
 	market := "1"

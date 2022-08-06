@@ -1,6 +1,6 @@
-<div align="center"> <a href="https://github.com/Harvey-Specter/plunge"> <img width="120" src="./logo_1024.png"> </a><br/><br/>
+<div align="center"> <a href="https://github.com/Harvey-Specter/plunge"> <img width="120" src="./img/logo_1024.png"> </a><br/><br/>
 
-[![license](./mit_lic.svg)](LICENSE)
+[![license](./img/mit_lic.svg)](LICENSE)
 <h1>Plunge</h1>
 </div>
 
@@ -77,24 +77,24 @@ Plunge是通过识别图表的形态量价来选股的工具,主要用来参考�
 下面是的符合形态,实际挑选出来会有一定误差,可以根据喜好修改程序来收紧/放宽筛选规则
 
 1.	**头肩底放量突破颈线**    
-   ![头肩底突破1](./tj1.png)  
+   ![头肩底突破1](./img/tj1.png)  
 
 <hr/>
 
 2.	**头肩底/箱体中轴以上放量启动**  
-   ![头肩底/箱体中轴以上放量启动](./tj2.png)
+   ![头肩底/箱体中轴以上放量启动](./img/tj2.png)
 <hr/>
 
 3.	**首板之后没跌下来并且出现吸筹形态**  
-   ![吸筹](./xc.png)
+   ![吸筹](./img/xc.png)
 <hr/>
 
 4.	**上升趋势中连续出现高/低开并且收星** 
-   ![收星](./star.png)
+   ![收星](./img/star.png)
 <hr/>
 
 5.	**缺口附近出现支持** 
-   ![缺口](./qk.png)
+   ![缺口](./img/qk.png)
 
 ## 许可
-[MIT](./LICENSE)
+[MIT](./img/LICENSE)

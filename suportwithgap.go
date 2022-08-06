@@ -23,7 +23,7 @@ func closerValue(zd float64, values []float64) float64 {
 	return min
 }
 
-func qkht(db *sql.DB, rqParam string, tname string) []map[string]string {
+func suportwithgap(db *sql.DB, rqParam string, tname string) []map[string]string {
 	market := "1"
 	if tname == "dayline_jp" {
 		market = "2"
