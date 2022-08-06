@@ -1,3 +1,5 @@
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Harvey-Specter)](https://github.com/anuraghazra/github-readme-stats)
+
 <div align="center"> <a href="https://github.com/Harvey-Specter/plunge"> <img width="120" src="./img/logo_1024.png"> </a><br/><br/>
 
 [![license](./img/mit_lic.svg)](LICENSE)
