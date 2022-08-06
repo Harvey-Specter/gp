@@ -102,7 +102,7 @@ func stars(db *sql.DB, rqParam string, tname string) []map[string]string {
 			tvLog("stars", dm["code"].(string), rqParam)
 
 			//if ok && qs1sum >= 7 {
-			fmt.Println("stars_"+rqParam, dm["code"].(string)[0:6], reveSliceF(sps))
+			fmt.Println("stars_"+rqParam, dm["code"].(string), reveSliceF(sps))
 			// fmt.Println(rqParam, dm["zjw_name"].(string), dm["code"].(string)[0:6], dm["name"], dm["turnover_ratio"].(float64), dm["pe_ratio"].(float64), reveSliceF(sps), qs1sum)
 			code := transCode(dm["code"].(string))
 			dataMap = setDataMap(rqParam, strings.Split(dm["code"].(string), ".")[0], "3", market)
@@ -111,7 +111,10 @@ func stars(db *sql.DB, rqParam string, tname string) []map[string]string {
 		}
 		Closedb(stmt, rows)
 	}
-	fileName := rqParam + "_stars.EBK"
-	saveEBK(rs, fileName)
+	if market == "1" {
+		fileName := rqParam + "_stars.EBK"
+		saveEBK(rs, fileName)
+	}
+
 	return dataMapArray
 }

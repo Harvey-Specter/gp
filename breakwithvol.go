@@ -41,7 +41,6 @@ func breakwithvol(db *sql.DB, rqParam string, m int, tname string) []map[string]
 		} else if m == 60 {
 			sqlMa = "m60"
 		}
-
 		dmSql := "SELECT id, date rq,code dm, close sp, open kp, high zg, low zd, m5, volume as cjl,pre_close qsp, " + sqlMa + " , m60 FROM " + tname + " where code = '" + dm["code"].(string) + "' and date<='" + rqParam + "' ORDER BY date DESC"
 		// fmt.Print(dmSql, "\n")
 
@@ -50,7 +49,6 @@ func breakwithvol(db *sql.DB, rqParam string, m int, tname string) []map[string]
 			fmt.Printf("query prepare err:%s\n", err.Error())
 			return nil
 		}
-
 		rows, err := stmt.Query()
 		defer Closedb(stmt, rows)
 		if err != nil {
@@ -237,13 +235,12 @@ func breakwithvol(db *sql.DB, rqParam string, m int, tname string) []map[string]
 		}
 		Closedb(stmt, rows)
 	}
-
-	fileName := rqParam + "_" + strconv.Itoa(m) + "_tp.EBK"
-	fileName0 := rqParam + "_" + strconv.Itoa(m) + "_tp0.EBK"
-
-	saveEBK(rs, fileName)
-	saveEBK(rs0, fileName0)
-
+	if market == "1" {
+		fileName := rqParam + "_" + strconv.Itoa(m) + "_breakwithvol.EBK"
+		fileName0 := rqParam + "_" + strconv.Itoa(m) + "_breakwithvol0.EBK"
+		saveEBK(rs, fileName)
+		saveEBK(rs0, fileName0)
+	}
 	return dataMapArray
 
 }

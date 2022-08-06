@@ -121,11 +121,9 @@ func getchips(db *sql.DB, rqParam string, tname string) []map[string]string {
 		if ok && qs1sum0 >= 5 && change0 < change1 {
 			//if ok && qs1sum >= 7 {
 			tvLog("xc", dm["code"].(string), rqParam)
-
-			fmt.Println("xc"+rqParam, dm["code"].(string)[0:6], reveSliceF(sps))
+			fmt.Println("xc"+rqParam, dm["code"].(string), reveSliceF(sps))
 			// fmt.Println(rqParam, dm["zjw_name"].(string), dm["code"].(string)[0:6], dm["name"], dm["turnover_ratio"].(float64), dm["pe_ratio"].(float64), reveSliceF(sps), qs1sum)
 			code := transCode(dm["code"].(string))
-
 			dataMap = setDataMap(rqParam, strings.Split(dm["code"].(string), ".")[0], "2", market)
 			dataMapArray = append(dataMapArray, dataMap)
 
@@ -133,7 +131,9 @@ func getchips(db *sql.DB, rqParam string, tname string) []map[string]string {
 		}
 		Closedb(stmt, rows)
 	}
-	fileName := rqParam + "_xc.EBK"
-	saveEBK(rs, fileName)
+	if market == "1" {
+		fileName := rqParam + "_getchips.EBK"
+		saveEBK(rs, fileName)
+	}
 	return dataMapArray
 }

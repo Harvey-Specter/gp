@@ -136,26 +136,26 @@ func suportwithgap(db *sql.DB, rqParam string, tname string) []map[string]string
 						// ok = true
 					}
 				}
-
 				qzg = zg
 				// fmt.Println("temp ", gkqzg, gkdate, rq, qzg, zd, sp, ok)
 			}
 			cnt++
 		}
 		if ok && len(gkqzg) > 1 {
-
 			tvLog("qkht", dm["code"].(string), rqParam)
 
-			fmt.Println("qkht"+rqParam, dm["code"].(string)[0:6], gkqzg, gkdate, reveSliceF(sps))
+			fmt.Println("qkht"+rqParam, dm["code"].(string), gkqzg, gkdate, reveSliceF(sps))
 			code := transCode(dm["code"].(string))
 			rs += code + enter
-
 			dataMap = setDataMap(rqParam, strings.Split(dm["code"].(string), ".")[0], "4", market)
 			dataMapArray = append(dataMapArray, dataMap)
 		}
 		Closedb(stmt, rows)
 	}
-	fileName := rqParam + "_qk.EBK"
-	saveEBK(rs, fileName)
+	if market == "1" {
+		fileName := rqParam + "_suportwithgap.EBK"
+		saveEBK(rs, fileName)
+	}
+
 	return dataMapArray
 }
