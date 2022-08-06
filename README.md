@@ -1,5 +1,3 @@
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Harvey-Specter)](https://github.com/anuraghazra/github-readme-stats)
-
 <div align="center"> <a href="https://github.com/Harvey-Specter/plunge"> <img width="120" src="./img/logo_1024.png"> </a><br/><br/>
 
 [![license](./img/mit_lic.svg)](LICENSE)
@@ -106,5 +104,5 @@ Plungeは、チャートの形状と出来高価格を特定して銘柄を選�
 5.	**ギャップ付近のサポート** 
    ![ギャップ付近のサポート](./img/gap.png)
 
-## Lic
-[MIT](./LICENSE)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Harvey-Specter&show_icons=true&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats)
+
