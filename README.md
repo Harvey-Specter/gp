@@ -17,47 +17,6 @@ Plungeは、チャートの形状と出来高価格を特定して銘柄を選�
 - [MariaDB](https://mariadb.org/) - データベースはMariaDBを使用（MySQLの他のフォークも使用可能）
 - [Stooq](https://stooq.com/) - 引用データソース
 
-## テーブル構造 /  dayline
-
-      +-------------+------------------+------+-----+---------------------+----------------+
-      | Field       | Type             | Null | Key | Default             | Extra          |
-
-      +-------------+------------------+------+-----+---------------------+----------------+
-
-      | id          | int(10) unsigned | NO   | PRI | NULL                | auto_increment |
-
-      | date        | date             | NO   | MUL | NULL                |                |
-
-      | code        | varchar(16)      | NO   | MUL | NULL                |                |
-
-      | open        | double unsigned  | NO   |     | NULL                |                |
-
-      | close       | double unsigned  | NO   |     | NULL                |                |
-
-      | low         | double unsigned  | NO   |     | NULL                |                |
-
-      | high        | double unsigned  | NO   |     | NULL                |                |
-
-      | volume      | double unsigned  | NO   |     | NULL                |                |
-
-      | pre_close   | double unsigned  | NO   |     | 0                   |                |
-
-      | paused      | varchar(25)      | NO   |     | 0                   |                |
-
-      | m5          | double unsigned  | NO   |     | 0                   |                |
-
-      | m10         | double unsigned  | NO   |     | 0                   |                |
-
-      | m20         | double unsigned  | NO   |     | 0                   |                |
-
-      | m30         | double unsigned  | NO   |     | 0                   |                |
-
-      | m60         | double unsigned  | NO   |     | 0                   |                |
-
-      | create_time | timestamp        | YES  |     | current_timestamp() |                |
-
-      +-------------+------------------+------+-----+---------------------+----------------+
-
 ## インストールして使用する
 - コードを取得  
 
@@ -104,5 +63,45 @@ Plungeは、チャートの形状と出来高価格を特定して銘柄を選�
 5.	**ギャップ付近のサポート** 
    ![ギャップ付近のサポート](./img/gap.png)
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Harvey-Specter&show_icons=true&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats)
+## テーブル構造 /  dayline
+
+      +-------------+------------------+------+-----+---------------------+----------------+
+      | Field       | Type             | Null | Key | Default             | Extra          |
+
+      +-------------+------------------+------+-----+---------------------+----------------+
+
+      | id          | int(10) unsigned | NO   | PRI | NULL                | auto_increment |
+
+      | date        | date             | NO   | MUL | NULL                |                |
+
+      | code        | varchar(16)      | NO   | MUL | NULL                |                |
+
+      | open        | double unsigned  | NO   |     | NULL                |                |
+
+      | close       | double unsigned  | NO   |     | NULL                |                |
+
+      | low         | double unsigned  | NO   |     | NULL                |                |
+
+      | high        | double unsigned  | NO   |     | NULL                |                |
+
+      | volume      | double unsigned  | NO   |     | NULL                |                |
+
+      | pre_close   | double unsigned  | NO   |     | 0                   |                |
+
+      | paused      | varchar(25)      | NO   |     | 0                   |                |
+
+      | m5          | double unsigned  | NO   |     | 0                   |                |
+
+      | m10         | double unsigned  | NO   |     | 0                   |                |
+
+      | m20         | double unsigned  | NO   |     | 0                   |                |
+
+      | m30         | double unsigned  | NO   |     | 0                   |                |
+
+      | m60         | double unsigned  | NO   |     | 0                   |                |
+
+      | create_time | timestamp        | YES  |     | current_timestamp() |                |
+
+      +-------------+------------------+------+-----+---------------------+----------------+
+
 
