@@ -16,6 +16,7 @@ Plungeは、チャートの形状と出来高価格を特定して銘柄を選�
 - [Golang](https://go.dev/) - グラフを認識するプログラムはGolangで開発されています
 - [MariaDB](https://mariadb.org/) - データベースはMariaDBを使用（MySQLの他のフォークも使用可能）
 - [Stooq](https://stooq.com/) - 引用データソース
+- [PostgreSQL](https://www.postgresql.org/) - 結果は PostgreSQL に保存されます
 
 ## インストールして使用する
 - コードを取得  
