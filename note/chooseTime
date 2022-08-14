@@ -75,18 +75,17 @@ load data infile '/home/vagrant/code/plunge_be/data_j.csv' into table co_jp fiel
 load data infile '/var/lib/mysql-files/data_j.csv' into table co_jp fields terminated by ',' lines terminated by'\n' ignore 1 lines (date,code,name,market,cate33_code,cate33,cate17_code,cate17,size_code,size);
 
 # test
-sort -u * | awk 'BEGIN{FS=",";OFS=","}$1~/\.JP$/&&$3>20220728&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' |   awk 'BEGIN{FS=","}{a[$2]++}END{for(i in a){print i"\t"a[i]}}'
+sort -u * | awk 'BEGIN{FS=",";OFS=","}$1~/\.JP$/&&$3>20220808&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' |   awk 'BEGIN{FS=","}{a[$2]++}END{for(i in a){print i"\t"a[i]}}'
 
 # pro
-sort -u * | awk 'BEGIN{FS=",";OFS=","}$1~/\.JP$/&&$3>20220728&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > 0729_0806.txt
+sort -u * | awk 'BEGIN{FS=",";OFS=","}$1~/\.JP$/&&$3>20220804&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > 0805_0808.txt
 
-LOAD DATA INFILE '/Users/lihong/Documents/d_jp/0806/0729_0806.txt'  
+LOAD DATA INFILE '/Users/lihong/Documents/d_jp/0809/0805_0808.txt'  
   INTO TABLE dayline_jp
   FIELDS TERMINATED BY ','
   (code, date, open, high, low,close, volume);
 
 UPDATE co_jp SET cate33 = REPLACE(cate33, '?', '~') WHERE cate33 LIKE '%?%' 
-
 
 '鉱業','建設業','食料品','繊維製品','パルプ~紙','化学','医薬品','石油~石炭製品','ゴム製品','ガラス~土石製品','鉄鋼','非鉄金属','金属製品','機械','電気機器','輸送用機器','精密機器','その他製品','電気~ガス業','水産~農林業','陸運業','海運業','空運業','倉庫~運輸関連業','情報~通信業','卸売業','小売業','銀行業','証券、商品先物取引業','保険業','その他金融業','不動産業','サービス業'
 
@@ -133,3 +132,5 @@ plot(ma_d,title='MA4',color=color_yellow, style=plot.style_line ,linewidth=1)
 plot(ma_e,title='MA5',color=color_purple, style=plot.style_line ,linewidth=1)
 
 ****/
+
+sudo systemctl start postgresql

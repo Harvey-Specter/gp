@@ -4,9 +4,11 @@ import (
 	"database/sql"
 	"fmt"
 	"strconv"
+	"strings"
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/jmoiron/sqlx"
 )
 
 func Closedb(stmt *sql.Stmt, rows *sql.Rows) {
@@ -162,6 +164,74 @@ func UpdateTp(db *sql.DB, data []float64, date string, code string, r1 string) {
 // | remark      | varchar(255) | YES  |     | NULL    |                |
 // | created_at  | timestamp    | YES  |     | NULL    |                |
 // | updated_at  | timestamp    | YES  |     | NULL    |                |
+func batchSaveStockPG(db *sqlx.DB, data []map[string]string, cateId int64) {
+	fmt.Println("len(data)===", len(data))
+	sqlStr := "insert INTO stocks (price_id, day,code,user_id,category_id,pattern,market,remark,created_at) VALUES "
+	//vals := []interface{}{}
+	codes := ""
+
+	// tx := db.MustBegin()
+	// tx.MustExec("INSERT INTO person (first_name, last_name, email) VALUES ($1, $2, $3)", "Jason", "Moiron", "jmoiron@jmoiron.net")
+	// tx.MustExec("INSERT INTO person (first_name, last_name, email) VALUES ($1, $2, $3)", "John", "Doe", "johndoeDNE@gmail.net")
+	// tx.MustExec("INSERT INTO place (country, city, telcode) VALUES ($1, $2, $3)", "United States", "New York", "1")
+	// tx.MustExec("INSERT INTO place (country, telcode) VALUES ($1, $2)", "Hong Kong", "852")
+	// tx.MustExec("INSERT INTO place (country, telcode) VALUES ($1, $2)", "Singapore", "65")
+	// // Named queries can use structs, so if you have an existing struct (i.e. person := &Person{}) that you have populated, you can pass it in as &person
+	// tx.NamedExec("INSERT INTO person (first_name, last_name, email) VALUES (:first_name, :last_name, :email)", &Person{"Jane", "Citizen", "jane.citzen@example.com"})
+	// tx.Commit()
+
+	for _, row := range data {
+		if !strings.Contains(codes, row["code"]) {
+			// sqlStr += "(?, ?, ?, ?, ? , ?, ?, ?, ?),"
+
+			sqlStr += fmt.Sprintf("(%s,'%s','%s',%s,%d,%s,%s,'%s','%s'),", row["price_id"], row["day"], row["code"], row["user_id"], cateId, row["pattern"], row["market"], row["remark"], row["created_at"])
+
+			//vals = append(vals, row["price_id"], row["day"], row["code"], row["user_id"], cateId, row["pattern"], row["market"], row["remark"], row["created_at"])
+
+			codes += row["code"] + ","
+		}
+	}
+	//trim the last ,
+	sqlStr = sqlStr[:len(sqlStr)-1] // remove trailing ","
+
+	// fmt.Println("sqlStr===" + sqlStr)
+	db.MustExec(sqlStr)
+}
+func SaveCategoyStockPG(db *sqlx.DB, name string, code string, remark string, stocklist []map[string]string) int64 {
+
+	seSql := "SELECT  id from categories where name=$1 and code=$2"
+	rows, seErr := db.Query(seSql, name, code)
+	if seErr != nil {
+		fmt.Printf("SaveCategoyStockPG err:%s\n", seErr.Error())
+	}
+	var id int64
+	id = -1
+	for rows.Next() {
+		seErr = rows.Scan(&id)
+	}
+	if id == -1 {
+		now := time.Now().Format("2006-01-02 15:04:05")
+
+		err := db.QueryRow("INSERT INTO categories (name,code,remark,user_id,created_at,updated_at) VALUES ($1,$2,$3,$4,$5,$6) RETURNING id", name, code, remark, 1, now, now).Scan(&id)
+
+		// err := db.QueryRow(`INSERT INTO users(name, favorite_fruit, age) VALUES('beatrice', 'starfruit', 93) RETURNING id`).Scan(&userid)
+
+		if err != nil {
+			fmt.Printf("insert categories err:%s\n", err.Error())
+			return -1
+		}
+		//id, _ = res.LastInsertId()
+		// affect, _ := res.RowsAffected()
+
+		// fmt.Printf("SaveCategoy lastId:%d affectRow:%d\n", id)
+		batchSaveStockPG(db, stocklist, id)
+	} else {
+		batchSaveStockPG(db, stocklist, id)
+	}
+	return id
+}
+
+//-------------------mysql------------------
 func batchSaveStock(db *sql.DB, data []map[string]string, cateId int64) {
 	fmt.Println("len(data)===", len(data))
 	sqlStr := "replace INTO stocks (price_id, day,code,user_id,category_id,pattern,market,remark,created_at) VALUES "
