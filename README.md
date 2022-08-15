@@ -1,6 +1,6 @@
 <div align="center"> <a href="https://github.com/Harvey-Specter/plunge"> <img width="120" src="./img/logo_1024.png"> </a><br/><br/>
 
-[![license](./img/mit_lic.svg)](LICENSE)
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/@Lihong671) [![license](./img/mit_lic.svg)](LICENSE)
 <h1>Plunge</h1>
 </div>
 
