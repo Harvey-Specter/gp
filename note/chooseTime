@@ -62,7 +62,7 @@ sort -u  * | awk 'BEGIN{FS=","}$1~/\.JP$/' | awk 'BEGIN{FS=",";OFS=","}$3>=20220
 
 cat * | awk 'BEGIN{FS=","}$1~/\.JP$/' | awk 'BEGIN{FS=",";OFS=","}$3>20220616&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' |sort -u > 0617_0724.txt
 
-awk '{print "python savedate/stooqdata.py " $1}' jprq.txt | sh
+awk '{print "python savedate/stooqdata.py " $1}' note/jprq.txt | sh
 
 https://www.tradingview.com/chart/CFSEAW1L/?symbol=TSE%3A1375
 
@@ -75,12 +75,12 @@ load data infile '/home/vagrant/code/plunge_be/data_j.csv' into table co_jp fiel
 load data infile '/var/lib/mysql-files/data_j.csv' into table co_jp fields terminated by ',' lines terminated by'\n' ignore 1 lines (date,code,name,market,cate33_code,cate33,cate17_code,cate17,size_code,size);
 
 # test
-sort -u * | awk 'BEGIN{FS=",";OFS=","}$1~/\.JP$/&&$3>20220808&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' |   awk 'BEGIN{FS=","}{a[$2]++}END{for(i in a){print i"\t"a[i]}}'
+sort -u * | awk 'BEGIN{FS=",";OFS=","}$1~/\.JP$/&&$3>20220810&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' |   awk 'BEGIN{FS=","}{a[$2]++}END{for(i in a){print i"\t"a[i]}}'
 
 # pro
-sort -u * | awk 'BEGIN{FS=",";OFS=","}$1~/\.JP$/&&$3>20220804&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > 0805_0808.txt
+sort -u * | awk 'BEGIN{FS=",";OFS=","}$1~/\.JP$/&&$3>20220810&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > 0812.txt
 
-LOAD DATA INFILE '/Users/lihong/Documents/d_jp/0809/0805_0808.txt'  
+LOAD DATA INFILE '/Users/lihong/Documents/d_jp/0815/0812.txt'  
   INTO TABLE dayline_jp
   FIELDS TERMINATED BY ','
   (code, date, open, high, low,close, volume);
