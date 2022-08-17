@@ -24,7 +24,7 @@ func main() {
 		return
 	}
 	defer db.Close()
-	connStr := "postgres://fexfcxkdkqtwtv:@ec2-44-206-137-96.compute-1.amazonaws.com:5432/ddm81443irf0t9"
+	connStr := "postgres://fexfcxkdkqtwtv:d78c4cd945f357f0b1675d4676e36acfaa0c67b71a893888e7adb2fc0e610ea0@ec2-44-206-137-96.compute-1.amazonaws.com:5432/ddm81443irf0t9"
 
 	pdb, perr := sqlx.Connect("postgres", connStr)
 	// pdb, perr := sql.Open("postgres", connStr)

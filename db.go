@@ -191,7 +191,7 @@ func batchSaveStockPG(db *sqlx.DB, data []map[string]string, cateId int64) {
 			codes += row["code"] + ","
 		}
 	}
-	//trim the last ,
+	// trim the last ,
 	sqlStr = sqlStr[:len(sqlStr)-1] // remove trailing ","
 
 	// fmt.Println("sqlStr===" + sqlStr)
