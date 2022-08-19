@@ -134,3 +134,5 @@ plot(ma_e,title='MA5',color=color_purple, style=plot.style_line ,linewidth=1)
 ****/
 
 sudo systemctl start postgresql
+
+https://quote.jpx.co.jp/jpx/template/quote.cgi?F=tmp/stock_detail&MKTN=T&QCODE=3391
