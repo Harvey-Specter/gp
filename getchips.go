@@ -124,9 +124,10 @@ func getchips(db *sql.DB, rqParam string, tname string) []map[string]string {
 			fmt.Println("xc"+rqParam, dm["code"].(string), reveSliceF(sps))
 			// fmt.Println(rqParam, dm["zjw_name"].(string), dm["code"].(string)[0:6], dm["name"], dm["turnover_ratio"].(float64), dm["pe_ratio"].(float64), reveSliceF(sps), qs1sum)
 			code := transCode(dm["code"].(string))
-			dataMap = setDataMap(rqParam, strings.Split(dm["code"].(string), ".")[0], "2", market)
-			dataMapArray = append(dataMapArray, dataMap)
-
+			if market == "2" {
+				dataMap = setDataMap(rqParam, strings.Split(dm["code"].(string), ".")[0], "2", market)
+				dataMapArray = append(dataMapArray, dataMap)
+			}
 			rs += code + enter
 		}
 		Closedb(stmt, rows)

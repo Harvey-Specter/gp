@@ -224,7 +224,7 @@ func breakwithvol(db *sql.DB, rqParam string, m int, tname string) []map[string]
 						dataMapArray = append(dataMapArray, dataMap)
 					}
 				}
-				fmt.Println("dltp"+rqParam, strings.Split(dm["code"].(string), ".")[0], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
+				fmt.Println("breakwithvol-"+rqParam, strings.Split(dm["code"].(string), ".")[0], sp0, rq0, sp1, rq1, sp2, rq2, sp3, rq3, cjlx, quekou)
 				rs += code + enter
 
 			} else if pinbar {

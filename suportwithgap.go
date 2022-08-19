@@ -147,8 +147,10 @@ func suportwithgap(db *sql.DB, rqParam string, tname string) []map[string]string
 			fmt.Println("qkht"+rqParam, dm["code"].(string), gkqzg, gkdate, reveSliceF(sps))
 			code := transCode(dm["code"].(string))
 			rs += code + enter
-			dataMap = setDataMap(rqParam, strings.Split(dm["code"].(string), ".")[0], "4", market)
-			dataMapArray = append(dataMapArray, dataMap)
+			if market == "2" {
+				dataMap = setDataMap(rqParam, strings.Split(dm["code"].(string), ".")[0], "4", market)
+				dataMapArray = append(dataMapArray, dataMap)
+			}
 		}
 		Closedb(stmt, rows)
 	}
@@ -156,6 +158,5 @@ func suportwithgap(db *sql.DB, rqParam string, tname string) []map[string]string
 		fileName := rqParam + "_suportwithgap.EBK"
 		saveEBK(rs, fileName)
 	}
-
 	return dataMapArray
 }
