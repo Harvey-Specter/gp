@@ -12,9 +12,11 @@ import (
 func getchips(db *sql.DB, rqParam string, tname string) []map[string]string {
 	fmt.Println("date==xc=" + rqParam)
 	dms := getDm(db, rqParam, tname)
+	change := 0.098
 	market := "1"
 	if tname == "dayline_jp" {
 		market = "2"
+		change = 0.05
 	}
 	var dataMapArray []map[string]string
 	fmt.Println("day", "industry", "code", "name", "turnover_ratio", "pe_ratio",
@@ -22,6 +24,7 @@ func getchips(db *sql.DB, rqParam string, tname string) []map[string]string {
 	enter := `
 `
 	rs := enter
+
 	for _, dm := range dms {
 		sps := []float64{}
 		dataMap := make(map[string]string)
@@ -105,7 +108,7 @@ func getchips(db *sql.DB, rqParam string, tname string) []map[string]string {
 				}
 				cjl0 = cjl
 			} else if cnt >= days && cnt < 18 {
-				if (sp-qsp)/qsp >= 0.098 {
+				if (sp-qsp)/qsp >= change {
 					ok = true
 					break
 				} else {
