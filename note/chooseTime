@@ -80,7 +80,7 @@ sort -u * | awk 'BEGIN{FS=",";OFS=","}$1~/\.JP$/&&$3>20220818&&$4=="000000"{prin
 # pro
 sort -u * | awk 'BEGIN{FS=",";OFS=","}$1~/\.JP$/&&$3>20220818&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > 0819.txt
 
-LOAD DATA INFILE 'c://Users/lihon/Documents/d_jp/0819.txt'  
+LOAD DATA INFILE 'c://Users/lihon/Documents/d_jp/0822.txt'  
   INTO TABLE dayline_jp
   FIELDS TERMINATED BY ','
   (code, date, open, high, low,close, volume);
