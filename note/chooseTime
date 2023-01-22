@@ -42,9 +42,9 @@ find . -name "*.txt" -type f  |xargs  cat | awk 'BEGIN{FS=","}$3>=20200101&&$4==
 
 3097.JP,2020-01-15,4382.51,4470.74,4382.51,4426.63,66910
 
-find . -name "*.txt" -type f  |xargs  cat | awk 'BEGIN{FS=",";OFS=","}$3>=20200101&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > all_220613.txt 
+find . -name "*.txt" -type f  |xargs  cat | awk 'BEGIN{FS=",";OFS=","}$3>=20220819&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > all_230122.txt 
 
-LOAD DATA INFILE '/Users/lihong/gitrep/jp_data_220615/daily/jp/stock/0614_16.txt'  
+LOAD DATA LOCAL INFILE '/Users/lihong/Documents/d_jp/230122/data/daily/jp/all_230122.txt'  
   INTO TABLE dayline_jp
   FIELDS TERMINATED BY ','
   (code, date, open, high, low,close, volume);
