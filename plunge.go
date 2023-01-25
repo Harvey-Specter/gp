@@ -24,7 +24,8 @@ func main() {
 		return
 	}
 	defer db.Close()
-	connStr := "postgres://fexfcxkdkqtwtv:d78c4cd945f357f0b1675d4676e36acfaa0c67b71a893888e7adb2fc0e610ea0@ec2-44-206-137-96.compute-1.amazonaws.com:5432/ddm81443irf0t9"
+	connStr := "postgres://plunge671_8f96_user:oNMXb2FdPOhEgnDjjEoNwiabbQ1MZOvL@dpg-cehaopun6mpg3l60rlu0-a.oregon-postgres.render.com/plunge671_8f96"
+	//connStr := "postgres://fexfcxkdkqtwtv:d78c4cd945f357f0b1675d4676e36acfaa0c67b71a893888e7adb2fc0e610ea0@ec2-44-206-137-96.compute-1.amazonaws.com:5432/ddm81443irf0t9"
 
 	pdb, perr := sqlx.Connect("postgres", connStr)
 	// pdb, perr := sql.Open("postgres", connStr)
@@ -36,7 +37,7 @@ func main() {
 
 	start := time.Now().UnixNano()
 
-	rq := "2021-01-01"
+	rq := "2023-01-19"
 	tname := "dayline"
 	if len(os.Args) != 3 {
 		fmt.Println("命令行参数数量错误,应该是3, 日期,表名 ; 目前长度是:", len(os.Args))
