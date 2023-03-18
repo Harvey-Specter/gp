@@ -10,13 +10,7 @@
 受外界影响很大 周期股 热门板块的热门股 <30%
 周期股不用强调基本面 
 
-<巴菲特致股东的信> 
-
-昨天中证500和中证1000放量调整,今天中小股票在今天的上涨行情中表现较弱,成交量也没有跟上.指数缩量上涨已经变成常态,但中小股票的表现不如中证50和沪深300, 今天白马股的成交量没有太明显的缩小,并且阳线也比较长. 一些底部的优质标的已经开始启动,下一波涨势很有可能是业绩好白马股来带动. 上证50已经几乎突破前期平台,遗憾的是成交量没有跟上. 在节前的最后一天这种成绩已经可以了 
-
-目前各大指数都是下台阶盘整,测试前低的概率不大,但距离上面的台阶还有一段距离,短期看没那么容易上去,现在剧烈震荡的区间还是多看少动,管不住手的想法就是只要震荡我们就可以选择走势符合的或强势的,但要做好尾盘冲进去早盘杀出来的准备
-
-板块上，今天酒店餐饮,运输服务,交通设施领涨，医药和航空板块领跌，领涨的都不是大市值的板块,感觉调整还没有结束.
+sudo mysqld --user=root
 
 select date,code from dayline  where  m5>=pre_close and m20>=pre_close and m30>=pre_close and m60>=pre_close  
 and m5<close and m20<close and m30<close and m60<close and open<close  
@@ -42,12 +36,13 @@ find . -name "*.txt" -type f  |xargs  cat | awk 'BEGIN{FS=","}$3>=20200101&&$4==
 
 3097.JP,2020-01-15,4382.51,4470.74,4382.51,4426.63,66910
 
-find . -name "*.txt" -type f  |xargs  cat | awk 'BEGIN{FS=",";OFS=","}$3>20230119&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > 20230119_.txt 
+find . -name "*.txt" -type f  |xargs  cat | awk 'BEGIN{FS=",";OFS=","}$3>20230126&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > 20230126_.txt 
 
-LOAD DATA LOCAL INFILE '/Users/lihong/Documents/d_jp/230122/data/daily/jp/all_230122.txt'  
-  INTO TABLE dayline_jp
-  FIELDS TERMINATED BY ','
-  (code, date, open, high, low,close, volume);
+mysql -uroot -p123456 stock -q -e"
+LOAD DATA LOCAL INFILE '/Users/lihong/Documents/d_jp/data/daily/jp/20230126_.txt' \
+  INTO TABLE dayline_jp \
+  FIELDS TERMINATED BY ',' \
+  (code, date, open, high, low,close, volume); "
 
 LOAD DATA INFILE '/Users/lihong/Documents/d_jp_0724/data/daily/jp/tse_stocks/1/0617_0724.txt'  
   INTO TABLE dayline_jp
@@ -57,6 +52,10 @@ LOAD DATA INFILE '/Users/lihong/Documents/d_jp_0724/data/daily/jp/tse_stocks/1/0
 python savedate/tsdata.py $1
 
 select count(1),date from dayline_jp where m5>0 group by date desc limit 5 ;
+
+select count(1),date from dayline_jp where m5=0 group by date 
+
+mysql -uroot -p123456 stock -N -q -e"select date,count(1) from dayline_jp where m5=0 and date>'2023-01-01' group by date having count(1) > 100 " > /Users/lihong/gitrep/src/plunge/note/jprq.txt
 
 sort -u  * | awk 'BEGIN{FS=","}$1~/\.JP$/' | awk 'BEGIN{FS=",";OFS=","}$3>=20220614&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > 0614_16.txt
 
