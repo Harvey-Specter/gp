@@ -77,15 +77,17 @@ load data infile '/home/vagrant/code/plunge_be/data_j.csv' into table co_jp fiel
 load data infile '/var/lib/mysql-files/data_j.csv' into table co_jp fields terminated by ',' lines terminated by'\n' ignore 1 lines (date,code,name,market,cate33_code,cate33,cate17_code,cate17,size_code,size);
 
 # test
-sort -u * | awk 'BEGIN{FS=",";OFS=","}$1~/\.JP$/&&$3>20230119&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' |   awk 'BEGIN{FS=","}{a[$2]++}END{for(i in a){print i"\t"a[i]}}' | sort
+sort -u * | awk 'BEGIN{FS=",";OFS=","}$1~/\.JP$/&&$3>20230316&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' |   awk 'BEGIN{FS=","}{a[$2]++}END{for(i in a){print i"\t"a[i]}}' | sort
 
 # pro
-sort -u * | awk 'BEGIN{FS=",";OFS=","}$1~/\.JP$/&&$3>20230119&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > 20230119_26.txt
+sort -u * | awk 'BEGIN{FS=",";OFS=","}$1~/\.JP$/&&$3>20230316&&$4=="000000"{print $1,substr($3,0,4)"-"substr($3,5,2)"-"substr($3,7,2),$5,$6,$7,$8,$9}' > 20230316.txt
 # import 
-LOAD DATA LOCAL INFILE '/Users/lihong/Documents/d_jp/230129/20230119_26.txt'  
-  INTO TABLE dayline_jp
-  FIELDS TERMINATED BY ','
-  (code, date, open, high, low,close, volume);
+mysql -uroot -p123456 stock -q -e"
+LOAD DATA LOCAL INFILE '/Users/lihong/Documents/d_jp/20230316.txt'  \
+  INTO TABLE dayline_jp \
+  FIELDS TERMINATED BY ',' \
+  (code, date, open, high, low,close, volume) "
+
 
 UPDATE co_jp SET cate33 = REPLACE(cate33, '?', '~') WHERE cate33 LIKE '%?%' 
 
